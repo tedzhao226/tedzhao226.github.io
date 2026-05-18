@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hello World blog attachment</title>
+  <desc id="desc">A simple SVG attachment demonstrating that images committed with Markdown posts are published by Quartz.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#284b63"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="960" height="420" rx="36" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="96" y="82" width="768" height="256" rx="28" fill="#faf8f8" opacity="0.96"/>
+  </g>
+  <text x="480" y="185" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="800" fill="#111827">Hello, blog.</text>
+  <text x="480" y="248" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" fill="#4b5563">Markdown + Obsidian attachments + GitHub Pages</text>
+  <circle cx="162" cy="126" r="12" fill="#ef4444"/>
+  <circle cx="202" cy="126" r="12" fill="#f59e0b"/>
+  <circle cx="242" cy="126" r="12" fill="#10b981"/>
+</svg>

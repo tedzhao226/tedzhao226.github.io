@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.quartz-cache
+private/
+
+# Keep basic Obsidian settings, but don't commit local workspace state.
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/
+.trash/
