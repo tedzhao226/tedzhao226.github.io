@@ -4,11 +4,9 @@ This blog is published from `main` to GitHub Pages with GitHub Actions.
 
 ## URL
 
-- Repository: `tedzhao226/blog`
-- Public site: `https://tedzhao226.github.io/blog`
-- Quartz `baseUrl`: `tedzhao226.github.io/blog`
-
-The root `https://tedzhao226.github.io` site is reserved for a separate self-introduction page.
+- Repository: `tedzhao226/tedzhao226.github.io`
+- Public site: `https://tedzhao226.github.io`
+- Quartz `baseUrl`: `tedzhao226.github.io`
 
 ## Flow
 

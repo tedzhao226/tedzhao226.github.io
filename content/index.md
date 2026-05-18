@@ -1,14 +1,18 @@
 ---
-title: Home
+title: Ted Zhao
 draft: false
 ---
 
-# Ted's Blog
+# Ted Zhao
 
-Simple Markdown blog powered by [Quartz](https://quartz.jzhao.xyz/) and GitHub Pages.
+Full-stack developer and AI builder based in Melbourne.
+I build practical AI systems, developer tools, and product workflows that connect model capability with real software.
 
-Start here:
+Find me online:
+
+- [LinkedIn](https://au.linkedin.com/in/ted-zhao)
+- [GitHub](https://github.com/tedzhao226)
+
+Writing:
 
 - [[posts/hello-world|Hello World]]
-- Write posts in `content/posts/`
-- Put images/files in an `attachments/` folder next to your posts
