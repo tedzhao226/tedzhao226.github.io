@@ -5,8 +5,8 @@ draft: false
 
 # Ted Zhao
 
-Full-stack developer and AI builder based in Melbourne.
-I build practical AI systems, developer tools, and product workflows that connect model capability with real software.
+AI engineer and machine learning engineer based in Melbourne.
+I build production AI systems across healthcare, government, fintech, and travel, with a focus on LLM applications, agentic workflows, RAG, evaluation, observability, and MLOps.
 
 Find me online:
 
@@ -15,4 +15,4 @@ Find me online:
 
 Writing:
 
-- [[posts/hello-world|Hello World]]
+- [[posts/202605181801-hello-world|Hello World]]
