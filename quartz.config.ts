@@ -14,9 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    // TODO: after creating the GitHub repo, set this to e.g. "ted-io.github.io/blog"
-    // or to your custom domain. RSS/sitemap/social cards use this value.
-    baseUrl: "example.com",
+    baseUrl: "tedzhao226.github.io/blog",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
