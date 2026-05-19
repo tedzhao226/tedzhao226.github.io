@@ -1,9 +1,9 @@
 ---
-title: Ted Zhao
+title: Intro
 draft: false
 ---
 
-# Ted Zhao
+# Hi, I’m Ted
 
 AI engineer and machine learning engineer based in Melbourne.
 I build production AI systems across healthcare, government, fintech, and travel, with a focus on LLM applications, agentic workflows, RAG, evaluation, observability, and MLOps.
