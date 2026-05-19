@@ -15,4 +15,4 @@ Find me online:
 
 Writing:
 
-- [[posts/202605181801-hello-world|Hello World]]
+- [[posts/202605191500-how-i-practice-speaking-english|How I Practice Speaking English]]

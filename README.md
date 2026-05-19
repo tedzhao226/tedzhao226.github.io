@@ -25,7 +25,7 @@ content/attachments/
 Example image syntax:
 
 ```md
-![Hello World attachment](../attachments/hello-world.svg)
+![Alt text](../attachments/example.png)
 ```
 
 Quartz also understands many Obsidian features, including wikilinks and callouts.
