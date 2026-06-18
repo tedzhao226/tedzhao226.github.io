@@ -15,4 +15,5 @@ Find me online:
 
 Writing:
 
+- [[posts/202606181714-vibe-coding-pomodoro-full-ai-slop-stack|Vibe coding a Pomodoro app in "full-(ai slop)-stack"]]
 - [[posts/202605191500-how-i-practice-speaking-english|How I Practice Speaking English]]

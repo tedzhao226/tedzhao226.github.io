@@ -6,7 +6,6 @@ tags:
   - ai
   - claude-code
   - cmux
-  - conductor
   - vibe-coding
 description: I shipped a full-stack app without learning the stack. Here is the toolchain that did it.
 ---
@@ -94,5 +93,3 @@ I don't run one model, I route by task. Claude for the plan and for catching its
 None of this required me to learn JavaScript. It required me to get good at pointing the right model at the right slice of the problem, and keeping an honest record while they worked. That is the actual skill now.
 
 The tools, split into oss, personal, and plugin: https://github.com/tedzhao226/claude-skills
-
-I built a Pomodoro app to fix my focus and spent the focus building it. Fair trade. It works.
