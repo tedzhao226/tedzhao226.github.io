@@ -18,7 +18,7 @@ I haven't learned a single line of JS. But the Pomodoro app I just built does ev
 
 ![[pomo-app-ui.png]]
 
-It's a small thing and I won't pretend otherwise. A task list you filter by #tag. Inline syntax, so typing `#` and `*` in a task drops straight into its attributes. A daily dashboard that shows my workload and how productive I actually was, which is the part I care about most, because the chart is a dopamine hack and the dopamine is what keeps me opening the app.
+It's a small thing and I won't pretend otherwise. A task list you filter by `#tag`. Inline syntax, so typing `#` and `*` in a task drops straight into its attributes. A daily dashboard that shows my workload and how productive I actually was, which is the part I care about most, because the chart is a dopamine hack and the dopamine is what keeps me opening the app.
 
 ![[pomo-stats-dashboard.png]]
 

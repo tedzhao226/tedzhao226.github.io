@@ -57,6 +57,18 @@ listing surfaces behave differently and one is easy to forget:
    curl -s https://tedzhao226.github.io/static/contentIndex.json | grep -c <basename>
    ```
 
+## Gotchas (check these before build)
+
+- **Literal `#word` in body text becomes a real tag.** Quartz (like Obsidian)
+  parses any bare `#tag` in prose as a tag and links it to `/tags/tag`. If you mean
+  it literally (e.g. "filter by #tag"), wrap it in backticks: `` `#tag` ``. Tags
+  belong only in frontmatter. Grep the source before building:
+  `grep -noE '[^`]#[A-Za-z][A-Za-z0-9_-]*' content/posts/<basename>.md` should be empty.
+- **`![[image.png]]` only resolves if the file exists under `content/`** (use
+  `content/attachments/`). A typo'd name silently renders as a broken embed.
+- **Wikilinks**: `[[posts/<basename>|Title]]`. After build, no `[[ ]]` should remain
+  in the emitted HTML.
+
 ## Why isn't the intro list automatic?
 
 It is a deliberate manual curation. If you want it to be a real convention with no
