@@ -13,6 +13,6 @@ Find me online:
 - [LinkedIn](https://au.linkedin.com/in/ted-zhao)
 - [GitHub](https://github.com/tedzhao226)
 
-Writing:
+Blog:
 
 - [[posts/202606181714-vibe-coding-pomodoro-full-ai-slop-stack|Vibe coding a Pomodoro app in "full-(ai slop)-stack"]]

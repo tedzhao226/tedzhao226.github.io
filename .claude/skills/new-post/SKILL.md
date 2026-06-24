@@ -14,7 +14,7 @@ listing surfaces behave differently and one is easy to forget:
   in the browser, it is stale cache: hard-refresh (Cmd+Shift+R) or clear site data.
   The Explorer uses `data-savestate` (localStorage), so a normal refresh can show
   the old tree.
-- **The intro "Writing:" list** in `content/index.md` is a **hand-curated** list.
+- **The intro "Blog:" list** in `content/index.md` is a **hand-curated** list.
   Quartz does not auto-add posts to it. This is the step that gets missed, so it is
   step 3 below and is mandatory.
 
@@ -38,7 +38,7 @@ listing surfaces behave differently and one is easy to forget:
 2. **Images**: copy any embedded images into `content/attachments/` and reference
    them with Obsidian embeds `![[name.png]]` (Quartz resolves by filename).
 3. **Add it to the intro list** (the easy-to-forget step): add a line to the
-   `Writing:` list in `content/index.md`, newest first:
+   `Blog:` list in `content/index.md`, newest first:
    ```text
    - [[posts/<basename>|Title]]
    ```
@@ -72,7 +72,7 @@ listing surfaces behave differently and one is easy to forget:
 ## Why isn't the intro list automatic?
 
 It is a deliberate manual curation. If you want it to be a real convention with no
-skill needed, replace the hand-written `Writing:` list in `content/index.md` with
+skill needed, replace the hand-written `Blog:` list in `content/index.md` with
 an automatic listing: a Quartz `RecentNotes` component in the layout, or a folder
 page at `/posts` (Quartz auto-lists a folder's contents), or a tag page. Until then,
 step 3 is the enforcement.
