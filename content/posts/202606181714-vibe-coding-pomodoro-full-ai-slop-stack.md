@@ -29,13 +29,12 @@ The app isn't the interesting part though. I shipped a full-stack thing without 
 - Claude Code (max)
 - Cmux (https://cmux.com/)
 - Conductor, a personal orchestration skill I wrote (https://github.com/tedzhao226/claude-skills/tree/master/skills/personal/conductor)
-- Plus the Codex plugin, for a second opinion
 
-Here is why the two that matter, Conductor and Cmux, are stronger than they look.
+Plus the Codex plugin, for a second opinion. Here is why the two that matter, Conductor and Cmux, are stronger than they look.
 
 ## Why Conductor is powerful
 
-Conductor is an orchestrator. It runs plan, then exec, then verify, over a spec folder that lives in the repo; the pomo app ended up with 28 of those folders, one per feature. Four things make it hold up over a long build.
+Conductor is an orchestrator. It runs plan, then exec, then verify, over a spec folder that lives in the repo; the pomo app ended up with 28 of those folders, one per feature. Three things make it hold up over a long build.
 
 First, the task list is a graph, not a line. To be fair, Claude Code's native todo list already tracks dependencies, so the graph itself is not the new part. What Conductor changes is where it lives: the graph is a file in your repo. Independent tasks fan out into batches that run at the same time, only the dependent ones wait, and you can read the whole plan instead of trusting ephemeral session state.
 
