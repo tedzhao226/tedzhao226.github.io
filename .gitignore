@@ -11,3 +11,6 @@ private/
 .obsidian/cache/
 .obsidian/plugins/
 .trash/
+specs/*/runs/
+.hermes/
+.pi-subagents/

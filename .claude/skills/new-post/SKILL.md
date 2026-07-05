@@ -28,7 +28,7 @@ listing surfaces behave differently and one is easy to forget:
      ---
      title: 'Title (single-quote if it contains : " or ( )'
      date: YYYY-MM-DD
-     draft: false        # explicit; Quartz publishes non-drafts
+     draft: false # explicit; Quartz publishes non-drafts
      tags:
        - tag-one
        - tag-two
@@ -63,7 +63,7 @@ listing surfaces behave differently and one is easy to forget:
   parses any bare `#tag` in prose as a tag and links it to `/tags/tag`. If you mean
   it literally (e.g. "filter by #tag"), wrap it in backticks: `` `#tag` ``. Tags
   belong only in frontmatter. Grep the source before building:
-  `grep -noE '[^`]#[A-Za-z][A-Za-z0-9_-]*' content/posts/<basename>.md` should be empty.
+  `grep -noE '[^`]#[A-Za-z][A-Za-z0-9_-]\*' content/posts/<basename>.md` should be empty.
 - **`![[image.png]]` only resolves if the file exists under `content/`** (use
   `content/attachments/`). A typo'd name silently renders as a broken embed.
 - **Wikilinks**: `[[posts/<basename>|Title]]`. After build, no `[[ ]]` should remain
