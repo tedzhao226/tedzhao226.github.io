@@ -15,4 +15,4 @@ Find me online:
 
 Blog:
 
-- [[posts/202606181714-vibe-coding-pomodoro-full-ai-slop-stack|Vibe coding a Pomodoro app in "full-(ai slop)-stack"]]
+- [[posts/202606181714-vibe-coding-pomodoro-full-ai-slop-stack|The loop that let me ship a 40-spec build I couldn't have hand-written]]
