@@ -1,0 +1,4880 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="A chronological Frozen Dawn solo Easter egg guide with original video screenshots, puzzle charts, constellation viewpoints and raven locations."
+    />
+    <title>Frozen Dawn — Kingfall solo field guide</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #101719;
+        --panel: #182124;
+        --line: #36474a;
+        --ink: #eef3ee;
+        --muted: #b5c2c2;
+        --gold: #f0c57b;
+        --cyan: #a4d9d5;
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        font-size: 16px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-padding-top: 24px;
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        line-height: 1.65;
+      }
+      a {
+        color: var(--gold);
+        text-underline-offset: 4px;
+      }
+      button,
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+      button {
+        font: inherit;
+        cursor: pointer;
+      }
+      button:focus-visible,
+      a:focus-visible,
+      summary:focus-visible {
+        outline: 3px solid var(--cyan);
+        outline-offset: 4px;
+      }
+      .skip {
+        position: absolute;
+        left: 20px;
+        top: -100px;
+        z-index: 10;
+        background: var(--bg);
+        padding: 15px;
+      }
+      .skip:focus {
+        top: 15px;
+      }
+      .masthead {
+        padding: 32px 4vw 28px;
+        border-bottom: 1px solid var(--line);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        background: #142022;
+      }
+      .eyebrow {
+        margin: 0 0 7px;
+        color: var(--gold);
+        font-size: 0.875rem;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        line-height: 1.5;
+      }
+      h1 {
+        font:
+          500 clamp(2rem, 3.4vw, 3.6rem)/1.14 Georgia,
+          serif;
+        margin: 0;
+      }
+      h1 span {
+        display: inline-block;
+        margin-left: 24px;
+        font: 400 1.1rem/1.5 system-ui;
+        color: var(--muted);
+      }
+      .byline {
+        color: var(--muted);
+        font-size: 0.875rem;
+        margin: 12px 0 0;
+      }
+      .download {
+        white-space: nowrap;
+        padding: 11px 17px;
+        border: 1px solid #698084;
+        border-radius: 3px;
+        text-decoration: none;
+        font-size: 0.875rem;
+      }
+      .layout {
+        display: grid;
+        grid-template-columns: 260px minmax(0, 1fr);
+        max-width: 1640px;
+        margin: auto;
+        padding: 0 3vw;
+        gap: 42px;
+      }
+      aside {
+        padding-top: 32px;
+        align-self: start;
+        position: sticky;
+        top: 0;
+        max-height: 100vh;
+        overflow: auto;
+        padding-bottom: 24px;
+      }
+      .nav-title {
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--muted);
+        margin: 0 0 12px;
+      }
+      nav a {
+        display: flex;
+        gap: 12px;
+        color: var(--muted);
+        text-decoration: none;
+        padding: 10px 8px 10px 0;
+        border-bottom: 1px solid #263539;
+        font-size: 0.875rem;
+        line-height: 1.4;
+      }
+      nav a span {
+        color: var(--gold);
+        font-variant-numeric: tabular-nums;
+        min-width: 22px;
+      }
+      nav a:hover,
+      nav a[aria-current="location"] {
+        color: var(--ink);
+      }
+      nav a[aria-current="location"] {
+        border-right: 3px solid var(--gold);
+      }
+      .aside-note {
+        font-size: 0.875rem;
+        color: var(--muted);
+        margin-top: 22px;
+      }
+      main {
+        min-width: 0;
+        max-width: 1180px;
+      }
+      .quick {
+        display: flex;
+        gap: 9px;
+        flex-wrap: wrap;
+        padding: 26px 0 10px;
+        align-items: center;
+        font-size: 0.875rem;
+      }
+      .quick > span {
+        color: var(--muted);
+        margin-right: 8px;
+      }
+      .quick a {
+        color: var(--cyan);
+        text-decoration: none;
+        border: 1px solid var(--line);
+        padding: 5px 10px;
+        border-radius: 3px;
+      }
+      .quick a:hover {
+        background: var(--panel);
+      }
+      .intro {
+        font-size: 1rem;
+        color: var(--muted);
+        margin: 8px 0 28px;
+        max-width: 90ch;
+      }
+      .stage {
+        border-top: 1px solid #688084;
+        padding: 32px 0 36px;
+        margin-bottom: 20px;
+        scroll-margin-top: 12px;
+      }
+      .stage-head {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+      }
+      .number {
+        font:
+          400 2.8rem/1 Georgia,
+          serif;
+        color: var(--gold);
+        min-width: 58px;
+        padding-top: 4px;
+      }
+      h2 {
+        font:
+          500 clamp(1.6rem, 2.2vw, 2.1rem)/1.22 Georgia,
+          serif;
+        margin: 0 0 8px;
+      }
+      h3 {
+        font-size: 1.25rem;
+        line-height: 1.4;
+        margin: 30px 0 12px;
+        font-weight: 600;
+      }
+      .stage-time {
+        font-size: 0.875rem;
+        font-variant-numeric: tabular-nums;
+        color: var(--muted);
+        margin: 0;
+      }
+      .stage-actions {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 20px 0 24px;
+      }
+      .play {
+        border: 1px solid var(--gold);
+        color: var(--gold);
+        padding: 8px 14px;
+        background: #202b2d;
+        border-radius: 3px;
+        font-size: 0.875rem;
+      }
+      .time {
+        font-size: 0.875rem;
+        text-decoration: none;
+        display: inline-block;
+        line-height: 1.5;
+      }
+      .time:hover {
+        text-decoration: underline;
+      }
+      .steps {
+        padding-left: 29px;
+        margin: 20px 0;
+      }
+      .steps li {
+        padding-left: 8px;
+        margin: 0 0 17px;
+        max-width: 95ch;
+      }
+      .steps li::marker {
+        color: var(--gold);
+        font-weight: 600;
+      }
+      .steps strong {
+        color: #fff;
+      }
+      .note {
+        border-left: 3px solid var(--gold);
+        background: #1f2b2c;
+        padding: 15px 19px;
+        margin: 20px 0;
+      }
+      .table-wrap {
+        overflow: auto;
+        margin: 20px 0;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 1rem;
+        text-align: left;
+      }
+      th,
+      td {
+        padding: 12px 16px;
+        border: 1px solid var(--line);
+        vertical-align: top;
+      }
+      thead th {
+        color: var(--cyan);
+        background: #202e31;
+        font-weight: 600;
+      }
+      tbody th {
+        font-weight: 500;
+        background: #182225;
+      }
+      tbody td {
+        color: #d8e2e0;
+      }
+      tbody tr:nth-child(even) td {
+        background: #141e20;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+        margin: 22px 0;
+      }
+      .gallery.wide {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      figure {
+        margin: 0;
+        min-width: 0;
+        background: var(--panel);
+        border: 1px solid var(--line);
+      }
+      .image-open {
+        position: relative;
+        padding: 0;
+        border: 0;
+        background: #060b0c;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+      }
+      .image-open img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        object-fit: contain;
+      }
+      .zoom {
+        position: absolute;
+        right: 8px;
+        bottom: 8px;
+        background: #0b1315e8;
+        border: 1px solid #708387;
+        padding: 2px 8px;
+        color: #fff;
+        font-size: 0.75rem;
+        opacity: 0;
+        transition: opacity 0.15s;
+      }
+      .image-open:hover .zoom,
+      .image-open:focus-visible .zoom {
+        opacity: 1;
+      }
+      figcaption {
+        padding: 12px 14px 14px;
+        font-size: 0.875rem;
+        line-height: 1.5;
+      }
+      figcaption strong {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+      figcaption > span {
+        display: block;
+        color: var(--muted);
+        margin-bottom: 7px;
+      }
+      figcaption .time {
+        font-size: 0.8125rem;
+        color: var(--cyan);
+      }
+      .checkpoint {
+        margin: 28px 0 0;
+        padding: 16px 20px;
+        border: 1px solid #65807c;
+        background: #1b2b2b;
+        color: #dcebe5;
+      }
+      .checkpoint span {
+        display: block;
+        color: var(--cyan);
+        text-transform: uppercase;
+        letter-spacing: 0.09em;
+        font-size: 0.8125rem;
+        margin-bottom: 4px;
+      }
+      .atlas {
+        border: 1px solid var(--line);
+        margin: 12px 0;
+        background: #141f21;
+        padding: 0 16px;
+      }
+      .atlas summary {
+        font-size: 1.1rem;
+        padding: 16px 0;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      .atlas summary span {
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: var(--muted);
+        margin-left: 15px;
+      }
+      .atlas[open] summary {
+        border-bottom: 1px solid var(--line);
+      }
+      .chapters {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 28px;
+      }
+      .chapters a {
+        padding: 10px 0;
+        border-bottom: 1px solid var(--line);
+        color: var(--cyan);
+      }
+      .source-note {
+        font-size: 0.875rem;
+        color: var(--muted);
+        margin: 30px 0 0;
+      }
+      dialog {
+        background: #111b1e;
+        color: var(--ink);
+        border: 1px solid #748a8c;
+        padding: 18px;
+        max-width: 1500px;
+        width: 94vw;
+        max-height: 94vh;
+        overflow: auto;
+      }
+      dialog::backdrop {
+        background: #020709e8;
+      }
+      .dialog-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin-bottom: 14px;
+      }
+      .dialog-bar h2 {
+        font: 500 1.1rem system-ui;
+        margin: 0;
+      }
+      .close {
+        color: var(--ink);
+        border: 1px solid #85969a;
+        padding: 7px 12px;
+        background: #1d2c2f;
+        font-size: 0.875rem;
+      }
+      .dialog-image {
+        display: block;
+        width: 100%;
+        max-height: 75vh;
+        object-fit: contain;
+      }
+      .video-frame {
+        display: block;
+        border: 0;
+        width: 100%;
+        aspect-ratio: 16/9;
+      }
+      .video-help {
+        color: var(--muted);
+        font-size: 0.875rem;
+      }
+      .dialog-link {
+        margin-bottom: 0;
+      }
+      footer {
+        padding: 24px 4vw;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.875rem;
+        text-align: right;
+      }
+      @media (min-width: 1700px) {
+        .layout {
+          gap: 50px;
+        }
+      }
+      @media (max-width: 1100px) {
+        .layout {
+          grid-template-columns: 210px minmax(0, 1fr);
+          gap: 25px;
+        }
+        .gallery {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        h1 span {
+          display: block;
+          margin: 8px 0 0;
+        }
+      }
+      @media (max-width: 760px) {
+        .masthead {
+          padding: 24px 20px;
+          display: block;
+        }
+        .download {
+          display: inline-block;
+          margin-top: 18px;
+        }
+        .layout {
+          display: block;
+          padding: 0 20px;
+        }
+        aside {
+          position: relative;
+          max-height: none;
+          padding: 20px 0 0;
+        }
+        nav {
+          display: flex;
+          overflow-x: auto;
+          gap: 8px;
+          padding-bottom: 8px;
+        }
+        nav .nav-title {
+          display: none;
+        }
+        nav a {
+          min-width: 180px;
+          border: 1px solid var(--line);
+          padding: 10px;
+          font-size: 0.875rem;
+        }
+        .aside-note {
+          display: none;
+        }
+        .quick {
+          padding-top: 16px;
+        }
+        .stage-head {
+          gap: 12px;
+        }
+        .number {
+          font-size: 2.3rem;
+          min-width: 42px;
+        }
+        .stage {
+          padding-top: 26px;
+        }
+        .gallery {
+          gap: 12px;
+        }
+        .gallery.wide {
+          grid-template-columns: 1fr;
+        }
+        .chapters {
+          grid-template-columns: 1fr;
+        }
+        .atlas summary span {
+          display: block;
+          margin: 4px 0 0;
+        }
+        .zoom {
+          opacity: 1;
+        }
+      }
+      @media (max-width: 440px) {
+        .gallery {
+          grid-template-columns: 1fr;
+        }
+        th,
+        td {
+          padding: 10px;
+        }
+        .steps {
+          padding-left: 23px;
+        }
+        h2 {
+          font-size: 1.6rem;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        * {
+          transition: none !important;
+        }
+      }
+      @media print {
+        :root {
+          color-scheme: light;
+          --ink: #111;
+          --bg: #fff;
+          --muted: #444;
+          --line: #ccc;
+          --gold: #60420b;
+          --cyan: #244e50;
+          --panel: #fff;
+        }
+        body {
+          background: #fff;
+          color: #111;
+        }
+        aside,
+        .quick,
+        .stage-actions,
+        .download,
+        dialog,
+        .zoom,
+        .skip {
+          display: none !important;
+        }
+        .layout {
+          display: block;
+          max-width: none;
+          padding: 0;
+        }
+        .masthead {
+          background: #fff;
+          padding: 15px 0;
+        }
+        h1 span {
+          color: #444;
+        }
+        .stage {
+          break-before: page;
+          margin: 0;
+          padding: 20px 0;
+        }
+        .steps strong {
+          color: #111;
+        }
+        .note,
+        .checkpoint,
+        thead th,
+        tbody th,
+        tbody td,
+        tbody tr:nth-child(even) td,
+        .atlas {
+          background: #fff !important;
+          color: #111;
+        }
+        .gallery {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        figure {
+          break-inside: avoid;
+        }
+        .image-open {
+          background: #fff;
+        }
+        .chapters {
+          grid-template-columns: 1fr 1fr;
+        }
+        .time {
+          color: #333;
+        }
+        a {
+          color: #222;
+        }
+        .atlas {
+          break-inside: avoid;
+        }
+        footer {
+          color: #444;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#opening">Skip to the walkthrough</a>
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">Call of Duty: WWII / Nazi Zombies / Solo</p>
+        <h1>Frozen Dawn<span>Kingfall field guide</span></h1>
+        <p class="byline">
+          Based on
+          <a href="https://www.youtube.com/watch?v=45dG6srGVMA" target="_blank" rel="noreferrer"
+            >SchleyerZ’s 18:49 walkthrough</a
+          >
+          · 7 June 2025
+        </p>
+      </div>
+      <a class="download" href="frozen-dawn-walkthrough.html" download>Save offline HTML ↓</a>
+    </header>
+    <div class="layout">
+      <aside>
+        <nav aria-label="Walkthrough stages">
+          <p class="nav-title">Playthrough order</p>
+          <a href="#opening"><span>01</span>Open Thule & collect the first pieces</a
+          ><a href="#scythe-stones"><span>02</span>Claim the scythe & finish the stone set</a
+          ><a href="#pillars"><span>03</span>Solve the stones & bring the hammer home</a
+          ><a href="#cipher"><span>04</span>Collect the books & gears; unlock the flail</a
+          ><a href="#constellations"
+            ><span>05</span>Raise Pack-a-Punch & trace three constellations</a
+          ><a href="#flail-trial"><span>06</span>Pass the Moonraven / flail trial</a
+          ><a href="#hammer-grid"><span>07</span>Carry the lightning & solve the hammer wall</a
+          ><a href="#hammer-trial"
+            ><span>08</span>Pass the hammer trial & begin the shield upgrade</a
+          ><a href="#ravens"><span>09</span>Raven location atlas</a
+          ><a href="#shield-trial"><span>10</span>Record the pool order & complete the shield</a
+          ><a href="#scythe-trial"><span>11</span>Finish the scythe & prepare for the boss</a
+          ><a href="#boss"><span>12</span>Enter the God-King fight</a
+          ><a href="#chapters"><span>↗</span>All video chapters</a>
+        </nav>
+        <p class="aside-note">
+          Times are video timestamps, not in-game rounds. Use your own rune codes and symbols.
+        </p>
+      </aside>
+      <main>
+        <div class="quick">
+          <span>Quick references</span><a href="#pillars">Pillars</a
+          ><a href="#orrery-chart">Cipher</a><a href="#constellations">Constellations</a
+          ><a href="#hammer-grid">Hammer wall</a><a href="#ravens">Ravens</a
+          ><a href="#shield-trial">Blood symbols</a>
+        </div>
+        <p class="intro">
+          Follow the stages in order. Open any screenshot to inspect the location or pattern; each
+          stage can play its part of the original video. Text and screenshots work offline in the
+          saved HTML. Video playback needs internet.
+        </p>
+        <section id="opening" class="stage">
+          <div class="stage-head">
+            <div class="number">01</div>
+            <div>
+              <p class="eyebrow">Crash Site → Ice Caves → Morgue</p>
+              <h2>Open Thule & collect the first pieces</h2>
+              <p class="stage-time">0:06–1:40</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="6"
+              data-end="100"
+              data-title="Open Thule &amp; collect the first pieces"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=6s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 0:06 ↗</a
+            >
+          </div>
+          <p class="note">
+            Use the video’s early-round route: begin several weapon quests together and keep moving
+            the battery forward.
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Loadout</th>
+                  <th scope="col">Creator’s recommendation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Starting weapon</th>
+                  <td>9mm SAP</td>
+                </tr>
+                <tr>
+                  <th scope="row">Specialist</th>
+                  <td>Frontline</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mods</th>
+                  <td>Determination · Hand to Hand · Vicious</td>
+                </tr>
+                <tr>
+                  <th scope="row">Equipment</th>
+                  <td>Sticky grenades</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <ol class="steps">
+            <li>
+              On <strong>round 1</strong>, collect the <strong>wires</strong> and
+              <strong>battery</strong> at Crash Site. Carry the battery to the Thule entrance. Save
+              your starting points; the creator delays Quick Revive.
+            </li>
+            <li>
+              Stand on the <strong>circular floor plate</strong> and melee the five zombies while on
+              it. The entrance opens. Move down, buy the next door and kill the central special
+              enemy.
+            </li>
+            <li>
+              Stand in the first blood pool on the left and make <strong>five kills</strong>. In
+              this route, four are available now; finish it with the first zombie of round 2.
+            </li>
+            <li>
+              During the round change, move the battery to the
+              <strong>Morgue door on the right</strong>. Pick up <strong>stone 1</strong> by the
+              Overlook ledge.
+            </li>
+            <li>
+              Earn <strong>1,250 points</strong>, open the Morgue, and get
+              <strong>five kills in its blood pool</strong>. Take <strong>stone 2</strong> to the
+              right of its armor station.
+            </li>
+            <li>
+              Move the battery toward the Phylactery door. Collect the
+              <strong>Bloodraven stone</strong> on the left. This is a separate item from the four
+              puzzle stones; save it for the third pool.
+            </li>
+            <li>
+              On round 3, earn points and <strong>leave one zombie alive</strong>. Enter the
+              Phylactery and move the battery toward the Overlook door. Buy Quick Revive when you
+              can afford it before the lockdown.
+            </li>
+          </ol>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Wires at Crash Site"
+                data-time="26"
+                aria-label="Enlarge: Wires at Crash Site"
+              >
+                <img
+                  src="assets/26.jpg"
+                  alt="Wires at Crash Site — Search the ground beside the wreckage."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Wires at Crash Site</strong
+                ><span>Search the ground beside the wreckage.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=26s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 0:26 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Battery beneath the wreckage"
+                data-time="30"
+                aria-label="Enlarge: Battery beneath the wreckage"
+              >
+                <img
+                  src="assets/30.jpg"
+                  alt="Battery beneath the wreckage"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Battery beneath the wreckage</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=30s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 0:30 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="The opening floor plate"
+                data-time="34"
+                aria-label="Enlarge: The opening floor plate"
+              >
+                <img
+                  src="assets/34.jpg"
+                  alt="The opening floor plate"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>The opening floor plate</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=34s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 0:34 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="First blood-pool area"
+                data-time="51"
+                aria-label="Enlarge: First blood-pool area"
+              >
+                <img
+                  src="assets/51.jpg"
+                  alt="First blood-pool area — Ice Caves, left after entering."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>First blood-pool area</strong><span>Ice Caves, left after entering.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=51s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 0:51 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Stone 1: Overlook ledge"
+                data-time="60"
+                aria-label="Enlarge: Stone 1: Overlook ledge"
+              >
+                <img
+                  src="assets/60.jpg"
+                  alt="Stone 1: Overlook ledge"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Stone 1: Overlook ledge</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=60s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 1:00 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Second blood pool: Morgue"
+                data-time="71"
+                aria-label="Enlarge: Second blood pool: Morgue"
+              >
+                <img
+                  src="assets/71.jpg"
+                  alt="Second blood pool: Morgue"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Second blood pool: Morgue</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=71s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 1:11 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Stone 2: beside Morgue armor"
+                data-time="79"
+                aria-label="Enlarge: Stone 2: beside Morgue armor"
+              >
+                <img
+                  src="assets/79.jpg"
+                  alt="Stone 2: beside Morgue armor"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Stone 2: beside Morgue armor</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=79s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 1:19 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Bloodraven stone"
+                data-time="89"
+                aria-label="Enlarge: Bloodraven stone"
+              >
+                <img
+                  src="assets/89.jpg"
+                  alt="Bloodraven stone — Keep it for the Overlook blood pool."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Bloodraven stone</strong><span>Keep it for the Overlook blood pool.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=89s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 1:29 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>Two pools filled; wires, Bloodraven stone and two puzzle
+            stones collected. Battery moved toward Overlook.
+          </p>
+        </section>
+        <section id="scythe-stones" class="stage">
+          <div class="stage-head">
+            <div class="number">02</div>
+            <div>
+              <p class="eyebrow">Phylactery → Overlook → Archives → Blood Altar</p>
+              <h2>Claim the scythe & finish the stone set</h2>
+              <p class="stage-time">1:40–2:42</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="100"
+              data-end="162"
+              data-title="Claim the scythe &amp; finish the stone set"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=100s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 1:40 ↗</a
+            >
+          </div>
+          <ol class="steps">
+            <li>
+              Interact with the <strong>forge symbol in the Phylactery</strong> to begin the scythe
+              lockdown. Survive for about <strong>30 seconds</strong>. Avoid unnecessary kills: this
+              lockdown can advance rounds quickly. Pick up the scythe afterward.
+            </li>
+            <li>
+              Open the Overlook and put the battery in its <strong>cauldron</strong>. Get about
+              <strong>15 nearby kills</strong> until the battery glows purple by itself.
+            </li>
+            <li>
+              Open the <strong>Thulian Archives</strong>. Take <strong>stone 3</strong> from the
+              ground to the right of Speed Cola.
+            </li>
+            <li>
+              Open the <strong>Blood Altar</strong>. Take <strong>stone 4</strong> from the ledge.
+              While here, check the possible <strong>gear</strong> on the ledge right of the Mystery
+              Box and the <strong>book</strong> near the blood pool.
+            </li>
+          </ol>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Scythe forge / lockdown switch"
+                data-time="104"
+                aria-label="Enlarge: Scythe forge / lockdown switch"
+              >
+                <img
+                  src="assets/104.jpg"
+                  alt="Scythe forge / lockdown switch"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Scythe forge / lockdown switch</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=104s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 1:44 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Battery cauldron at Overlook"
+                data-time="127"
+                aria-label="Enlarge: Battery cauldron at Overlook"
+              >
+                <img
+                  src="assets/127.jpg"
+                  alt="Battery cauldron at Overlook"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Battery cauldron at Overlook</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=127s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 2:07 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Stone 3: right of Speed Cola"
+                data-time="139"
+                aria-label="Enlarge: Stone 3: right of Speed Cola"
+              >
+                <img
+                  src="assets/139.jpg"
+                  alt="Stone 3: right of Speed Cola"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Stone 3: right of Speed Cola</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=139s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 2:19 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Stone 4: Blood Altar ledge"
+                data-time="146"
+                aria-label="Enlarge: Stone 4: Blood Altar ledge"
+              >
+                <img
+                  src="assets/146.jpg"
+                  alt="Stone 4: Blood Altar ledge"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Stone 4: Blood Altar ledge</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=146s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 2:26 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Blood Altar gear and book area"
+                data-time="154"
+                aria-label="Enlarge: Blood Altar gear and book area"
+              >
+                <img
+                  src="assets/154.jpg"
+                  alt="Blood Altar gear and book area"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Blood Altar gear and book area</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=154s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 2:34 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>Base scythe acquired; battery charged; all four puzzle
+            stones collected.
+          </p>
+        </section>
+        <section id="pillars" class="stage">
+          <div class="stage-head">
+            <div class="number">03</div>
+            <div>
+              <p class="eyebrow">Overlook · Rune order + four rotating pillars</p>
+              <h2>Solve the stones & bring the hammer home</h2>
+              <p class="stage-time">2:42–4:58</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="162"
+              data-end="298"
+              data-title="Solve the stones &amp; bring the hammer home"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=162s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 2:42 ↗</a
+            >
+          </div>
+          <ol class="steps">
+            <li>
+              Insert the four stones into the <strong>Overlook wall slots</strong>. Read the symbols
+              under them <strong>left to right</strong>. This is <em>your game’s</em> code.
+            </li>
+            <li>
+              Find the matching symbols on the rocks around the middle. Kill one zombie beside each
+              symbol in the wall’s order.
+              <strong>Check that lightning enters the correct symbol</strong> after every kill. The
+              creator’s M → F → S → R is only an example.
+            </li>
+            <li>
+              When lightning flashes in the center, solve each of the four pillars using the table
+              below. All four blocks on each pillar must face inward.
+            </li>
+            <li>
+              Find the floating hammer around the main loop.
+              <strong>Go prone before approaching it</strong>, crawl underneath and interact.
+              Approaching upright sends it elsewhere.
+            </li>
+            <li>
+              Guide it back to the Overlook center. It moves <strong>away from you</strong>, so
+              stand on the opposite side from the direction you want it to travel. Pick it up when
+              it reaches the center.
+            </li>
+          </ol>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Four stone slots"
+                data-time="164"
+                aria-label="Enlarge: Four stone slots"
+              >
+                <img
+                  src="assets/164.jpg"
+                  alt="Four stone slots — Read the wall symbols from left to right."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Four stone slots</strong
+                ><span>Read the wall symbols from left to right.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=164s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 2:44 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Kill beside the matching rock rune"
+                data-time="186"
+                aria-label="Enlarge: Kill beside the matching rock rune"
+              >
+                <img
+                  src="assets/186.jpg"
+                  alt="Kill beside the matching rock rune"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Kill beside the matching rock rune</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=186s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 3:06 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Floating hammer"
+                data-time="267"
+                aria-label="Enlarge: Floating hammer"
+              >
+                <img
+                  src="assets/267.jpg"
+                  alt="Floating hammer — Approach prone; then guide it away from you."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Floating hammer</strong
+                ><span>Approach prone; then guide it away from you.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=267s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 4:27 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <h3>Pillar reference</h3>
+          <p>
+            Name the blocks <strong>A, B, C, D from top to bottom</strong>. First align the top
+            three: shoot <strong>B until A faces inward</strong>, then
+            <strong>C until B faces inward</strong>, then <strong>D until C faces inward</strong>.
+            Now inspect the bottom block D.
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">D’s remaining direction</th>
+                  <th scope="col">Shoot A</th>
+                  <th scope="col">Shoot B</th>
+                  <th scope="col">Shoot C</th>
+                  <th scope="col">Shoot D</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Right</th>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">Away from center</th>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">Left</th>
+                  <td>3</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">Already inward</th>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="note">
+            Use the direction shown from the pillar’s inward-facing side. Fire individual shots. A
+            finished pillar glows purple; repeat for all four.
+          </p>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Creator’s pillar chart"
+                data-time="234"
+                aria-label="Enlarge: Creator’s pillar chart"
+              >
+                <img
+                  src="assets/234.jpg"
+                  alt="Creator’s pillar chart — Original on-screen alignment instructions."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Creator’s pillar chart</strong
+                ><span>Original on-screen alignment instructions.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=234s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 3:54 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Right-facing D solution"
+                data-time="243"
+                aria-label="Enlarge: Right-facing D solution"
+              >
+                <img
+                  src="assets/243.jpg"
+                  alt="Right-facing D solution"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Right-facing D solution</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=243s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 4:03 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Left-facing D solution"
+                data-time="251"
+                aria-label="Enlarge: Left-facing D solution"
+              >
+                <img
+                  src="assets/251.jpg"
+                  alt="Left-facing D solution"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Left-facing D solution</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=251s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 4:11 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>Four pillars glow purple; base hammer acquired at Overlook.
+          </p>
+        </section>
+        <section id="cipher" class="stage">
+          <div class="stage-head">
+            <div class="number">04</div>
+            <div>
+              <p class="eyebrow">Archives · Cipher Room · Gearworks · Orrery</p>
+              <h2>Collect the books & gears; unlock the flail</h2>
+              <p class="stage-time">4:58–6:55</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="298"
+              data-end="415"
+              data-title="Collect the books &amp; gears; unlock the flail"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=298s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 4:58 ↗</a
+            >
+          </div>
+          <ol class="steps">
+            <li>
+              Find <strong>two books</strong> among the four possible spots below. Insert them into
+              the pedestal in the <strong>upper Archives</strong> to open the Cipher Room.
+            </li>
+            <li>
+              Find <strong>three gears</strong>. Check the Cipher Room after opening it. The
+              narration says “six” but then lists the <strong>seven candidates</strong> shown below.
+            </li>
+            <li>
+              Install the three gears in the <strong>Gearworks</strong>. Kill zombies nearby, either
+              downstairs by the gears or upstairs in the main Archives, until the Orrery activates.
+            </li>
+            <li>
+              Read the <strong>colored orb positions on the cipher wall</strong>. Match each orb’s
+              position on the Orrery using the orientation chart below.
+            </li>
+            <li>
+              Interact with the matching <strong>colored control orb at the lower right</strong> as
+              the moving orb approaches its target. There are <strong>eight positions</strong>: four
+              cardinal directions and four diagonals. A wrong solution resets after a short delay.
+            </li>
+            <li>When all orbs match, take the <strong>Broken Flail</strong>.</li>
+          </ol>
+          <h3>Book locations · collect 2</h3>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Morgue"
+                data-time="301"
+                aria-label="Enlarge: Morgue"
+              >
+                <img
+                  src="assets/301.jpg"
+                  alt="Morgue — Before the drop-off."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Morgue</strong><span>Before the drop-off.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=301s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:01 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Blood Altar"
+                data-time="306"
+                aria-label="Enlarge: Blood Altar"
+              >
+                <img
+                  src="assets/306.jpg"
+                  alt="Blood Altar — Near the blood pool."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Blood Altar</strong><span>Near the blood pool.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=306s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:06 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Overlook"
+                data-time="310"
+                aria-label="Enlarge: Overlook"
+              >
+                <img
+                  src="assets/310.jpg"
+                  alt="Overlook — Behind the rocks."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Overlook</strong><span>Behind the rocks.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=310s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:10 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Passage"
+                data-time="312"
+                aria-label="Enlarge: Passage"
+              >
+                <img
+                  src="assets/312.jpg"
+                  alt="Passage — Right of the Pack-a-Punch transport."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Passage</strong><span>Right of the Pack-a-Punch transport.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=312s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:12 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <h3>Gear locations · collect 3</h3>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Crash Site"
+                data-time="325"
+                aria-label="Enlarge: Crash Site"
+              >
+                <img
+                  src="assets/325.jpg"
+                  alt="Crash Site — Right of the broken plane."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Crash Site</strong><span>Right of the broken plane.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=325s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:25 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Ice Caves"
+                data-time="330"
+                aria-label="Enlarge: Ice Caves"
+              >
+                <img
+                  src="assets/330.jpg"
+                  alt="Ice Caves — Left of the boss-fight transport."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Ice Caves</strong><span>Left of the boss-fight transport.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=330s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:30 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Blood Altar"
+                data-time="336"
+                aria-label="Enlarge: Blood Altar"
+              >
+                <img
+                  src="assets/336.jpg"
+                  alt="Blood Altar — Ledge to the right of the Mystery Box."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Blood Altar</strong><span>Ledge to the right of the Mystery Box.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=336s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:36 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Phylactery"
+                data-time="341"
+                aria-label="Enlarge: Phylactery"
+              >
+                <img
+                  src="assets/341.jpg"
+                  alt="Phylactery — Left of the Grease Gun wall buy."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Phylactery</strong><span>Left of the Grease Gun wall buy.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=341s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:41 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Overlook"
+                data-time="345"
+                aria-label="Enlarge: Overlook"
+              >
+                <img
+                  src="assets/345.jpg"
+                  alt="Overlook — Near the stairs."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Overlook</strong><span>Near the stairs.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=345s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:45 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Cipher Room"
+                data-time="348"
+                aria-label="Enlarge: Cipher Room"
+              >
+                <img
+                  src="assets/348.jpg"
+                  alt="Cipher Room — Open it with the two books first."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Cipher Room</strong><span>Open it with the two books first.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=348s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:48 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Passage"
+                data-time="351"
+                aria-label="Enlarge: Passage"
+              >
+                <img
+                  src="assets/351.jpg"
+                  alt="Passage — Small nook past the Pack-a-Punch transport."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Passage</strong><span>Small nook past the Pack-a-Punch transport.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=351s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 5:51 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <h3 id="orrery-chart">Cipher → Orrery orientation</h3>
+          <p>
+            <strong>Do not copy this screenshot’s colored code.</strong> Copy the positions from
+            your own cipher wall. The chart supplies the landmarks needed to translate its flat view
+            to the physical machine.
+          </p>
+          <div class="gallery wide">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Original cipher orientation chart"
+                data-time="380"
+                aria-label="Enlarge: Original cipher orientation chart"
+              >
+                <img
+                  src="assets/380.jpg"
+                  alt="Original cipher orientation chart — Top = big arm / Speed Cola; bottom = small arm."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Original cipher orientation chart</strong
+                ><span>Top = big arm / Speed Cola; bottom = small arm.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=380s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 6:20 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Orrery and colored controls"
+                data-time="390"
+                aria-label="Enlarge: Orrery and colored controls"
+              >
+                <img
+                  src="assets/390.jpg"
+                  alt="Orrery and colored controls — Stop each color as it reaches its own target."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Orrery and colored controls</strong
+                ><span>Stop each color as it reaches its own target.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=390s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 6:30 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">On the chart</th>
+                  <th scope="col">Map landmark</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Top</th>
+                  <td>Big arm / Speed Cola</td>
+                </tr>
+                <tr>
+                  <th scope="row">Upper right</th>
+                  <td>Stairs toward the Cipher Room</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lower right</th>
+                  <td>Hallway toward Overlook</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bottom</th>
+                  <td>Small arm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Lower left</th>
+                  <td>Stairs toward Gearworks</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>Broken Flail acquired; keep access to the scythe for the
+            next step.
+          </p>
+        </section>
+        <section id="constellations" class="stage">
+          <div class="stage-head">
+            <div class="number">05</div>
+            <div>
+              <p class="eyebrow">Interleave three transport rides with the flail plates</p>
+              <h2>Raise Pack-a-Punch & trace three constellations</h2>
+              <p class="stage-time">6:55–9:15</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="415"
+              data-end="555"
+              data-title="Raise Pack-a-Punch &amp; trace three constellations"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=415s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 6:55 ↗</a
+            >
+          </div>
+          <ol class="steps">
+            <li>
+              Equip the <strong>scythe</strong> and go to the Passage. Interact with the wall block
+              until it turns <strong>red</strong>, then take the transport into Lost in Blood.
+              Preserve the normal zombies in that room.
+            </li>
+            <li>
+              After being returned, two Corpse Eaters appear.
+              <strong>Swing the scythe while holding Interact</strong> to take a spine. The creator
+              describes one chance per enemy. Place the scythe at its
+              <strong>Phylactery upgrade spot</strong>; the wires collected at spawn are part of
+              this setup.
+            </li>
+            <li>
+              Take the flail. Aim into the room <strong>above the Archives Orrery</strong>, press
+              the grenade/equipment button to throw its orb, then press again to teleport. Stand on
+              the <strong>left plate</strong> and get <strong>three flail melee kills</strong>. A
+              rune floats above it.
+            </li>
+            <li>
+              With the flail equipped, search the six viewpoints below while
+              <strong>holding ADS / aim</strong>. When stars appear, keep aiming and move the
+              crosshair over <strong>every star</strong> until the pattern lights up and completion
+              is confirmed.
+            </li>
+            <li>
+              Take the <strong>Blood Altar transport</strong> for the second Pack-a-Punch visit.
+              Preserve the room’s normal zombies; kill the Corpse Eaters after returning. Go back
+              above the Orrery, get <strong>three flail kills on the middle plate</strong>, then
+              find and trace the next constellation.
+            </li>
+            <li>
+              Take the <strong>Crash Site transport</strong> for the third visit. Again preserve
+              normal zombies in Lost in Blood and kill the returning Corpse Eaters. Get
+              <strong>three flail kills on the right plate</strong>, then trace the final
+              constellation.
+            </li>
+          </ol>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Cycle</th>
+                  <th scope="col">Transport</th>
+                  <th scope="col">Plate</th>
+                  <th scope="col">Finish</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Passage, after making the block red</td>
+                  <td>Left</td>
+                  <td>3 flail kills → trace one constellation</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Blood Altar</td>
+                  <td>Middle</td>
+                  <td>3 flail kills → trace one constellation</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Crash Site</td>
+                  <td>Right</td>
+                  <td>3 flail kills → trace one constellation</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Pack-a-Punch activation block"
+                data-time="420"
+                aria-label="Enlarge: Pack-a-Punch activation block"
+              >
+                <img
+                  src="assets/420.jpg"
+                  alt="Pack-a-Punch activation block — Turn it red before the first transport ride."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Pack-a-Punch activation block</strong
+                ><span>Turn it red before the first transport ride.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=420s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 7:00 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Spine pickup from a Corpse Eater"
+                data-time="443"
+                aria-label="Enlarge: Spine pickup from a Corpse Eater"
+              >
+                <img
+                  src="assets/443.jpg"
+                  alt="Spine pickup from a Corpse Eater"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Spine pickup from a Corpse Eater</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=443s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 7:23 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Teleport above the Orrery"
+                data-time="456"
+                aria-label="Enlarge: Teleport above the Orrery"
+              >
+                <img
+                  src="assets/456.jpg"
+                  alt="Teleport above the Orrery"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Teleport above the Orrery</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=456s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 7:36 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Upper-room plate"
+                data-time="467"
+                aria-label="Enlarge: Upper-room plate"
+              >
+                <img
+                  src="assets/467.jpg"
+                  alt="Upper-room plate"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Upper-room plate</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=467s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 7:47 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <h3>Six constellation viewpoints</h3>
+          <p class="note">
+            These are the video’s search viewpoints, not six fixed answers. Only an activated
+            constellation is visible through the flail’s aim view. Complete one plate and one
+            constellation before starting the next. The creator does not give a reliable
+            rune-to-location mapping.
+          </p>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="1 · Above the Archives Orrery"
+                data-time="492"
+                aria-label="Enlarge: 1 · Above the Archives Orrery"
+              >
+                <img
+                  src="assets/492.jpg"
+                  alt="1 · Above the Archives Orrery — Look up over the machine."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>1 · Above the Archives Orrery</strong><span>Look up over the machine.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=492s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 8:12 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="2 · Overlook"
+                data-time="498"
+                aria-label="Enlarge: 2 · Overlook"
+              >
+                <img
+                  src="assets/498.jpg"
+                  alt="2 · Overlook — Look beyond the blood pool."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>2 · Overlook</strong><span>Look beyond the blood pool.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=498s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 8:18 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="3 · Phylactery window"
+                data-time="502"
+                aria-label="Enlarge: 3 · Phylactery window"
+              >
+                <img
+                  src="assets/502.jpg"
+                  alt="3 · Phylactery window — Look near Electric Cherry."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>3 · Phylactery window</strong><span>Look near Electric Cherry.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=502s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 8:22 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="4 · Blood Altar, far left"
+                data-time="505"
+                aria-label="Enlarge: 4 · Blood Altar, far left"
+              >
+                <img
+                  src="assets/505.jpg"
+                  alt="4 · Blood Altar, far left"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>4 · Blood Altar, far left</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=505s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 8:25 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="5 · Blood Altar, right side"
+                data-time="510"
+                aria-label="Enlarge: 5 · Blood Altar, right side"
+              >
+                <img
+                  src="assets/510.jpg"
+                  alt="5 · Blood Altar, right side — Look left of the transport."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>5 · Blood Altar, right side</strong><span>Look left of the transport.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=510s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 8:30 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="6 · Crash Site"
+                data-time="515"
+                aria-label="Enlarge: 6 · Crash Site"
+              >
+                <img
+                  src="assets/515.jpg"
+                  alt="6 · Crash Site — Look above the entrance to Thule."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>6 · Crash Site</strong><span>Look above the entrance to Thule.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=515s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 8:35 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gallery wide">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="A completed constellation"
+                data-time="481"
+                aria-label="Enlarge: A completed constellation"
+              >
+                <img
+                  src="assets/481.jpg"
+                  alt="A completed constellation — The stars turn gold after tracing. Your pattern may differ."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>A completed constellation</strong
+                ><span>The stars turn gold after tracing. Your pattern may differ.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=481s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 8:01 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Another active star pattern"
+                data-time="536"
+                aria-label="Enlarge: Another active star pattern"
+              >
+                <img
+                  src="assets/536.jpg"
+                  alt="Another active star pattern — Hold aim and sweep across every star."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Another active star pattern</strong
+                ><span>Hold aim and sweep across every star.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=536s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 8:56 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>All three constellations complete; Orrery glows;
+            Pack-a-Punch raised through three transport visits.
+          </p>
+        </section>
+        <section id="flail-trial" class="stage">
+          <div class="stage-head">
+            <div class="number">06</div>
+            <div>
+              <p class="eyebrow">Archives Orrery → Trial → Ice Caves</p>
+              <h2>Pass the Moonraven / flail trial</h2>
+              <p class="stage-time">9:15–9:51</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="555"
+              data-end="591"
+              data-title="Pass the Moonraven / flail trial"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=555s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 9:15 ↗</a
+            >
+          </div>
+          <ol class="steps">
+            <li>
+              At the glowing Orrery, throw the flail orb into the statue and
+              <strong>teleport as the orb reaches it</strong>.
+            </li>
+            <li>
+              Survive the trial’s fire walls by teleporting through them. As a wall approaches, aim
+              the orb at the <strong>far side of the platform beyond the approaching wall</strong>.
+              Throw just before the fire reaches the platform; teleport when the wall is near the
+              platform’s middle.
+            </li>
+            <li>
+              Complete this dodge <strong>twice</strong>, dealing with the zombies between attacks.
+              The fire is lethal if the timing fails.
+            </li>
+            <li>
+              Take the upgraded flail and place it in its <strong>Ice Caves pedestal</strong>.
+            </li>
+          </ol>
+          <div class="gallery wide">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Glowing Orrery: trial entrance"
+                data-time="558"
+                aria-label="Enlarge: Glowing Orrery: trial entrance"
+              >
+                <img
+                  src="assets/558.jpg"
+                  alt="Glowing Orrery: trial entrance"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Glowing Orrery: trial entrance</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=558s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 9:18 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Fire-wall timing"
+                data-time="575"
+                aria-label="Enlarge: Fire-wall timing"
+              >
+                <img
+                  src="assets/575.jpg"
+                  alt="Fire-wall timing — Throw across the incoming wall, then teleport after it passes your landing point."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Fire-wall timing</strong
+                ><span
+                  >Throw across the incoming wall, then teleport after it passes your landing
+                  point.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=575s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 9:35 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>Moonraven trial complete; upgraded flail deposited in the
+            Ice Caves.
+          </p>
+        </section>
+        <section id="hammer-grid" class="stage">
+          <div class="stage-head">
+            <div class="number">07</div>
+            <div>
+              <p class="eyebrow">Crash Site → Tunnel → Morgue → Phylactery → Blood Altar hall</p>
+              <h2>Carry the lightning & solve the hammer wall</h2>
+              <p class="stage-time">9:51–12:12</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="591"
+              data-end="732"
+              data-title="Carry the lightning &amp; solve the hammer wall"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=591s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 9:51 ↗</a
+            >
+          </div>
+          <ol class="steps">
+            <li>
+              Take the hammer and buy <strong>Stamin-Up at Overlook</strong>. Melee the lightning
+              rune at <strong>Crash Site</strong> to pick up its charge.
+            </li>
+            <li>
+              Sprint to the next rune on the <strong>left side of the tunnel</strong> and melee it
+              to deposit the charge. Melee again to pick it up and run to the rune on the
+              <strong>Morgue wall beside the blood pool</strong>. Each deposited rune is a
+              checkpoint; a timeout returns the charge to the last one.
+            </li>
+            <li>
+              For the high Phylactery rune, first gather slower zombies on the left side of that
+              room. Retrieve the charge, stand in the marked circle and
+              <strong>melee a zombie beside it with clear line of sight to the high rune</strong>. A
+              zombie underneath the door frame will not work. Lightning must jump to the rune.
+            </li>
+            <li>
+              <strong>Creator’s shortcut:</strong> quickly put the hammer away and draw it again. If
+              its lightning returns, melee the puzzle-wall rune in the hall toward Blood Altar.
+            </li>
+            <li>
+              <strong>If the shortcut fails:</strong> place the Bloodraven stone in the Overlook’s
+              third pool and get <strong>five kills</strong>. A shield-bearing Wüstling appears in
+              the Blood Altar pool. Lead it beneath the Phylactery lightning, let it become charged,
+              then kill it with the hammer. Pick up the charge from that kill and melee the
+              puzzle-wall rune. It also drops the base shield.
+            </li>
+            <li>
+              Solve the three wall patterns using the numbered charts below.
+              <strong>Wait for every block to stop spinning before firing the next shot.</strong> If
+              you make a mistake, shoot the <strong>skull block</strong> to reset.
+            </li>
+          </ol>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Starting lightning rune"
+                data-time="603"
+                aria-label="Enlarge: Starting lightning rune"
+              >
+                <img
+                  src="assets/603.jpg"
+                  alt="Starting lightning rune"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Starting lightning rune</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=603s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 10:03 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Tunnel checkpoint"
+                data-time="610"
+                aria-label="Enlarge: Tunnel checkpoint"
+              >
+                <img
+                  src="assets/610.jpg"
+                  alt="Tunnel checkpoint — Left wall along the route."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Tunnel checkpoint</strong><span>Left wall along the route.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=610s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 10:10 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Morgue checkpoint"
+                data-time="621"
+                aria-label="Enlarge: Morgue checkpoint"
+              >
+                <img
+                  src="assets/621.jpg"
+                  alt="Morgue checkpoint — Beside the blood pool."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Morgue checkpoint</strong><span>Beside the blood pool.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=621s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 10:21 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Phylactery transfer area"
+                data-time="646"
+                aria-label="Enlarge: Phylactery transfer area"
+              >
+                <img
+                  src="assets/646.jpg"
+                  alt="Phylactery transfer area — The zombie needs line of sight to the high rune."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Phylactery transfer area</strong
+                ><span>The zombie needs line of sight to the high rune.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=646s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 10:46 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="High rune receives lightning"
+                data-time="651"
+                aria-label="Enlarge: High rune receives lightning"
+              >
+                <img
+                  src="assets/651.jpg"
+                  alt="High rune receives lightning"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>High rune receives lightning</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=651s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 10:51 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Wall-puzzle activation rune"
+                data-time="669"
+                aria-label="Enlarge: Wall-puzzle activation rune"
+              >
+                <img
+                  src="assets/669.jpg"
+                  alt="Wall-puzzle activation rune"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Wall-puzzle activation rune</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=669s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 11:09 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <h3>Hammer wall · numbered shot order</h3>
+          <p>
+            Face the wall directly. Number rows from <strong>top to bottom</strong> and columns from
+            <strong>left to right</strong>. Each pair below is <strong>(row, column)</strong>. Match
+            Wall 1 to the original screenshot before choosing a variant.
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Pattern</th>
+                  <th scope="col">Shoot these cells in order</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Wall 1 · variant 1</th>
+                  <td>(1,2) → (2,1) → (3,1) → (3,2) → (3,3)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Wall 1 · variant 2</th>
+                  <td>(1,2) → (2,2)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Wall 2</th>
+                  <td>(1,2) → (3,3) → (3,4) → (3,5)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Wall 3</th>
+                  <td>(1,2) → (1,3) → (2,1) → (2,2) → (2,4) → (2,5) → (2,6) → (3,1) → (3,6)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="gallery wide">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Wall 1: both starting variants"
+                data-time="709"
+                aria-label="Enlarge: Wall 1: both starting variants"
+              >
+                <img
+                  src="assets/709.jpg"
+                  alt="Wall 1: both starting variants — Numbers printed on the blocks show the shot order."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Wall 1: both starting variants</strong
+                ><span>Numbers printed on the blocks show the shot order.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=709s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 11:49 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Walls 2 and 3"
+                data-time="721"
+                aria-label="Enlarge: Walls 2 and 3"
+              >
+                <img
+                  src="assets/721.jpg"
+                  alt="Walls 2 and 3 — These two solutions are fixed in the video."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Walls 2 and 3</strong
+                ><span>These two solutions are fixed in the video.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=721s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 12:01 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="note">
+            If the shortcut worked, you still need to fill the third pool and obtain the shield
+            later. The shortcut only changes how you recover the hammer’s lightning.
+          </p>
+          <p class="checkpoint">
+            <span>Before moving on</span>Three hammer wall patterns solved. Base shield may already
+            be available if you used the Wüstling route.
+          </p>
+        </section>
+        <section id="hammer-trial" class="stage">
+          <div class="stage-head">
+            <div class="number">08</div>
+            <div>
+              <p class="eyebrow">Overlook → Stormraven trial → Blood pools</p>
+              <h2>Pass the hammer trial & begin the shield upgrade</h2>
+              <p class="stage-time">12:12–13:25</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="732"
+              data-end="805"
+              data-title="Pass the hammer trial &amp; begin the shield upgrade"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=732s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 12:12 ↗</a
+            >
+          </div>
+          <ol class="steps">
+            <li>
+              At Overlook, line up with the <strong>armor station</strong> and the
+              <strong>center line of the volcano</strong>, as shown below. Hold the hammer out and
+              walk straight forward. <strong>Do not steer left or right</strong> on the invisible
+              path; continue until the trial transports you.
+            </li>
+            <li>
+              In the trial, <strong>hold the grenade/equipment button to throw the hammer</strong>.
+              This breaks the zombies’ shields. Finish the enemies and deposit the upgraded hammer
+              in the Ice Caves.
+            </li>
+            <li>
+              If still unfinished, put the <strong>Bloodraven stone</strong> into the Overlook pool
+              and get <strong>five kills</strong>. Kill the shield-bearing Wüstling that emerges at
+              Blood Altar and take its shield.
+            </li>
+            <li>
+              Interact with the <strong>raven statue at the Overlook pool</strong>. Then inspect the
+              three blood pools: the target has <strong>red sparks / sizzling energy</strong>. A
+              still pool is not the current target.
+            </li>
+            <li>
+              Listen for a raven, check the location atlas below, and shoot it with the
+              <strong>9mm SAP</strong>, following the creator’s method. This spawns a charged Corpse
+              Eater. Keep it close and bring it to the active pool.
+            </li>
+          </ol>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Invisible-path alignment"
+                data-time="736"
+                aria-label="Enlarge: Invisible-path alignment"
+              >
+                <img
+                  src="assets/736.jpg"
+                  alt="Invisible-path alignment — Armor station → volcano center; walk straight."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Invisible-path alignment</strong
+                ><span>Armor station → volcano center; walk straight.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=736s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 12:16 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Hammer trial"
+                data-time="750"
+                aria-label="Enlarge: Hammer trial"
+              >
+                <img
+                  src="assets/750.jpg"
+                  alt="Hammer trial — Throw the hammer to break shields."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Hammer trial</strong><span>Throw the hammer to break shields.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=750s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 12:30 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Raven statue at the third pool"
+                data-time="770"
+                aria-label="Enlarge: Raven statue at the third pool"
+              >
+                <img
+                  src="assets/770.jpg"
+                  alt="Raven statue at the third pool"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Raven statue at the third pool</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=770s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 12:50 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Find the energized blood pool"
+                data-time="787"
+                aria-label="Enlarge: Find the energized blood pool"
+              >
+                <img
+                  src="assets/787.jpg"
+                  alt="Find the energized blood pool — Look for moving red sparks; still blood is not enough."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Find the energized blood pool</strong
+                ><span>Look for moving red sparks; still blood is not enough.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=787s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 13:07 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>Upgraded hammer deposited; shield acquired; raven statue
+            activated; current energized pool identified.
+          </p>
+        </section>
+        <section id="ravens" class="stage">
+          <div class="stage-head">
+            <div class="number">09</div>
+            <div>
+              <p class="eyebrow">Six areas · Follow the calls; shoot with the 9mm SAP</p>
+              <h2>Raven location atlas</h2>
+              <p class="stage-time">13:25–15:02</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button class="play" data-start="805" data-end="902" data-title="Raven location atlas">
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=805s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 13:25 ↗</a
+            >
+          </div>
+          <p class="note">
+            Use this atlas during the shield-pool cycles. The creator says “30 spawns”; his
+            area-by-area list contains <strong>29 viewpoints</strong> (5 + 3 + 5 + 3 + 7 + 6). They
+            are preserved here without inventing a missing location. Some frames show the perch or
+            aiming direction after the bird has been shot.
+          </p>
+          <details class="atlas">
+            <summary>Crash Site<span>5 viewpoints · 13:25</span></summary>
+            <div class="gallery">
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Crash Site · Plane tail"
+                  data-time="807"
+                  aria-label="Enlarge: Crash Site · Plane tail"
+                >
+                  <img
+                    src="assets/807.jpg"
+                    alt="Crash Site · Plane tail"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Crash Site · Plane tail</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=807s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:27 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Crash Site · Top of the transport"
+                  data-time="809"
+                  aria-label="Enlarge: Crash Site · Top of the transport"
+                >
+                  <img
+                    src="assets/809.jpg"
+                    alt="Crash Site · Top of the transport"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Crash Site · Top of the transport</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=809s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:29 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Crash Site · Central rock pillar"
+                  data-time="810"
+                  aria-label="Enlarge: Crash Site · Central rock pillar"
+                >
+                  <img
+                    src="assets/810.jpg"
+                    alt="Crash Site · Central rock pillar"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Crash Site · Central rock pillar</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=810s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:30 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Crash Site · Metal beams of the wreck"
+                  data-time="812"
+                  aria-label="Enlarge: Crash Site · Metal beams of the wreck"
+                >
+                  <img
+                    src="assets/812.jpg"
+                    alt="Crash Site · Metal beams of the wreck"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Crash Site · Metal beams of the wreck</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=812s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:32 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Crash Site · Rocks over the Thule entrance"
+                  data-time="815"
+                  aria-label="Enlarge: Crash Site · Rocks over the Thule entrance"
+                >
+                  <img
+                    src="assets/815.jpg"
+                    alt="Crash Site · Rocks over the Thule entrance"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Crash Site · Rocks over the Thule entrance</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=815s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:35 ↗</a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </details>
+          <details class="atlas">
+            <summary>Ice Caves<span>3 viewpoints · 13:37</span></summary>
+            <div class="gallery">
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Ice Caves · Rocks on the right after the ramp"
+                  data-time="818"
+                  aria-label="Enlarge: Ice Caves · Rocks on the right after the ramp"
+                >
+                  <img
+                    src="assets/818.jpg"
+                    alt="Ice Caves · Rocks on the right after the ramp"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Ice Caves · Rocks on the right after the ramp</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=818s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:38 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Ice Caves · Wonder-weapon pedestal ledge"
+                  data-time="820"
+                  aria-label="Enlarge: Ice Caves · Wonder-weapon pedestal ledge"
+                >
+                  <img
+                    src="assets/820.jpg"
+                    alt="Ice Caves · Wonder-weapon pedestal ledge"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Ice Caves · Wonder-weapon pedestal ledge</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=820s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:40 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Ice Caves · Left side of the angled columns"
+                  data-time="824"
+                  aria-label="Enlarge: Ice Caves · Left side of the angled columns"
+                >
+                  <img
+                    src="assets/824.jpg"
+                    alt="Ice Caves · Left side of the angled columns"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Ice Caves · Left side of the angled columns</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=824s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:44 ↗</a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </details>
+          <details class="atlas">
+            <summary>Thulian Archives<span>5 viewpoints · 13:48</span></summary>
+            <div class="gallery">
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Thulian Archives · High above Speed Cola"
+                  data-time="832"
+                  aria-label="Enlarge: Thulian Archives · High above Speed Cola"
+                >
+                  <img
+                    src="assets/832.jpg"
+                    alt="Thulian Archives · High above Speed Cola"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Thulian Archives · High above Speed Cola</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=832s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:52 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Thulian Archives · Corner to the right, same height"
+                  data-time="835"
+                  aria-label="Enlarge: Thulian Archives · Corner to the right, same height"
+                >
+                  <img
+                    src="assets/835.jpg"
+                    alt="Thulian Archives · Corner to the right, same height"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Thulian Archives · Corner to the right, same height</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=835s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:55 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Thulian Archives · Upper flail-teleport ledge"
+                  data-time="837"
+                  aria-label="Enlarge: Thulian Archives · Upper flail-teleport ledge"
+                >
+                  <img
+                    src="assets/837.jpg"
+                    alt="Thulian Archives · Upper flail-teleport ledge"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Thulian Archives · Upper flail-teleport ledge</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=837s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 13:57 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Thulian Archives · Small hole high to the right"
+                  data-time="841"
+                  aria-label="Enlarge: Thulian Archives · Small hole high to the right"
+                >
+                  <img
+                    src="assets/841.jpg"
+                    alt="Thulian Archives · Small hole high to the right"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Thulian Archives · Small hole high to the right</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=841s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:01 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Thulian Archives · Ground in the hall toward Overlook"
+                  data-time="845"
+                  aria-label="Enlarge: Thulian Archives · Ground in the hall toward Overlook"
+                >
+                  <img
+                    src="assets/845.jpg"
+                    alt="Thulian Archives · Ground in the hall toward Overlook"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Thulian Archives · Ground in the hall toward Overlook</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=845s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:05 ↗</a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </details>
+          <details class="atlas">
+            <summary>Overlook<span>3 viewpoints · 14:07</span></summary>
+            <div class="gallery">
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Overlook · Stone pillars past the blood pool"
+                  data-time="848"
+                  aria-label="Enlarge: Overlook · Stone pillars past the blood pool"
+                >
+                  <img
+                    src="assets/848.jpg"
+                    alt="Overlook · Stone pillars past the blood pool"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Overlook · Stone pillars past the blood pool</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=848s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:08 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Overlook · Tall central pillar"
+                  data-time="851"
+                  aria-label="Enlarge: Overlook · Tall central pillar"
+                >
+                  <img
+                    src="assets/851.jpg"
+                    alt="Overlook · Tall central pillar"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Overlook · Tall central pillar</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=851s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:11 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Overlook · Rocks above Stamin-Up"
+                  data-time="854"
+                  aria-label="Enlarge: Overlook · Rocks above Stamin-Up"
+                >
+                  <img
+                    src="assets/854.jpg"
+                    alt="Overlook · Rocks above Stamin-Up"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Overlook · Rocks above Stamin-Up</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=854s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:14 ↗</a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </details>
+          <details class="atlas">
+            <summary>Phylactery<span>7 viewpoints · 14:16</span></summary>
+            <div class="gallery">
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Phylactery · High window left of Electric Cherry"
+                  data-time="857"
+                  aria-label="Enlarge: Phylactery · High window left of Electric Cherry"
+                >
+                  <img
+                    src="assets/857.jpg"
+                    alt="Phylactery · High window left of Electric Cherry"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Phylactery · High window left of Electric Cherry</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=857s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:17 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Phylactery · Ledge left of Electric Cherry"
+                  data-time="860"
+                  aria-label="Enlarge: Phylactery · Ledge left of Electric Cherry"
+                >
+                  <img
+                    src="assets/860.jpg"
+                    alt="Phylactery · Ledge left of Electric Cherry"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Phylactery · Ledge left of Electric Cherry</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=860s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:20 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Phylactery · Rocks opposite Electric Cherry"
+                  data-time="863"
+                  aria-label="Enlarge: Phylactery · Rocks opposite Electric Cherry"
+                >
+                  <img
+                    src="assets/863.jpg"
+                    alt="Phylactery · Rocks opposite Electric Cherry"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Phylactery · Rocks opposite Electric Cherry</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=863s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:23 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Phylactery · Far side of the blood tub"
+                  data-time="867"
+                  aria-label="Enlarge: Phylactery · Far side of the blood tub"
+                >
+                  <img
+                    src="assets/867.jpg"
+                    alt="Phylactery · Far side of the blood tub"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Phylactery · Far side of the blood tub</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=867s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:27 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Phylactery · Far upper ledge, right view"
+                  data-time="870"
+                  aria-label="Enlarge: Phylactery · Far upper ledge, right view"
+                >
+                  <img
+                    src="assets/870.jpg"
+                    alt="Phylactery · Far upper ledge, right view"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Phylactery · Far upper ledge, right view</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=870s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:30 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Phylactery · Same upper ledge, center"
+                  data-time="873"
+                  aria-label="Enlarge: Phylactery · Same upper ledge, center"
+                >
+                  <img
+                    src="assets/873.jpg"
+                    alt="Phylactery · Same upper ledge, center"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Phylactery · Same upper ledge, center</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=873s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:33 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Phylactery · Same upper ledge, far left / behind"
+                  data-time="876"
+                  aria-label="Enlarge: Phylactery · Same upper ledge, far left / behind"
+                >
+                  <img
+                    src="assets/876.jpg"
+                    alt="Phylactery · Same upper ledge, far left / behind"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Phylactery · Same upper ledge, far left / behind</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=876s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:36 ↗</a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </details>
+          <details class="atlas">
+            <summary>Blood Altar<span>6 viewpoints · 14:38</span></summary>
+            <div class="gallery">
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Blood Altar · Statue above Double Tap"
+                  data-time="882"
+                  aria-label="Enlarge: Blood Altar · Statue above Double Tap"
+                >
+                  <img
+                    src="assets/882.jpg"
+                    alt="Blood Altar · Statue above Double Tap"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Blood Altar · Statue above Double Tap</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=882s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:42 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Blood Altar · Middle statue overhead"
+                  data-time="884"
+                  aria-label="Enlarge: Blood Altar · Middle statue overhead"
+                >
+                  <img
+                    src="assets/884.jpg"
+                    alt="Blood Altar · Middle statue overhead"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Blood Altar · Middle statue overhead</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=884s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:44 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Blood Altar · Rocks beside the curved stairs"
+                  data-time="887"
+                  aria-label="Enlarge: Blood Altar · Rocks beside the curved stairs"
+                >
+                  <img
+                    src="assets/887.jpg"
+                    alt="Blood Altar · Rocks beside the curved stairs"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Blood Altar · Rocks beside the curved stairs</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=887s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:47 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Blood Altar · Scaffolding: upper level"
+                  data-time="891"
+                  aria-label="Enlarge: Blood Altar · Scaffolding: upper level"
+                >
+                  <img
+                    src="assets/891.jpg"
+                    alt="Blood Altar · Scaffolding: upper level"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Blood Altar · Scaffolding: upper level</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=891s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:51 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Blood Altar · Scaffolding: middle level"
+                  data-time="894"
+                  aria-label="Enlarge: Blood Altar · Scaffolding: middle level"
+                >
+                  <img
+                    src="assets/894.jpg"
+                    alt="Blood Altar · Scaffolding: middle level"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Blood Altar · Scaffolding: middle level</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=894s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:54 ↗</a
+                  >
+                </figcaption>
+              </figure>
+              <figure>
+                <button
+                  class="image-open"
+                  data-image
+                  data-caption="Blood Altar · Rocks right of the Mystery Box"
+                  data-time="898"
+                  aria-label="Enlarge: Blood Altar · Rocks right of the Mystery Box"
+                >
+                  <img
+                    src="assets/898.jpg"
+                    alt="Blood Altar · Rocks right of the Mystery Box"
+                    width="1920"
+                    height="1080"
+                    loading="lazy"
+                  /><span class="zoom">Enlarge</span>
+                </button>
+                <figcaption>
+                  <strong>Blood Altar · Rocks right of the Mystery Box</strong
+                  ><a
+                    class="time"
+                    href="https://www.youtube.com/watch?v=45dG6srGVMA&t=898s"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Video frame · 14:58 ↗</a
+                  >
+                </figcaption>
+              </figure>
+            </div>
+          </details>
+          <p class="checkpoint">
+            <span>Before moving on</span>Locate a calling raven for each charged-enemy cycle. You do
+            not need to shoot every listed perch.
+          </p>
+        </section>
+        <section id="shield-trial" class="stage">
+          <div class="stage-head">
+            <div class="number">10</div>
+            <div>
+              <p class="eyebrow">Three charged Corpse Eaters → Radio symbols → Bloodraven trial</p>
+              <h2>Record the pool order & complete the shield</h2>
+              <p class="stage-time">15:02–17:17</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="902"
+              data-end="1037"
+              data-title="Record the pool order &amp; complete the shield"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=902s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 15:02 ↗</a
+            >
+          </div>
+          <ol class="steps">
+            <li>
+              Keep the charged Corpse Eater close enough that it does not despawn. Lead it to the
+              <strong>currently sizzling pool</strong>, stand in the pool, and
+              <strong>melee it with the shield equipped</strong>. The creator’s example takes two
+              hits. Move away from its death explosion to avoid losing armor.
+            </li>
+            <li>
+              A symbol appears in the pool. Record <strong>which pool was first</strong>; its symbol
+              can be revisited. Find the next energized pool, shoot another raven, and repeat. Do
+              this <strong>three times</strong>, recording the pool order.
+            </li>
+            <li>
+              At Crash Site, lead a <strong>bomber zombie</strong> to the metal panel near Quick
+              Revive. Stand on the opposite side so its explosion breaks the metal. Pick up
+              <strong>both the radio and the separate speaker</strong>.
+            </li>
+            <li>
+              Install the radio and speaker on their two rocks at the <strong>Blood Altar</strong>.
+              Interacting with the radio cycles the symbol in the large pool.
+            </li>
+            <li>
+              Revisit your <strong>first charged-enemy pool</strong> and inspect its symbol. Select
+              that exact symbol with the radio, then
+              <strong>kill one zombie in the large Blood Altar pool</strong> to submit it. Repeat
+              for your second and third pools, in that order.
+            </li>
+            <li>
+              After a correct sequence, the large pool flashes through multiple symbols.
+              <strong>Only after this confirmation</strong>, let yourself be downed while standing
+              in it to enter the shield trial. The creator says this scripted transition does not
+              consume Quick Revive.
+            </li>
+            <li>
+              Get shield kills in the trial. When the area attack comes, stand on the plate and
+              <strong>hold ADS / aim to block</strong>. Do this twice. Deposit the upgraded shield
+              in the <strong>round floor slot</strong> at the Ice Caves weapon ledge.
+            </li>
+          </ol>
+          <p class="note">
+            The radio solution depends on your pool order and your symbols. Similar-looking symbols
+            are easy to confuse. Compare the actual line shapes; the source screenshots are
+            examples, not a universal three-symbol password.
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Record during your run</th>
+                  <th scope="col">What to keep</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">First charged-enemy kill</th>
+                  <td>Pool location + its symbol</td>
+                </tr>
+                <tr>
+                  <th scope="row">Second charged-enemy kill</th>
+                  <td>Pool location + its symbol</td>
+                </tr>
+                <tr>
+                  <th scope="row">Third charged-enemy kill</th>
+                  <td>Pool location + its symbol</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Bring the charged enemy into the target pool"
+                data-time="912"
+                aria-label="Enlarge: Bring the charged enemy into the target pool"
+              >
+                <img
+                  src="assets/912.jpg"
+                  alt="Bring the charged enemy into the target pool"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Bring the charged enemy into the target pool</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=912s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 15:12 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Symbol left after a pool kill"
+                data-time="927"
+                aria-label="Enlarge: Symbol left after a pool kill"
+              >
+                <img
+                  src="assets/927.jpg"
+                  alt="Symbol left after a pool kill — Record the order in your run."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Symbol left after a pool kill</strong
+                ><span>Record the order in your run.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=927s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 15:27 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Bomber target at Crash Site"
+                data-time="955"
+                aria-label="Enlarge: Bomber target at Crash Site"
+              >
+                <img
+                  src="assets/955.jpg"
+                  alt="Bomber target at Crash Site — Break this metal panel to free the radio equipment."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Bomber target at Crash Site</strong
+                ><span>Break this metal panel to free the radio equipment.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=955s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 15:55 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Radio pickup"
+                data-time="968"
+                aria-label="Enlarge: Radio pickup"
+              >
+                <img
+                  src="assets/968.jpg"
+                  alt="Radio pickup — Collect the radio and the separate speaker."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Radio pickup</strong><span>Collect the radio and the separate speaker.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=968s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 16:08 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Speaker pickup"
+                data-time="969"
+                aria-label="Enlarge: Speaker pickup"
+              >
+                <img
+                  src="assets/969.jpg"
+                  alt="Speaker pickup — A second item beside the broken metal."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Speaker pickup</strong><span>A second item beside the broken metal.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=969s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 16:09 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Speaker placement at Blood Altar"
+                data-time="974"
+                aria-label="Enlarge: Speaker placement at Blood Altar"
+              >
+                <img
+                  src="assets/974.jpg"
+                  alt="Speaker placement at Blood Altar"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Speaker placement at Blood Altar</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=974s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 16:14 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Radio placement and control"
+                data-time="977"
+                aria-label="Enlarge: Radio placement and control"
+              >
+                <img
+                  src="assets/977.jpg"
+                  alt="Radio placement and control"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Radio placement and control</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=977s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 16:17 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Cycle and compare the large-pool symbol"
+                data-time="981"
+                aria-label="Enlarge: Cycle and compare the large-pool symbol"
+              >
+                <img
+                  src="assets/981.jpg"
+                  alt="Cycle and compare the large-pool symbol"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Cycle and compare the large-pool symbol</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=981s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 16:21 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Submit each selected symbol with a kill"
+                data-time="998"
+                aria-label="Enlarge: Submit each selected symbol with a kill"
+              >
+                <img
+                  src="assets/998.jpg"
+                  alt="Submit each selected symbol with a kill"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Submit each selected symbol with a kill</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=998s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 16:38 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Shield trial: block on the plate"
+                data-time="1026"
+                aria-label="Enlarge: Shield trial: block on the plate"
+              >
+                <img
+                  src="assets/1026.jpg"
+                  alt="Shield trial: block on the plate"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Shield trial: block on the plate</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1026s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 17:06 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>Bloodraven trial complete; upgraded shield placed in the
+            round Ice Caves slot.
+          </p>
+        </section>
+        <section id="scythe-trial" class="stage">
+          <div class="stage-head">
+            <div class="number">11</div>
+            <div>
+              <p class="eyebrow">Phylactery forge → Two round changes → Deathraven trial</p>
+              <h2>Finish the scythe & prepare for the boss</h2>
+              <p class="stage-time">17:17–18:10</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="1037"
+              data-end="1090"
+              data-title="Finish the scythe &amp; prepare for the boss"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1037s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 17:17 ↗</a
+            >
+          </div>
+          <ol class="steps">
+            <li>
+              Return to the scythe left at its <strong>Phylactery upgrade spot</strong>. Kill
+              zombies nearby until it glows. Then let <strong>two rounds pass</strong>.
+            </li>
+            <li>
+              During that wait, prepare: <strong>fully overcharged red Frontline meter</strong>,
+              <strong>full armor</strong>, and a <strong>Pack-a-Punched 9mm SAP</strong>. The
+              creator suggests the melee perk, Stamin-Up, Quick Revive and Double Tap.
+              Jack-in-the-Boxes are optional.
+            </li>
+            <li>
+              After two rounds, pick up the scythe. It is temporarily unusable. Take a
+              <strong>Pack-a-Punch transport</strong> to enter its trial.
+            </li>
+            <li>
+              Kill the enemies with the scythe. The creator switches to a firearm for remaining
+              Wüstlings when easier. Complete the trial and place the upgraded scythe in the
+              <strong>last Ice Caves weapon slot</strong>.
+            </li>
+            <li>
+              Check that all four weapons have been deposited:
+              <strong>flail, hammer, shield and scythe</strong>. All four fires around the volcano
+              ignite and dialogue plays.
+            </li>
+          </ol>
+          <div class="gallery">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Scythe forge area"
+                data-time="1039"
+                aria-label="Enlarge: Scythe forge area"
+              >
+                <img
+                  src="assets/1039.jpg"
+                  alt="Scythe forge area"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Scythe forge area</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1039s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 17:19 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Boss preparation"
+                data-time="1050"
+                aria-label="Enlarge: Boss preparation"
+              >
+                <img
+                  src="assets/1050.jpg"
+                  alt="Boss preparation — Overcharge Frontline and refill armor before entry."
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Boss preparation</strong
+                ><span>Overcharge Frontline and refill armor before entry.</span
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1050s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 17:30 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="Scythe trial completed"
+                data-time="1083"
+                aria-label="Enlarge: Scythe trial completed"
+              >
+                <img
+                  src="assets/1083.jpg"
+                  alt="Scythe trial completed"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>Scythe trial completed</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1083s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 18:03 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>Four weapons deposited; four fires lit; boss transport
+            opened.
+          </p>
+        </section>
+        <section id="boss" class="stage">
+          <div class="stage-head">
+            <div class="number">12</div>
+            <div>
+              <p class="eyebrow">Final check → Scythe + Frontline → Kingfall</p>
+              <h2>Enter the God-King fight</h2>
+              <p class="stage-time">18:10–18:49</p>
+            </div>
+          </div>
+          <div class="stage-actions">
+            <button
+              class="play"
+              data-start="1090"
+              data-end="1129"
+              data-title="Enter the God-King fight"
+            >
+              ▶ Play this stage</button
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1090s"
+              target="_blank"
+              rel="noreferrer"
+              >Open on YouTube · 18:10 ↗</a
+            >
+          </div>
+          <p class="note">
+            <strong>Finish your preparation before entering the new transport.</strong> This section
+            follows the video’s fast solo scythe / Frontline method; its success depends on reaching
+            the fight with that setup.
+          </p>
+          <ol class="steps">
+            <li>
+              After the four fires light and the dialogue plays,
+              <strong>pick the upgraded scythe back up</strong>. Confirm full armor and an
+              overcharged red Frontline meter.
+            </li>
+            <li>
+              Enter the <strong>newly opened boss transport</strong> shown below. A cutscene begins
+              the encounter.
+            </li>
+            <li>
+              Run to the God-King, <strong>activate Frontline</strong> and repeatedly melee him with
+              the upgraded scythe. Follow him when he moves.
+            </li>
+            <li>
+              If he is over a plate and cannot be hit, quickly kill nearby zombies, then resume
+              attacking when he returns to his chair.
+            </li>
+            <li>
+              Continue through the next cutscene. In the creator’s run, Frontline remains active
+              afterward; keep attacking with the scythe until the final defeat and
+              <strong>Kingfall</strong> achievement.
+            </li>
+          </ol>
+          <div class="gallery wide">
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="New boss transport at the Ice Caves"
+                data-time="1094"
+                aria-label="Enlarge: New boss transport at the Ice Caves"
+              >
+                <img
+                  src="assets/1094.jpg"
+                  alt="New boss transport at the Ice Caves"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>New boss transport at the Ice Caves</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1094s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 18:14 ↗</a
+                >
+              </figcaption>
+            </figure>
+            <figure>
+              <button
+                class="image-open"
+                data-image
+                data-caption="God-King: Frontline + upgraded scythe"
+                data-time="1100"
+                aria-label="Enlarge: God-King: Frontline + upgraded scythe"
+              >
+                <img
+                  src="assets/1100.jpg"
+                  alt="God-King: Frontline + upgraded scythe"
+                  width="1920"
+                  height="1080"
+                  loading="lazy"
+                /><span class="zoom">Enlarge</span>
+              </button>
+              <figcaption>
+                <strong>God-King: Frontline + upgraded scythe</strong
+                ><a
+                  class="time"
+                  href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1100s"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Video frame · 18:20 ↗</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="checkpoint">
+            <span>Before moving on</span>God-King defeated; Kingfall unlocked.
+          </p>
+        </section>
+        <section id="chapters" class="stage">
+          <p class="eyebrow">Source index</p>
+          <h2>Every chapter, one click away</h2>
+          <div class="chapters">
+            <a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=0s"
+              target="_blank"
+              rel="noreferrer"
+              >Intro · 0:00 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=6s"
+              target="_blank"
+              rel="noreferrer"
+              >Loadouts · 0:06 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=21s"
+              target="_blank"
+              rel="noreferrer"
+              >Spawn (Wires/Battery/Plate) · 0:21 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=43s"
+              target="_blank"
+              rel="noreferrer"
+              >1st blood pool · 0:43 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=56s"
+              target="_blank"
+              rel="noreferrer"
+              >1st Stone · 0:56 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=68s"
+              target="_blank"
+              rel="noreferrer"
+              >2nd blood pool · 1:08 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=77s"
+              target="_blank"
+              rel="noreferrer"
+              >2nd stone · 1:17 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=84s"
+              target="_blank"
+              rel="noreferrer"
+              >Bloodraven stone · 1:24 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=100s"
+              target="_blank"
+              rel="noreferrer"
+              >Scythe lockdown · 1:40 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=120s"
+              target="_blank"
+              rel="noreferrer"
+              >Battery Cauldron · 2:00 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=135s"
+              target="_blank"
+              rel="noreferrer"
+              >3rd Stone · 2:15 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=140s"
+              target="_blank"
+              rel="noreferrer"
+              >Blood Altar (4th Stone/Book/Gear) · 2:20 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=162s"
+              target="_blank"
+              rel="noreferrer"
+              >4 Stones Puzzle · 2:42 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=201s"
+              target="_blank"
+              rel="noreferrer"
+              >Pillars Puzzle · 3:21 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=260s"
+              target="_blank"
+              rel="noreferrer"
+              >Hammer · 4:20 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=298s"
+              target="_blank"
+              rel="noreferrer"
+              >Book Spawns · 4:58 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=322s"
+              target="_blank"
+              rel="noreferrer"
+              >Gear Spawns · 5:22 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=353s"
+              target="_blank"
+              rel="noreferrer"
+              >Gearworks · 5:53 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=370s"
+              target="_blank"
+              rel="noreferrer"
+              >Cipher Puzzle(Flail) · 6:10 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=415s"
+              target="_blank"
+              rel="noreferrer"
+              >PaP · 6:55 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=432s"
+              target="_blank"
+              rel="noreferrer"
+              >Scythe Spine · 7:12 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=453s"
+              target="_blank"
+              rel="noreferrer"
+              >Flail Upgrade · 7:33 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=491s"
+              target="_blank"
+              rel="noreferrer"
+              >Constellation Spawns · 8:11 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=516s"
+              target="_blank"
+              rel="noreferrer"
+              >PaP/Flail Upgrade · 8:36 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=555s"
+              target="_blank"
+              rel="noreferrer"
+              >Flail Trial · 9:15 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=591s"
+              target="_blank"
+              rel="noreferrer"
+              >Hammer Run · 9:51 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=658s"
+              target="_blank"
+              rel="noreferrer"
+              >Hammer Trick · 10:58 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=671s"
+              target="_blank"
+              rel="noreferrer"
+              >If Trick not working/3rd Blood Pool · 11:11 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=708s"
+              target="_blank"
+              rel="noreferrer"
+              >Hammer Puzzle · 11:48 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=732s"
+              target="_blank"
+              rel="noreferrer"
+              >Hammer Trial · 12:12 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=759s"
+              target="_blank"
+              rel="noreferrer"
+              >Shield · 12:39 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=767s"
+              target="_blank"
+              rel="noreferrer"
+              >Raven Statue · 12:47 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=779s"
+              target="_blank"
+              rel="noreferrer"
+              >Blood Pool Upgrade · 12:59 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=805s"
+              target="_blank"
+              rel="noreferrer"
+              >Raven Spawns(Spawn room) · 13:25 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=817s"
+              target="_blank"
+              rel="noreferrer"
+              >Raven Spawns(Ice Cave) · 13:37 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=828s"
+              target="_blank"
+              rel="noreferrer"
+              >Raven Spawns(Archives) · 13:48 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=847s"
+              target="_blank"
+              rel="noreferrer"
+              >Raven Spawns(Overlook) · 14:07 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=856s"
+              target="_blank"
+              rel="noreferrer"
+              >Raven Spawns(Phylactery) · 14:16 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=878s"
+              target="_blank"
+              rel="noreferrer"
+              >Raven Spawns(Blood Altar) · 14:38 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=902s"
+              target="_blank"
+              rel="noreferrer"
+              >Corpse Eater Shield · 15:02 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=953s"
+              target="_blank"
+              rel="noreferrer"
+              >Bomber Zombie · 15:53 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=966s"
+              target="_blank"
+              rel="noreferrer"
+              >Radio · 16:06 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=984s"
+              target="_blank"
+              rel="noreferrer"
+              >Blood Symbols · 16:24 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1010s"
+              target="_blank"
+              rel="noreferrer"
+              >Shield Trial · 16:50 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1037s"
+              target="_blank"
+              rel="noreferrer"
+              >Scythe Upgrade · 17:17 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1047s"
+              target="_blank"
+              rel="noreferrer"
+              >Boss Fight Setup · 17:27 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1066s"
+              target="_blank"
+              rel="noreferrer"
+              >Scythe Trial · 17:46 ↗</a
+            ><a
+              class="time"
+              href="https://www.youtube.com/watch?v=45dG6srGVMA&t=1090s"
+              target="_blank"
+              rel="noreferrer"
+              >Boss Fight · 18:10 ↗</a
+            >
+          </div>
+          <p class="source-note">
+            Summary and frame selections prepared from the supplied video’s transcript, chapter list
+            and footage. Narration spelling has been corrected where the game labels are clear. The
+            order follows the creator’s route; example rune codes, constellation shapes and pool
+            symbols belong to that recorded run. Gameplay and screenshots belong to their respective
+            owners. Original guide:
+            <a href="https://www.youtube.com/watch?v=45dG6srGVMA"
+              >SchleyerZ — *SOLO* Frozen Dawn Easter Egg Guide (2025), Kingfall Achievement</a
+            >.
+          </p>
+        </section>
+      </main>
+    </div>
+    <dialog id="viewer" aria-labelledby="viewer-title">
+      <div class="dialog-bar">
+        <h2 id="viewer-title">Reference</h2>
+        <button class="close" aria-label="Close reference">Close ×</button>
+      </div>
+      <div id="viewer-content"></div>
+      <p id="viewer-link"></p>
+    </dialog>
+    <footer>Frozen Dawn · Solo reference · 102 video frames · 48 source chapters</footer>
+    <script>
+      const viewer = document.querySelector("#viewer")
+      const title = document.querySelector("#viewer-title")
+      const content = document.querySelector("#viewer-content")
+      const link = document.querySelector("#viewer-link")
+      let opener
+      function showReference(button) {
+        opener = button
+        content.replaceChildren()
+        link.replaceChildren()
+        const videoLink = document.createElement("a")
+        videoLink.target = "_blank"
+        videoLink.rel = "noreferrer"
+        videoLink.textContent = "Open this moment on YouTube ↗"
+        if (button.hasAttribute("data-image")) {
+          title.textContent = button.dataset.caption
+          const img = new Image()
+          img.src = button.querySelector("img").src
+          img.alt = button.dataset.caption
+          img.className = "dialog-image"
+          content.append(img)
+          videoLink.href = `https://www.youtube.com/watch?v=45dG6srGVMA&t=${button.dataset.time}s`
+        } else {
+          title.textContent = button.dataset.title
+          const frame = document.createElement("iframe")
+          frame.className = "video-frame"
+          frame.title = `SchleyerZ walkthrough: ${button.dataset.title}`
+          frame.src = `https://www.youtube-nocookie.com/embed/45dG6srGVMA?start=${button.dataset.start}&end=${button.dataset.end}&autoplay=1&rel=0`
+          frame.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen"
+          frame.allowFullscreen = true
+          frame.referrerPolicy = "strict-origin-when-cross-origin"
+          content.append(frame)
+          const help = document.createElement("p")
+          help.className = "video-help"
+          help.textContent =
+            "If YouTube blocks playback in this browser or a saved local file, use the timestamped link below. Video needs internet."
+          content.append(help)
+          videoLink.href = `https://www.youtube.com/watch?v=45dG6srGVMA&t=${button.dataset.start}s`
+        }
+        link.append(videoLink)
+        viewer.showModal()
+      }
+      document.addEventListener("click", (event) => {
+        const button = event.target.closest(".image-open,.play")
+        if (button) showReference(button)
+      })
+      document.querySelector(".close").addEventListener("click", () => viewer.close())
+      viewer.addEventListener("click", (event) => {
+        if (event.target === viewer) {
+          const r = viewer.getBoundingClientRect()
+          if (
+            event.clientX < r.left ||
+            event.clientX > r.right ||
+            event.clientY < r.top ||
+            event.clientY > r.bottom
+          )
+            viewer.close()
+        }
+      })
+      viewer.addEventListener("close", () => {
+        content.replaceChildren()
+        opener?.focus()
+      })
+      const observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries)
+            if (entry.isIntersecting) {
+              document.querySelector("nav [aria-current]")?.removeAttribute("aria-current")
+              document
+                .querySelector(`nav a[href="#${entry.target.id}"]`)
+                ?.setAttribute("aria-current", "location")
+            }
+        },
+        { rootMargin: "0px 0px -70% 0px" },
+      )
+      document.querySelectorAll("main > .stage").forEach((section) => observer.observe(section))
+      window.addEventListener("beforeprint", () => {
+        document.querySelectorAll(".atlas").forEach((el) => {
+          el.dataset.printWasOpen = String(el.open)
+          el.open = true
+        })
+      })
+      window.addEventListener("afterprint", () => {
+        document.querySelectorAll(".atlas").forEach((el) => {
+          el.open = el.dataset.printWasOpen === "true"
+          delete el.dataset.printWasOpen
+        })
+      })
+    </script>
+  </body>
+</html>
