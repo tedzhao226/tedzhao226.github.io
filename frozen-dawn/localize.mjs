@@ -7,12 +7,12 @@ const root = path.dirname(new URL(import.meta.url).pathname)
 export const languages = [
   { code: "en", label: "English", steam: "english" },
   { code: "zh-CN", label: "简体中文", steam: "schinese" },
+  { code: "zh-TW", label: "繁體中文", steam: "tchinese" },
   { code: "ja", label: "日本語", steam: "japanese" },
   { code: "ko", label: "한국어", steam: "koreana" },
   { code: "ru", label: "Русский", steam: "russian" },
   { code: "fr", label: "Français", steam: "french" },
   { code: "es", label: "Español", steam: "spanish" },
-  { code: "zh-TW", label: "繁體中文", steam: "tchinese" },
 ]
 const units = new Set([
   "title",
