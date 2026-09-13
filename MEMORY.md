@@ -100,9 +100,3 @@
 - The cipher step now links to `#orrery-chart`, and a warning note before the chart explains the underside view, the left/right mirror, the 9→3 and 7:30→4:30 position examples, and that the chart’s landmarks must not be mirrored again.
 - The landmark table, the own-game code reminder, and the screenshots are unchanged; all seven languages cover 783 entries.
 - The video segment was checked through the preserved transcript and frames under `private/frozen-dawn-source/`, not by playback.
-
-## 2026-09-13 — Traditional Chinese edition prepared
-
-- Added the `zh-TW` / 繁體中文 locale to the shared online and offline guide.
-- Traditional Chinese uses the Steam `tchinese` terminology source where verified; descriptive labels retain English references.
-- The locale includes the orrery viewpoint warning and covers all 783 catalog entries.
