@@ -1,5 +1,6 @@
 import fs from "node:fs/promises"
 import path from "node:path"
+import { localize } from "./localize.mjs"
 const root = path.dirname(new URL(import.meta.url).pathname)
 const video = "https://www.youtube.com/watch?v=45dG6srGVMA"
 const stamp = (t) => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`
@@ -513,7 +514,9 @@ const js = await fs.readFile(path.join(root, "reader.js"), "utf8")
 const head = `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A chronological Frozen Dawn solo Easter egg guide with original video screenshots, puzzle charts, constellation viewpoints and raven locations."><title>Frozen Dawn — Kingfall solo field guide</title><style>${css}</style></head><body>`
 await fs.writeFile(
   path.join(root, "index.html"),
-  `${head}${body}<script>${js}</script></body></html>`,
+  await localize(`${head}${body}<script>${js}</script></body></html>`, {
+    collect: process.argv.includes("--catalog"),
+  }),
 )
 await fs.writeFile(
   path.join(root, "selected-frames.json"),

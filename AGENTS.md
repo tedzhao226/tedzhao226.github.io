@@ -17,6 +17,8 @@ Treat `frozen-dawn/assets/` as the canonical screenshot inputs; filenames record
 When changing gameplay instructions or screenshots, consult [the guide’s reference notes](frozen-dawn/README.md) and verify the relevant video segment.
 Preserve source attribution, chronological stages, and the distinction between example patterns and the player’s own puzzle values.
 Keep raw research material under Git-ignored `private/`.
+Keep translations inside the same artifact and follow [the language editing notes](frozen-dawn/README.md#languages) when adding a language or changing English text.
+Use verified official terminology where available and retain English references for descriptive translations.
 
 ## Verification
 

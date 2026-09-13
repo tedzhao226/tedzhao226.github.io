@@ -19,6 +19,7 @@ npm run guide:serve
 
 Open [the local guide](http://127.0.0.1:8765/frozen-dawn/).
 Edit the walkthrough in `frozen-dawn/`; see its [README](frozen-dawn/README.md) for sources and editing notes.
+Use the language selector for English, Simplified Chinese, Japanese, Korean, Russian, French, or Spanish; the offline download includes every language.
 This single artifact folder holds its editable source, screenshots, and both generated HTML editions.
 
 ## Publish

@@ -1,0 +1,3082 @@
+{
+  "t_e9bca8942a14": {
+    "source": "A chronological Frozen Dawn solo Easter egg guide with original video screenshots, puzzle charts, constellation viewpoints and raven locations.",
+    "kind": "text"
+  },
+  "h_6096fba291ed": {
+    "source": "Frozen Dawn — Kingfall solo field guide",
+    "kind": "html"
+  },
+  "h_41517c55251d": {
+    "source": "Skip to the walkthrough",
+    "kind": "html"
+  },
+  "h_4ebcb609245e": {
+    "source": "Guide language",
+    "kind": "html"
+  },
+  "h_3807640fd09a": {
+    "source": "Translation notes",
+    "kind": "html"
+  },
+  "h_e596c7dae9c5": {
+    "source": "Call of Duty: WWII / Nazi Zombies / Solo",
+    "kind": "html"
+  },
+  "h_145ccc0457f0": {
+    "source": "Frozen Dawn<span>Kingfall field guide</span>",
+    "kind": "html"
+  },
+  "h_734d9f20bcfb": {
+    "source": "Based on <a href=\"https://www.youtube.com/watch?v=45dG6srGVMA\" target=\"_blank\" rel=\"noreferrer\">SchleyerZ’s 18:49 walkthrough</a> · 7 June 2025",
+    "kind": "html"
+  },
+  "h_a90e8bccad1d": {
+    "source": "Save offline HTML ↓",
+    "kind": "html"
+  },
+  "h_e1dd587e94d7": {
+    "source": "Game terminology",
+    "kind": "html"
+  },
+  "h_9fe2dbf4708b": {
+    "source": "Map and achievement names follow the official PC localization. Other location and equipment labels include English references when the official wording could not be verified. The source video and screenshots remain in English.",
+    "kind": "html"
+  },
+  "h_0a93ec27a4b5": {
+    "source": "Official game achievements",
+    "kind": "html"
+  },
+  "t_daad09b2b007": {
+    "source": "Walkthrough stages",
+    "kind": "text"
+  },
+  "h_60e180e041e7": {
+    "source": "Playthrough order",
+    "kind": "html"
+  },
+  "h_46da18de4896": {
+    "source": "<span>01</span>Open Thule &amp; collect the first pieces",
+    "kind": "html"
+  },
+  "h_575bdc95dd42": {
+    "source": "<span>02</span>Claim the scythe &amp; finish the stone set",
+    "kind": "html"
+  },
+  "h_cf6d9598fc91": {
+    "source": "<span>03</span>Solve the stones &amp; bring the hammer home",
+    "kind": "html"
+  },
+  "h_4fac0bdf9761": {
+    "source": "<span>04</span>Collect the books &amp; gears; unlock the flail",
+    "kind": "html"
+  },
+  "h_dc65c168840b": {
+    "source": "<span>05</span>Raise Pack-a-Punch &amp; trace three constellations",
+    "kind": "html"
+  },
+  "h_1e4c59e98681": {
+    "source": "<span>06</span>Pass the Moonraven / flail trial",
+    "kind": "html"
+  },
+  "h_ee558c57af77": {
+    "source": "<span>07</span>Carry the lightning &amp; solve the hammer wall",
+    "kind": "html"
+  },
+  "h_1e1605a8533f": {
+    "source": "<span>08</span>Pass the hammer trial &amp; begin the shield upgrade",
+    "kind": "html"
+  },
+  "h_4bb08cb73b4f": {
+    "source": "<span>09</span>Raven location atlas",
+    "kind": "html"
+  },
+  "h_7933acbc97f5": {
+    "source": "<span>10</span>Record the pool order &amp; complete the shield",
+    "kind": "html"
+  },
+  "h_965e62f913c6": {
+    "source": "<span>11</span>Finish the scythe &amp; prepare for the boss",
+    "kind": "html"
+  },
+  "h_d51512238c80": {
+    "source": "<span>12</span>Enter the God-King fight",
+    "kind": "html"
+  },
+  "h_9ff38a934cab": {
+    "source": "<span>↗</span>All video chapters",
+    "kind": "html"
+  },
+  "h_1df19d53468d": {
+    "source": "Times are video timestamps, not in-game rounds. Use your own rune codes and symbols.",
+    "kind": "html"
+  },
+  "h_a47ecc6e22ca": {
+    "source": "Quick references",
+    "kind": "html"
+  },
+  "h_cffe39516b51": {
+    "source": "Pillars",
+    "kind": "html"
+  },
+  "h_8c3e467dc5c8": {
+    "source": "Cipher",
+    "kind": "html"
+  },
+  "h_d4714deb4b12": {
+    "source": "Constellations",
+    "kind": "html"
+  },
+  "h_cabb58ec4b5b": {
+    "source": "Hammer wall",
+    "kind": "html"
+  },
+  "h_bcefae2c1db8": {
+    "source": "Ravens",
+    "kind": "html"
+  },
+  "h_232e46ebbd07": {
+    "source": "Blood symbols",
+    "kind": "html"
+  },
+  "h_27617c2e1c19": {
+    "source": "Follow the stages in order. Open any screenshot to inspect the location or pattern; each stage can play its part of the original video. Text and screenshots work offline in the saved HTML. Video playback needs internet.",
+    "kind": "html"
+  },
+  "h_4ee17e226401": {
+    "source": "Crash Site → Ice Caves → Morgue",
+    "kind": "html"
+  },
+  "h_087adce79951": {
+    "source": "Open Thule &amp; collect the first pieces",
+    "kind": "html"
+  },
+  "t_5109d652836c": {
+    "source": "Open Thule & collect the first pieces",
+    "kind": "text"
+  },
+  "h_509e6575adca": {
+    "source": "▶ Play this stage",
+    "kind": "html"
+  },
+  "h_084aed73b609": {
+    "source": "Open on YouTube · 0:06 ↗",
+    "kind": "html"
+  },
+  "h_8dcb20170ed0": {
+    "source": "Use the video’s early-round route: begin several weapon quests together and keep moving the battery forward.",
+    "kind": "html"
+  },
+  "h_7455d4640a6d": {
+    "source": "Loadout",
+    "kind": "html"
+  },
+  "h_453669bf3497": {
+    "source": "Creator’s recommendation",
+    "kind": "html"
+  },
+  "h_88982a293a87": {
+    "source": "Starting weapon",
+    "kind": "html"
+  },
+  "h_f84513e73984": {
+    "source": "9mm SAP",
+    "kind": "html"
+  },
+  "h_8302f971b58f": {
+    "source": "Specialist",
+    "kind": "html"
+  },
+  "h_82b601a175c7": {
+    "source": "Frontline",
+    "kind": "html"
+  },
+  "h_6e58b577a084": {
+    "source": "Mods",
+    "kind": "html"
+  },
+  "h_3f3bcb8c453b": {
+    "source": "Determination · Hand to Hand · Vicious",
+    "kind": "html"
+  },
+  "h_7f2465ac7cef": {
+    "source": "Equipment",
+    "kind": "html"
+  },
+  "h_aa9b2f41ef0d": {
+    "source": "Sticky grenades",
+    "kind": "html"
+  },
+  "h_22b0ef7dd9a7": {
+    "source": "On <strong>round 1</strong>, collect the <strong>wires</strong> and <strong>battery</strong> at Crash Site. Carry the battery to the Thule entrance. Save your starting points; the creator delays Quick Revive.",
+    "kind": "html"
+  },
+  "h_e3b465df39f9": {
+    "source": "Stand on the <strong>circular floor plate</strong> and melee the five zombies while on it. The entrance opens. Move down, buy the next door and kill the central special enemy.",
+    "kind": "html"
+  },
+  "h_25f31fe3a088": {
+    "source": "Stand in the first blood pool on the left and make <strong>five kills</strong>. In this route, four are available now; finish it with the first zombie of round 2.",
+    "kind": "html"
+  },
+  "h_228fc9c08e21": {
+    "source": "During the round change, move the battery to the <strong>Morgue door on the right</strong>. Pick up <strong>stone 1</strong> by the Overlook ledge.",
+    "kind": "html"
+  },
+  "h_69723ede047a": {
+    "source": "Earn <strong>1,250 points</strong>, open the Morgue, and get <strong>five kills in its blood pool</strong>. Take <strong>stone 2</strong> to the right of its armor station.",
+    "kind": "html"
+  },
+  "h_f3c7fbb7b75f": {
+    "source": "Move the battery toward the Phylactery door. Collect the <strong>Bloodraven stone</strong> on the left. This is a separate item from the four puzzle stones; save it for the third pool.",
+    "kind": "html"
+  },
+  "h_1b26c3205c95": {
+    "source": "On round 3, earn points and <strong>leave one zombie alive</strong>. Enter the Phylactery and move the battery toward the Overlook door. Buy Quick Revive when you can afford it before the lockdown.",
+    "kind": "html"
+  },
+  "t_9bcb5ab1d6c4": {
+    "source": "Wires at Crash Site",
+    "kind": "text"
+  },
+  "t_0a20950f15fc": {
+    "source": "Enlarge: Wires at Crash Site",
+    "kind": "text"
+  },
+  "t_59acfd987f7b": {
+    "source": "Wires at Crash Site — Search the ground beside the wreckage.",
+    "kind": "text"
+  },
+  "h_a1c1212619a3": {
+    "source": "Enlarge",
+    "kind": "html"
+  },
+  "h_9bcb5ab1d6c4": {
+    "source": "Wires at Crash Site",
+    "kind": "html"
+  },
+  "h_c668a97d2457": {
+    "source": "Search the ground beside the wreckage.",
+    "kind": "html"
+  },
+  "h_d0bcd0c6f692": {
+    "source": "Video frame · 0:26 ↗",
+    "kind": "html"
+  },
+  "t_df18d777dbae": {
+    "source": "Battery beneath the wreckage",
+    "kind": "text"
+  },
+  "t_bab2b08f49e4": {
+    "source": "Enlarge: Battery beneath the wreckage",
+    "kind": "text"
+  },
+  "h_df18d777dbae": {
+    "source": "Battery beneath the wreckage",
+    "kind": "html"
+  },
+  "h_94de2fc7f2d5": {
+    "source": "Video frame · 0:30 ↗",
+    "kind": "html"
+  },
+  "t_5a1e84a81594": {
+    "source": "The opening floor plate",
+    "kind": "text"
+  },
+  "t_595293bab6e7": {
+    "source": "Enlarge: The opening floor plate",
+    "kind": "text"
+  },
+  "h_5a1e84a81594": {
+    "source": "The opening floor plate",
+    "kind": "html"
+  },
+  "h_65a6e9565832": {
+    "source": "Video frame · 0:34 ↗",
+    "kind": "html"
+  },
+  "t_04b828c8ff96": {
+    "source": "First blood-pool area",
+    "kind": "text"
+  },
+  "t_ecfd924a640d": {
+    "source": "Enlarge: First blood-pool area",
+    "kind": "text"
+  },
+  "t_e33456f11bb9": {
+    "source": "First blood-pool area — Ice Caves, left after entering.",
+    "kind": "text"
+  },
+  "h_04b828c8ff96": {
+    "source": "First blood-pool area",
+    "kind": "html"
+  },
+  "h_f1f60b4b2f12": {
+    "source": "Ice Caves, left after entering.",
+    "kind": "html"
+  },
+  "h_6aeda86a9fde": {
+    "source": "Video frame · 0:51 ↗",
+    "kind": "html"
+  },
+  "t_e9f19ac54d08": {
+    "source": "Stone 1: Overlook ledge",
+    "kind": "text"
+  },
+  "t_0808ddcee162": {
+    "source": "Enlarge: Stone 1: Overlook ledge",
+    "kind": "text"
+  },
+  "h_e9f19ac54d08": {
+    "source": "Stone 1: Overlook ledge",
+    "kind": "html"
+  },
+  "h_a619016d7c9e": {
+    "source": "Video frame · 1:00 ↗",
+    "kind": "html"
+  },
+  "t_bab187d01f8b": {
+    "source": "Second blood pool: Morgue",
+    "kind": "text"
+  },
+  "t_487fbab1e5d4": {
+    "source": "Enlarge: Second blood pool: Morgue",
+    "kind": "text"
+  },
+  "h_bab187d01f8b": {
+    "source": "Second blood pool: Morgue",
+    "kind": "html"
+  },
+  "h_43308885b8f4": {
+    "source": "Video frame · 1:11 ↗",
+    "kind": "html"
+  },
+  "t_8e6393238bd2": {
+    "source": "Stone 2: beside Morgue armor",
+    "kind": "text"
+  },
+  "t_92de51c93780": {
+    "source": "Enlarge: Stone 2: beside Morgue armor",
+    "kind": "text"
+  },
+  "h_8e6393238bd2": {
+    "source": "Stone 2: beside Morgue armor",
+    "kind": "html"
+  },
+  "h_f63b26e88789": {
+    "source": "Video frame · 1:19 ↗",
+    "kind": "html"
+  },
+  "t_4c5bea83f7df": {
+    "source": "Bloodraven stone",
+    "kind": "text"
+  },
+  "t_ab752fa0ee0b": {
+    "source": "Enlarge: Bloodraven stone",
+    "kind": "text"
+  },
+  "t_55a62ce86a0d": {
+    "source": "Bloodraven stone — Keep it for the Overlook blood pool.",
+    "kind": "text"
+  },
+  "h_4c5bea83f7df": {
+    "source": "Bloodraven stone",
+    "kind": "html"
+  },
+  "h_98551507f34d": {
+    "source": "Keep it for the Overlook blood pool.",
+    "kind": "html"
+  },
+  "h_a119e9a5e428": {
+    "source": "Video frame · 1:29 ↗",
+    "kind": "html"
+  },
+  "h_82f6e400fce7": {
+    "source": "<span>Before moving on</span>Two pools filled; wires, Bloodraven stone and two puzzle stones collected. Battery moved toward Overlook.",
+    "kind": "html"
+  },
+  "h_50bd78197b4a": {
+    "source": "Phylactery → Overlook → Archives → Blood Altar",
+    "kind": "html"
+  },
+  "h_e6ee4ed1870c": {
+    "source": "Claim the scythe &amp; finish the stone set",
+    "kind": "html"
+  },
+  "t_d5fd9d2418ad": {
+    "source": "Claim the scythe & finish the stone set",
+    "kind": "text"
+  },
+  "h_6b85ab622b3e": {
+    "source": "Open on YouTube · 1:40 ↗",
+    "kind": "html"
+  },
+  "h_b9e93814f851": {
+    "source": "Interact with the <strong>forge symbol in the Phylactery</strong> to begin the scythe lockdown. Survive for about <strong>30 seconds</strong>. Avoid unnecessary kills: this lockdown can advance rounds quickly. Pick up the scythe afterward.",
+    "kind": "html"
+  },
+  "h_6e8a64795017": {
+    "source": "Open the Overlook and put the battery in its <strong>cauldron</strong>. Get about <strong>15 nearby kills</strong> until the battery glows purple by itself.",
+    "kind": "html"
+  },
+  "h_64c0781685a9": {
+    "source": "Open the <strong>Thulian Archives</strong>. Take <strong>stone 3</strong> from the ground to the right of Speed Cola.",
+    "kind": "html"
+  },
+  "h_9e5b624b4507": {
+    "source": "Open the <strong>Blood Altar</strong>. Take <strong>stone 4</strong> from the ledge. While here, check the possible <strong>gear</strong> on the ledge right of the Mystery Box and the <strong>book</strong> near the blood pool.",
+    "kind": "html"
+  },
+  "t_403b8e0956b8": {
+    "source": "Scythe forge / lockdown switch",
+    "kind": "text"
+  },
+  "t_43d0bfa77de6": {
+    "source": "Enlarge: Scythe forge / lockdown switch",
+    "kind": "text"
+  },
+  "h_403b8e0956b8": {
+    "source": "Scythe forge / lockdown switch",
+    "kind": "html"
+  },
+  "h_6782f985c775": {
+    "source": "Video frame · 1:44 ↗",
+    "kind": "html"
+  },
+  "t_2de8143df41f": {
+    "source": "Battery cauldron at Overlook",
+    "kind": "text"
+  },
+  "t_5dccd631fcbf": {
+    "source": "Enlarge: Battery cauldron at Overlook",
+    "kind": "text"
+  },
+  "h_2de8143df41f": {
+    "source": "Battery cauldron at Overlook",
+    "kind": "html"
+  },
+  "h_a255d34f972e": {
+    "source": "Video frame · 2:07 ↗",
+    "kind": "html"
+  },
+  "t_add7882f72fd": {
+    "source": "Stone 3: right of Speed Cola",
+    "kind": "text"
+  },
+  "t_309ac6916050": {
+    "source": "Enlarge: Stone 3: right of Speed Cola",
+    "kind": "text"
+  },
+  "h_add7882f72fd": {
+    "source": "Stone 3: right of Speed Cola",
+    "kind": "html"
+  },
+  "h_1df9d013c3f4": {
+    "source": "Video frame · 2:19 ↗",
+    "kind": "html"
+  },
+  "t_c92449e9e30d": {
+    "source": "Stone 4: Blood Altar ledge",
+    "kind": "text"
+  },
+  "t_ad341365d0ef": {
+    "source": "Enlarge: Stone 4: Blood Altar ledge",
+    "kind": "text"
+  },
+  "h_c92449e9e30d": {
+    "source": "Stone 4: Blood Altar ledge",
+    "kind": "html"
+  },
+  "h_b5cc7ea58e03": {
+    "source": "Video frame · 2:26 ↗",
+    "kind": "html"
+  },
+  "t_e9e2d51f2906": {
+    "source": "Blood Altar gear and book area",
+    "kind": "text"
+  },
+  "t_80a9e0608986": {
+    "source": "Enlarge: Blood Altar gear and book area",
+    "kind": "text"
+  },
+  "h_e9e2d51f2906": {
+    "source": "Blood Altar gear and book area",
+    "kind": "html"
+  },
+  "h_80ec86f715ed": {
+    "source": "Video frame · 2:34 ↗",
+    "kind": "html"
+  },
+  "h_bce3d17a0441": {
+    "source": "<span>Before moving on</span>Base scythe acquired; battery charged; all four puzzle stones collected.",
+    "kind": "html"
+  },
+  "h_fa31439fea9a": {
+    "source": "Overlook · Rune order + four rotating pillars",
+    "kind": "html"
+  },
+  "h_caa7d4c43781": {
+    "source": "Solve the stones &amp; bring the hammer home",
+    "kind": "html"
+  },
+  "t_7c58fc7e3ac7": {
+    "source": "Solve the stones & bring the hammer home",
+    "kind": "text"
+  },
+  "h_36fd470d9291": {
+    "source": "Open on YouTube · 2:42 ↗",
+    "kind": "html"
+  },
+  "h_594da2036309": {
+    "source": "Insert the four stones into the <strong>Overlook wall slots</strong>. Read the symbols under them <strong>left to right</strong>. This is <em>your game’s</em> code.",
+    "kind": "html"
+  },
+  "h_b3ebb77f0a66": {
+    "source": "Find the matching symbols on the rocks around the middle. Kill one zombie beside each symbol in the wall’s order. <strong>Check that lightning enters the correct symbol</strong> after every kill. The creator’s M → F → S → R is only an example.",
+    "kind": "html"
+  },
+  "h_217d75a4fa03": {
+    "source": "When lightning flashes in the center, solve each of the four pillars using the table below. All four blocks on each pillar must face inward.",
+    "kind": "html"
+  },
+  "h_8edbe04c6dec": {
+    "source": "Find the floating hammer around the main loop. <strong>Go prone before approaching it</strong>, crawl underneath and interact. Approaching upright sends it elsewhere.",
+    "kind": "html"
+  },
+  "h_7fca1804aa3c": {
+    "source": "Guide it back to the Overlook center. It moves <strong>away from you</strong>, so stand on the opposite side from the direction you want it to travel. Pick it up when it reaches the center.",
+    "kind": "html"
+  },
+  "t_c211b87f9be7": {
+    "source": "Four stone slots",
+    "kind": "text"
+  },
+  "t_5625d1d2c2e0": {
+    "source": "Enlarge: Four stone slots",
+    "kind": "text"
+  },
+  "t_434405fc4c5c": {
+    "source": "Four stone slots — Read the wall symbols from left to right.",
+    "kind": "text"
+  },
+  "h_c211b87f9be7": {
+    "source": "Four stone slots",
+    "kind": "html"
+  },
+  "h_3e2c7e058b2d": {
+    "source": "Read the wall symbols from left to right.",
+    "kind": "html"
+  },
+  "h_eaf7cbe89a00": {
+    "source": "Video frame · 2:44 ↗",
+    "kind": "html"
+  },
+  "t_ed2f28a0915d": {
+    "source": "Kill beside the matching rock rune",
+    "kind": "text"
+  },
+  "t_514776062373": {
+    "source": "Enlarge: Kill beside the matching rock rune",
+    "kind": "text"
+  },
+  "h_ed2f28a0915d": {
+    "source": "Kill beside the matching rock rune",
+    "kind": "html"
+  },
+  "h_562409a52c23": {
+    "source": "Video frame · 3:06 ↗",
+    "kind": "html"
+  },
+  "t_edac5d27bdbb": {
+    "source": "Floating hammer",
+    "kind": "text"
+  },
+  "t_383824c8fd3e": {
+    "source": "Enlarge: Floating hammer",
+    "kind": "text"
+  },
+  "t_fa8ce8b20ec4": {
+    "source": "Floating hammer — Approach prone; then guide it away from you.",
+    "kind": "text"
+  },
+  "h_edac5d27bdbb": {
+    "source": "Floating hammer",
+    "kind": "html"
+  },
+  "h_9d96660da18b": {
+    "source": "Approach prone; then guide it away from you.",
+    "kind": "html"
+  },
+  "h_b849e190b6d3": {
+    "source": "Video frame · 4:27 ↗",
+    "kind": "html"
+  },
+  "h_5ca8efe53c53": {
+    "source": "Pillar reference",
+    "kind": "html"
+  },
+  "h_dfb061e2393a": {
+    "source": "Name the blocks <strong>A, B, C, D from top to bottom</strong>. First align the top three: shoot <strong>B until A faces inward</strong>, then <strong>C until B faces inward</strong>, then <strong>D until C faces inward</strong>. Now inspect the bottom block D.",
+    "kind": "html"
+  },
+  "h_a09d399a6e0b": {
+    "source": "D’s remaining direction",
+    "kind": "html"
+  },
+  "h_af140bacf8a5": {
+    "source": "Shoot A",
+    "kind": "html"
+  },
+  "h_6c71c7ee9ea7": {
+    "source": "Shoot B",
+    "kind": "html"
+  },
+  "h_04d0fbd0a591": {
+    "source": "Shoot C",
+    "kind": "html"
+  },
+  "h_51ae453e4317": {
+    "source": "Shoot D",
+    "kind": "html"
+  },
+  "h_883361d5d682": {
+    "source": "Right",
+    "kind": "html"
+  },
+  "h_530bde6f2273": {
+    "source": "Away from center",
+    "kind": "html"
+  },
+  "h_58eb9032e3bb": {
+    "source": "Left",
+    "kind": "html"
+  },
+  "h_88fccd2c3a53": {
+    "source": "Already inward",
+    "kind": "html"
+  },
+  "h_fd07f745e19c": {
+    "source": "Use the direction shown from the pillar’s inward-facing side. Fire individual shots. A finished pillar glows purple; repeat for all four.",
+    "kind": "html"
+  },
+  "t_a7128a6ea3c8": {
+    "source": "Creator’s pillar chart",
+    "kind": "text"
+  },
+  "t_0cb5439d3be0": {
+    "source": "Enlarge: Creator’s pillar chart",
+    "kind": "text"
+  },
+  "t_dbf5f1320961": {
+    "source": "Creator’s pillar chart — Original on-screen alignment instructions.",
+    "kind": "text"
+  },
+  "h_a7128a6ea3c8": {
+    "source": "Creator’s pillar chart",
+    "kind": "html"
+  },
+  "h_f97f81860019": {
+    "source": "Original on-screen alignment instructions.",
+    "kind": "html"
+  },
+  "h_f8cab90b45d2": {
+    "source": "Video frame · 3:54 ↗",
+    "kind": "html"
+  },
+  "t_21ed020ae6b9": {
+    "source": "Right-facing D solution",
+    "kind": "text"
+  },
+  "t_0aed7b739cb2": {
+    "source": "Enlarge: Right-facing D solution",
+    "kind": "text"
+  },
+  "h_21ed020ae6b9": {
+    "source": "Right-facing D solution",
+    "kind": "html"
+  },
+  "h_bbd88dabac93": {
+    "source": "Video frame · 4:03 ↗",
+    "kind": "html"
+  },
+  "t_a9ac63bb6947": {
+    "source": "Left-facing D solution",
+    "kind": "text"
+  },
+  "t_ab202200b993": {
+    "source": "Enlarge: Left-facing D solution",
+    "kind": "text"
+  },
+  "h_a9ac63bb6947": {
+    "source": "Left-facing D solution",
+    "kind": "html"
+  },
+  "h_4e2c0f1e7987": {
+    "source": "Video frame · 4:11 ↗",
+    "kind": "html"
+  },
+  "h_7086093a1852": {
+    "source": "<span>Before moving on</span>Four pillars glow purple; base hammer acquired at Overlook.",
+    "kind": "html"
+  },
+  "h_a6bbdf533fac": {
+    "source": "Archives · Cipher Room · Gearworks · Orrery",
+    "kind": "html"
+  },
+  "h_ae5633223eb5": {
+    "source": "Collect the books &amp; gears; unlock the flail",
+    "kind": "html"
+  },
+  "t_3d1d8317dd26": {
+    "source": "Collect the books & gears; unlock the flail",
+    "kind": "text"
+  },
+  "h_e57874c05a7b": {
+    "source": "Open on YouTube · 4:58 ↗",
+    "kind": "html"
+  },
+  "h_c601c8b1c75f": {
+    "source": "Find <strong>two books</strong> among the four possible spots below. Insert them into the pedestal in the <strong>upper Archives</strong> to open the Cipher Room.",
+    "kind": "html"
+  },
+  "h_0c12d6edde45": {
+    "source": "Find <strong>three gears</strong>. Check the Cipher Room after opening it. The narration says “six” but then lists the <strong>seven candidates</strong> shown below.",
+    "kind": "html"
+  },
+  "h_87ad58d9a5f3": {
+    "source": "Install the three gears in the <strong>Gearworks</strong>. Kill zombies nearby, either downstairs by the gears or upstairs in the main Archives, until the Orrery activates.",
+    "kind": "html"
+  },
+  "h_3e88b949d4ca": {
+    "source": "Read the <strong>colored orb positions on the cipher wall</strong>. Match each orb’s position on the Orrery using the orientation chart below.",
+    "kind": "html"
+  },
+  "h_e0a3646efb25": {
+    "source": "Interact with the matching <strong>colored control orb at the lower right</strong> as the moving orb approaches its target. There are <strong>eight positions</strong>: four cardinal directions and four diagonals. A wrong solution resets after a short delay.",
+    "kind": "html"
+  },
+  "h_93a36ac0d64b": {
+    "source": "When all orbs match, take the <strong>Broken Flail</strong>.",
+    "kind": "html"
+  },
+  "h_690dc0d0621a": {
+    "source": "Book locations · collect 2",
+    "kind": "html"
+  },
+  "t_a05015d09c72": {
+    "source": "Morgue",
+    "kind": "text"
+  },
+  "t_e1de481a3fe0": {
+    "source": "Enlarge: Morgue",
+    "kind": "text"
+  },
+  "t_f65881fcbb3e": {
+    "source": "Morgue — Before the drop-off.",
+    "kind": "text"
+  },
+  "h_a05015d09c72": {
+    "source": "Morgue",
+    "kind": "html"
+  },
+  "h_053b4fb82b0a": {
+    "source": "Before the drop-off.",
+    "kind": "html"
+  },
+  "h_652a6e573315": {
+    "source": "Video frame · 5:01 ↗",
+    "kind": "html"
+  },
+  "t_fb00c4fc99ad": {
+    "source": "Blood Altar",
+    "kind": "text"
+  },
+  "t_f37634235b6e": {
+    "source": "Enlarge: Blood Altar",
+    "kind": "text"
+  },
+  "t_2c47d04920af": {
+    "source": "Blood Altar — Near the blood pool.",
+    "kind": "text"
+  },
+  "h_fb00c4fc99ad": {
+    "source": "Blood Altar",
+    "kind": "html"
+  },
+  "h_17938e69ef69": {
+    "source": "Near the blood pool.",
+    "kind": "html"
+  },
+  "h_4a470cc2979b": {
+    "source": "Video frame · 5:06 ↗",
+    "kind": "html"
+  },
+  "t_edf14f05b141": {
+    "source": "Overlook",
+    "kind": "text"
+  },
+  "t_d11ab33023c6": {
+    "source": "Enlarge: Overlook",
+    "kind": "text"
+  },
+  "t_e0525828e1b7": {
+    "source": "Overlook — Behind the rocks.",
+    "kind": "text"
+  },
+  "h_edf14f05b141": {
+    "source": "Overlook",
+    "kind": "html"
+  },
+  "h_6eb4f12ff531": {
+    "source": "Behind the rocks.",
+    "kind": "html"
+  },
+  "h_da8ef31fda47": {
+    "source": "Video frame · 5:10 ↗",
+    "kind": "html"
+  },
+  "t_30ef88556ad5": {
+    "source": "Passage",
+    "kind": "text"
+  },
+  "t_2182cb2306ef": {
+    "source": "Enlarge: Passage",
+    "kind": "text"
+  },
+  "t_95f27fd903ef": {
+    "source": "Passage — Right of the Pack-a-Punch transport.",
+    "kind": "text"
+  },
+  "h_30ef88556ad5": {
+    "source": "Passage",
+    "kind": "html"
+  },
+  "h_16c510b5abb0": {
+    "source": "Right of the Pack-a-Punch transport.",
+    "kind": "html"
+  },
+  "h_78c4e8fe3d88": {
+    "source": "Video frame · 5:12 ↗",
+    "kind": "html"
+  },
+  "h_9df644cf7c05": {
+    "source": "Gear locations · collect 3",
+    "kind": "html"
+  },
+  "t_83d917893405": {
+    "source": "Crash Site",
+    "kind": "text"
+  },
+  "t_32c6756f728b": {
+    "source": "Enlarge: Crash Site",
+    "kind": "text"
+  },
+  "t_2d998f1985d0": {
+    "source": "Crash Site — Right of the broken plane.",
+    "kind": "text"
+  },
+  "h_83d917893405": {
+    "source": "Crash Site",
+    "kind": "html"
+  },
+  "h_25b53250094b": {
+    "source": "Right of the broken plane.",
+    "kind": "html"
+  },
+  "h_1a6b41b9fe39": {
+    "source": "Video frame · 5:25 ↗",
+    "kind": "html"
+  },
+  "t_8ed8a964c2cf": {
+    "source": "Ice Caves",
+    "kind": "text"
+  },
+  "t_8f5f20d61bbb": {
+    "source": "Enlarge: Ice Caves",
+    "kind": "text"
+  },
+  "t_78edbe1f6b07": {
+    "source": "Ice Caves — Left of the boss-fight transport.",
+    "kind": "text"
+  },
+  "h_8ed8a964c2cf": {
+    "source": "Ice Caves",
+    "kind": "html"
+  },
+  "h_e5ab30c67ecf": {
+    "source": "Left of the boss-fight transport.",
+    "kind": "html"
+  },
+  "h_5d23e4156bf4": {
+    "source": "Video frame · 5:30 ↗",
+    "kind": "html"
+  },
+  "t_c94916364ab2": {
+    "source": "Blood Altar — Ledge to the right of the Mystery Box.",
+    "kind": "text"
+  },
+  "h_0f8f4c0e8bbf": {
+    "source": "Ledge to the right of the Mystery Box.",
+    "kind": "html"
+  },
+  "h_332f0310edb9": {
+    "source": "Video frame · 5:36 ↗",
+    "kind": "html"
+  },
+  "t_770f1ff159fe": {
+    "source": "Phylactery",
+    "kind": "text"
+  },
+  "t_231c39e43690": {
+    "source": "Enlarge: Phylactery",
+    "kind": "text"
+  },
+  "t_b6fe678f46d9": {
+    "source": "Phylactery — Left of the Grease Gun wall buy.",
+    "kind": "text"
+  },
+  "h_770f1ff159fe": {
+    "source": "Phylactery",
+    "kind": "html"
+  },
+  "h_f3aa3bb223b9": {
+    "source": "Left of the Grease Gun wall buy.",
+    "kind": "html"
+  },
+  "h_091a12a84448": {
+    "source": "Video frame · 5:41 ↗",
+    "kind": "html"
+  },
+  "t_1c706a539dc1": {
+    "source": "Overlook — Near the stairs.",
+    "kind": "text"
+  },
+  "h_c6c45aa10872": {
+    "source": "Near the stairs.",
+    "kind": "html"
+  },
+  "h_bce898a096b8": {
+    "source": "Video frame · 5:45 ↗",
+    "kind": "html"
+  },
+  "t_014d873e83b1": {
+    "source": "Cipher Room",
+    "kind": "text"
+  },
+  "t_df1007f1caa1": {
+    "source": "Enlarge: Cipher Room",
+    "kind": "text"
+  },
+  "t_bd0fd91281ea": {
+    "source": "Cipher Room — Open it with the two books first.",
+    "kind": "text"
+  },
+  "h_014d873e83b1": {
+    "source": "Cipher Room",
+    "kind": "html"
+  },
+  "h_f5be8fbd2dee": {
+    "source": "Open it with the two books first.",
+    "kind": "html"
+  },
+  "h_37a0609287e4": {
+    "source": "Video frame · 5:48 ↗",
+    "kind": "html"
+  },
+  "t_90a9202edb22": {
+    "source": "Passage — Small nook past the Pack-a-Punch transport.",
+    "kind": "text"
+  },
+  "h_03df3f40b528": {
+    "source": "Small nook past the Pack-a-Punch transport.",
+    "kind": "html"
+  },
+  "h_a094bcbdaf1d": {
+    "source": "Video frame · 5:51 ↗",
+    "kind": "html"
+  },
+  "h_18366e36ff98": {
+    "source": "Cipher → Orrery orientation",
+    "kind": "html"
+  },
+  "h_2d46cbb3f4ea": {
+    "source": "<strong>Do not copy this screenshot’s colored code.</strong> Copy the positions from your own cipher wall. The chart supplies the landmarks needed to translate its flat view to the physical machine.",
+    "kind": "html"
+  },
+  "t_13a33d582d95": {
+    "source": "Original cipher orientation chart",
+    "kind": "text"
+  },
+  "t_73877ddbf9e8": {
+    "source": "Enlarge: Original cipher orientation chart",
+    "kind": "text"
+  },
+  "t_9ad497e04db2": {
+    "source": "Original cipher orientation chart — Top = big arm / Speed Cola; bottom = small arm.",
+    "kind": "text"
+  },
+  "h_13a33d582d95": {
+    "source": "Original cipher orientation chart",
+    "kind": "html"
+  },
+  "h_f8e15608a1cc": {
+    "source": "Top = big arm / Speed Cola; bottom = small arm.",
+    "kind": "html"
+  },
+  "h_616b25cbe418": {
+    "source": "Video frame · 6:20 ↗",
+    "kind": "html"
+  },
+  "t_667cc9214b63": {
+    "source": "Orrery and colored controls",
+    "kind": "text"
+  },
+  "t_48c92cc43031": {
+    "source": "Enlarge: Orrery and colored controls",
+    "kind": "text"
+  },
+  "t_05f014942ab6": {
+    "source": "Orrery and colored controls — Stop each color as it reaches its own target.",
+    "kind": "text"
+  },
+  "h_667cc9214b63": {
+    "source": "Orrery and colored controls",
+    "kind": "html"
+  },
+  "h_2e3afc2d98f9": {
+    "source": "Stop each color as it reaches its own target.",
+    "kind": "html"
+  },
+  "h_1d4bd44dc951": {
+    "source": "Video frame · 6:30 ↗",
+    "kind": "html"
+  },
+  "h_d63590614bb7": {
+    "source": "On the chart",
+    "kind": "html"
+  },
+  "h_8b4ba8d608ad": {
+    "source": "Map landmark",
+    "kind": "html"
+  },
+  "h_d5cdfcf7ff75": {
+    "source": "Top",
+    "kind": "html"
+  },
+  "h_c0292381d8d0": {
+    "source": "Big arm / Speed Cola",
+    "kind": "html"
+  },
+  "h_470caf042c9b": {
+    "source": "Upper right",
+    "kind": "html"
+  },
+  "h_c2e6fa1a969a": {
+    "source": "Stairs toward the Cipher Room",
+    "kind": "html"
+  },
+  "h_1e2198758b6d": {
+    "source": "Lower right",
+    "kind": "html"
+  },
+  "h_f28916732515": {
+    "source": "Hallway toward Overlook",
+    "kind": "html"
+  },
+  "h_479ad21ac909": {
+    "source": "Bottom",
+    "kind": "html"
+  },
+  "h_2b48dfd9b78f": {
+    "source": "Small arm",
+    "kind": "html"
+  },
+  "h_57b2c212e7af": {
+    "source": "Lower left",
+    "kind": "html"
+  },
+  "h_7ef772f3e201": {
+    "source": "Stairs toward Gearworks",
+    "kind": "html"
+  },
+  "h_a141824b52bd": {
+    "source": "<span>Before moving on</span>Broken Flail acquired; keep access to the scythe for the next step.",
+    "kind": "html"
+  },
+  "h_32c2de21ec4c": {
+    "source": "Interleave three transport rides with the flail plates",
+    "kind": "html"
+  },
+  "h_edfdb4c144ba": {
+    "source": "Raise Pack-a-Punch &amp; trace three constellations",
+    "kind": "html"
+  },
+  "t_8d227f768f35": {
+    "source": "Raise Pack-a-Punch & trace three constellations",
+    "kind": "text"
+  },
+  "h_81f1f219ae58": {
+    "source": "Open on YouTube · 6:55 ↗",
+    "kind": "html"
+  },
+  "h_2aa1ff08e8c0": {
+    "source": "Equip the <strong>scythe</strong> and go to the Passage. Interact with the wall block until it turns <strong>red</strong>, then take the transport into Lost in Blood. Preserve the normal zombies in that room.",
+    "kind": "html"
+  },
+  "h_97c2eb38f871": {
+    "source": "After being returned, two Corpse Eaters appear. <strong>Swing the scythe while holding Interact</strong> to take a spine. The creator describes one chance per enemy. Place the scythe at its <strong>Phylactery upgrade spot</strong>; the wires collected at spawn are part of this setup.",
+    "kind": "html"
+  },
+  "h_dca0cf5c0180": {
+    "source": "Take the flail. Aim into the room <strong>above the Archives Orrery</strong>, press the grenade/equipment button to throw its orb, then press again to teleport. Stand on the <strong>left plate</strong> and get <strong>three flail melee kills</strong>. A rune floats above it.",
+    "kind": "html"
+  },
+  "h_89f8e2ab9ac6": {
+    "source": "With the flail equipped, search the six viewpoints below while <strong>holding ADS / aim</strong>. When stars appear, keep aiming and move the crosshair over <strong>every star</strong> until the pattern lights up and completion is confirmed.",
+    "kind": "html"
+  },
+  "h_dda5fb616f5d": {
+    "source": "Take the <strong>Blood Altar transport</strong> for the second Pack-a-Punch visit. Preserve the room’s normal zombies; kill the Corpse Eaters after returning. Go back above the Orrery, get <strong>three flail kills on the middle plate</strong>, then find and trace the next constellation.",
+    "kind": "html"
+  },
+  "h_313e89ff6d8e": {
+    "source": "Take the <strong>Crash Site transport</strong> for the third visit. Again preserve normal zombies in Lost in Blood and kill the returning Corpse Eaters. Get <strong>three flail kills on the right plate</strong>, then trace the final constellation.",
+    "kind": "html"
+  },
+  "h_518653530449": {
+    "source": "Cycle",
+    "kind": "html"
+  },
+  "h_aaead4abf5d0": {
+    "source": "Transport",
+    "kind": "html"
+  },
+  "h_a7cd5d8f8422": {
+    "source": "Plate",
+    "kind": "html"
+  },
+  "h_a6c7a84baa67": {
+    "source": "Finish",
+    "kind": "html"
+  },
+  "h_b872d86618c9": {
+    "source": "Passage, after making the block red",
+    "kind": "html"
+  },
+  "h_d49a797859c5": {
+    "source": "3 flail kills → trace one constellation",
+    "kind": "html"
+  },
+  "h_d93006ec2e43": {
+    "source": "Middle",
+    "kind": "html"
+  },
+  "t_e17c33d75741": {
+    "source": "Pack-a-Punch activation block",
+    "kind": "text"
+  },
+  "t_4338b3afc1dd": {
+    "source": "Enlarge: Pack-a-Punch activation block",
+    "kind": "text"
+  },
+  "t_0056e7316c96": {
+    "source": "Pack-a-Punch activation block — Turn it red before the first transport ride.",
+    "kind": "text"
+  },
+  "h_e17c33d75741": {
+    "source": "Pack-a-Punch activation block",
+    "kind": "html"
+  },
+  "h_68a9fa0b4638": {
+    "source": "Turn it red before the first transport ride.",
+    "kind": "html"
+  },
+  "h_5af563e76851": {
+    "source": "Video frame · 7:00 ↗",
+    "kind": "html"
+  },
+  "t_ab388303a855": {
+    "source": "Spine pickup from a Corpse Eater",
+    "kind": "text"
+  },
+  "t_c97076a019a3": {
+    "source": "Enlarge: Spine pickup from a Corpse Eater",
+    "kind": "text"
+  },
+  "h_ab388303a855": {
+    "source": "Spine pickup from a Corpse Eater",
+    "kind": "html"
+  },
+  "h_6be6be6dc15f": {
+    "source": "Video frame · 7:23 ↗",
+    "kind": "html"
+  },
+  "t_1b4580c8f7c8": {
+    "source": "Teleport above the Orrery",
+    "kind": "text"
+  },
+  "t_afa116455c08": {
+    "source": "Enlarge: Teleport above the Orrery",
+    "kind": "text"
+  },
+  "h_1b4580c8f7c8": {
+    "source": "Teleport above the Orrery",
+    "kind": "html"
+  },
+  "h_fea58adccfad": {
+    "source": "Video frame · 7:36 ↗",
+    "kind": "html"
+  },
+  "t_5586865602a0": {
+    "source": "Upper-room plate",
+    "kind": "text"
+  },
+  "t_99ed4628f8fb": {
+    "source": "Enlarge: Upper-room plate",
+    "kind": "text"
+  },
+  "h_5586865602a0": {
+    "source": "Upper-room plate",
+    "kind": "html"
+  },
+  "h_d7254617951c": {
+    "source": "Video frame · 7:47 ↗",
+    "kind": "html"
+  },
+  "h_7aa59c55492f": {
+    "source": "Six constellation viewpoints",
+    "kind": "html"
+  },
+  "h_7248962efd18": {
+    "source": "These are the video’s search viewpoints, not six fixed answers. Only an activated constellation is visible through the flail’s aim view. Complete one plate and one constellation before starting the next. The creator does not give a reliable rune-to-location mapping.",
+    "kind": "html"
+  },
+  "t_63ad6d7d1094": {
+    "source": "1 · Above the Archives Orrery",
+    "kind": "text"
+  },
+  "t_f11328a7c9e7": {
+    "source": "Enlarge: 1 · Above the Archives Orrery",
+    "kind": "text"
+  },
+  "t_9cc2bfdcaeb9": {
+    "source": "1 · Above the Archives Orrery — Look up over the machine.",
+    "kind": "text"
+  },
+  "h_63ad6d7d1094": {
+    "source": "1 · Above the Archives Orrery",
+    "kind": "html"
+  },
+  "h_a59f48f55b7c": {
+    "source": "Look up over the machine.",
+    "kind": "html"
+  },
+  "h_bdbe56cac666": {
+    "source": "Video frame · 8:12 ↗",
+    "kind": "html"
+  },
+  "t_2e271fa141fa": {
+    "source": "2 · Overlook",
+    "kind": "text"
+  },
+  "t_3e77c08efca9": {
+    "source": "Enlarge: 2 · Overlook",
+    "kind": "text"
+  },
+  "t_1335e5dfff1d": {
+    "source": "2 · Overlook — Look beyond the blood pool.",
+    "kind": "text"
+  },
+  "h_2e271fa141fa": {
+    "source": "2 · Overlook",
+    "kind": "html"
+  },
+  "h_08c4f431bcbc": {
+    "source": "Look beyond the blood pool.",
+    "kind": "html"
+  },
+  "h_8d71461acb01": {
+    "source": "Video frame · 8:18 ↗",
+    "kind": "html"
+  },
+  "t_d42eb46bc4ed": {
+    "source": "3 · Phylactery window",
+    "kind": "text"
+  },
+  "t_10dfd373ef03": {
+    "source": "Enlarge: 3 · Phylactery window",
+    "kind": "text"
+  },
+  "t_6f7767e27ea8": {
+    "source": "3 · Phylactery window — Look near Electric Cherry.",
+    "kind": "text"
+  },
+  "h_d42eb46bc4ed": {
+    "source": "3 · Phylactery window",
+    "kind": "html"
+  },
+  "h_d743aa182561": {
+    "source": "Look near Electric Cherry.",
+    "kind": "html"
+  },
+  "h_1af2738f075d": {
+    "source": "Video frame · 8:22 ↗",
+    "kind": "html"
+  },
+  "t_b3d3ef531866": {
+    "source": "4 · Blood Altar, far left",
+    "kind": "text"
+  },
+  "t_ca17d60b5f3d": {
+    "source": "Enlarge: 4 · Blood Altar, far left",
+    "kind": "text"
+  },
+  "h_b3d3ef531866": {
+    "source": "4 · Blood Altar, far left",
+    "kind": "html"
+  },
+  "h_b644123bf559": {
+    "source": "Video frame · 8:25 ↗",
+    "kind": "html"
+  },
+  "t_df1075225092": {
+    "source": "5 · Blood Altar, right side",
+    "kind": "text"
+  },
+  "t_e2c4ebe58aea": {
+    "source": "Enlarge: 5 · Blood Altar, right side",
+    "kind": "text"
+  },
+  "t_a110b57ad3c8": {
+    "source": "5 · Blood Altar, right side — Look left of the transport.",
+    "kind": "text"
+  },
+  "h_df1075225092": {
+    "source": "5 · Blood Altar, right side",
+    "kind": "html"
+  },
+  "h_0cf0dc67892e": {
+    "source": "Look left of the transport.",
+    "kind": "html"
+  },
+  "h_a8d440443fe6": {
+    "source": "Video frame · 8:30 ↗",
+    "kind": "html"
+  },
+  "t_7b64aa8e21bc": {
+    "source": "6 · Crash Site",
+    "kind": "text"
+  },
+  "t_d57f8ff0732a": {
+    "source": "Enlarge: 6 · Crash Site",
+    "kind": "text"
+  },
+  "t_742c34c39494": {
+    "source": "6 · Crash Site — Look above the entrance to Thule.",
+    "kind": "text"
+  },
+  "h_7b64aa8e21bc": {
+    "source": "6 · Crash Site",
+    "kind": "html"
+  },
+  "h_7edc901ad81b": {
+    "source": "Look above the entrance to Thule.",
+    "kind": "html"
+  },
+  "h_5fd8468b6a8a": {
+    "source": "Video frame · 8:35 ↗",
+    "kind": "html"
+  },
+  "t_5d0f89e1a658": {
+    "source": "A completed constellation",
+    "kind": "text"
+  },
+  "t_195fc09bd350": {
+    "source": "Enlarge: A completed constellation",
+    "kind": "text"
+  },
+  "t_c33600728c04": {
+    "source": "A completed constellation — The stars turn gold after tracing. Your pattern may differ.",
+    "kind": "text"
+  },
+  "h_5d0f89e1a658": {
+    "source": "A completed constellation",
+    "kind": "html"
+  },
+  "h_06541ba14a8e": {
+    "source": "The stars turn gold after tracing. Your pattern may differ.",
+    "kind": "html"
+  },
+  "h_2562d9526a85": {
+    "source": "Video frame · 8:01 ↗",
+    "kind": "html"
+  },
+  "t_7903310922bb": {
+    "source": "Another active star pattern",
+    "kind": "text"
+  },
+  "t_deddd994b9a5": {
+    "source": "Enlarge: Another active star pattern",
+    "kind": "text"
+  },
+  "t_10882a46ea0c": {
+    "source": "Another active star pattern — Hold aim and sweep across every star.",
+    "kind": "text"
+  },
+  "h_7903310922bb": {
+    "source": "Another active star pattern",
+    "kind": "html"
+  },
+  "h_d67a089fc1f8": {
+    "source": "Hold aim and sweep across every star.",
+    "kind": "html"
+  },
+  "h_09aeefad7bd5": {
+    "source": "Video frame · 8:56 ↗",
+    "kind": "html"
+  },
+  "h_9c5efab01442": {
+    "source": "<span>Before moving on</span>All three constellations complete; Orrery glows; Pack-a-Punch raised through three transport visits.",
+    "kind": "html"
+  },
+  "h_56c8daeed5f6": {
+    "source": "Archives Orrery → Trial → Ice Caves",
+    "kind": "html"
+  },
+  "h_31287619e7d1": {
+    "source": "Pass the Moonraven / flail trial",
+    "kind": "html"
+  },
+  "t_31287619e7d1": {
+    "source": "Pass the Moonraven / flail trial",
+    "kind": "text"
+  },
+  "h_dba1a9e58147": {
+    "source": "Open on YouTube · 9:15 ↗",
+    "kind": "html"
+  },
+  "h_c3d2d5a4f069": {
+    "source": "At the glowing Orrery, throw the flail orb into the statue and <strong>teleport as the orb reaches it</strong>.",
+    "kind": "html"
+  },
+  "h_02e7f6a0ddcc": {
+    "source": "Survive the trial’s fire walls by teleporting through them. As a wall approaches, aim the orb at the <strong>far side of the platform beyond the approaching wall</strong>. Throw just before the fire reaches the platform; teleport when the wall is near the platform’s middle.",
+    "kind": "html"
+  },
+  "h_a387f351b49e": {
+    "source": "Complete this dodge <strong>twice</strong>, dealing with the zombies between attacks. The fire is lethal if the timing fails.",
+    "kind": "html"
+  },
+  "h_a77cc97f0a3d": {
+    "source": "Take the upgraded flail and place it in its <strong>Ice Caves pedestal</strong>.",
+    "kind": "html"
+  },
+  "t_2ab8d062fc27": {
+    "source": "Glowing Orrery: trial entrance",
+    "kind": "text"
+  },
+  "t_5976b695d05e": {
+    "source": "Enlarge: Glowing Orrery: trial entrance",
+    "kind": "text"
+  },
+  "h_2ab8d062fc27": {
+    "source": "Glowing Orrery: trial entrance",
+    "kind": "html"
+  },
+  "h_b6068d6745af": {
+    "source": "Video frame · 9:18 ↗",
+    "kind": "html"
+  },
+  "t_03562e7b9fe1": {
+    "source": "Fire-wall timing",
+    "kind": "text"
+  },
+  "t_4f6f31425d6f": {
+    "source": "Enlarge: Fire-wall timing",
+    "kind": "text"
+  },
+  "t_3d05449368d5": {
+    "source": "Fire-wall timing — Throw across the incoming wall, then teleport after it passes your landing point.",
+    "kind": "text"
+  },
+  "h_03562e7b9fe1": {
+    "source": "Fire-wall timing",
+    "kind": "html"
+  },
+  "h_e0d50e115dba": {
+    "source": "Throw across the incoming wall, then teleport after it passes your landing point.",
+    "kind": "html"
+  },
+  "h_47d2af365b86": {
+    "source": "Video frame · 9:35 ↗",
+    "kind": "html"
+  },
+  "h_f53e83edc0a6": {
+    "source": "<span>Before moving on</span>Moonraven trial complete; upgraded flail deposited in the Ice Caves.",
+    "kind": "html"
+  },
+  "h_2c361dc2f7b5": {
+    "source": "Crash Site → Tunnel → Morgue → Phylactery → Blood Altar hall",
+    "kind": "html"
+  },
+  "h_c9be2211ec2d": {
+    "source": "Carry the lightning &amp; solve the hammer wall",
+    "kind": "html"
+  },
+  "t_8eae8a17a8ae": {
+    "source": "Carry the lightning & solve the hammer wall",
+    "kind": "text"
+  },
+  "h_5d41b8c17600": {
+    "source": "Open on YouTube · 9:51 ↗",
+    "kind": "html"
+  },
+  "h_833018177597": {
+    "source": "Take the hammer and buy <strong>Stamin-Up at Overlook</strong>. Melee the lightning rune at <strong>Crash Site</strong> to pick up its charge.",
+    "kind": "html"
+  },
+  "h_735bf4957439": {
+    "source": "Sprint to the next rune on the <strong>left side of the tunnel</strong> and melee it to deposit the charge. Melee again to pick it up and run to the rune on the <strong>Morgue wall beside the blood pool</strong>. Each deposited rune is a checkpoint; a timeout returns the charge to the last one.",
+    "kind": "html"
+  },
+  "h_187bef998387": {
+    "source": "For the high Phylactery rune, first gather slower zombies on the left side of that room. Retrieve the charge, stand in the marked circle and <strong>melee a zombie beside it with clear line of sight to the high rune</strong>. A zombie underneath the door frame will not work. Lightning must jump to the rune.",
+    "kind": "html"
+  },
+  "h_c900d9009750": {
+    "source": "<strong>Creator’s shortcut:</strong> quickly put the hammer away and draw it again. If its lightning returns, melee the puzzle-wall rune in the hall toward Blood Altar.",
+    "kind": "html"
+  },
+  "h_49a11c06edbb": {
+    "source": "<strong>If the shortcut fails:</strong> place the Bloodraven stone in the Overlook’s third pool and get <strong>five kills</strong>. A shield-bearing Wüstling appears in the Blood Altar pool. Lead it beneath the Phylactery lightning, let it become charged, then kill it with the hammer. Pick up the charge from that kill and melee the puzzle-wall rune. It also drops the base shield.",
+    "kind": "html"
+  },
+  "h_59353a4c1397": {
+    "source": "Solve the three wall patterns using the numbered charts below. <strong>Wait for every block to stop spinning before firing the next shot.</strong> If you make a mistake, shoot the <strong>skull block</strong> to reset.",
+    "kind": "html"
+  },
+  "t_589b9c459a85": {
+    "source": "Starting lightning rune",
+    "kind": "text"
+  },
+  "t_2f164462ef4d": {
+    "source": "Enlarge: Starting lightning rune",
+    "kind": "text"
+  },
+  "h_589b9c459a85": {
+    "source": "Starting lightning rune",
+    "kind": "html"
+  },
+  "h_fed43bdd6a9a": {
+    "source": "Video frame · 10:03 ↗",
+    "kind": "html"
+  },
+  "t_226adcc3784e": {
+    "source": "Tunnel checkpoint",
+    "kind": "text"
+  },
+  "t_8443d3939622": {
+    "source": "Enlarge: Tunnel checkpoint",
+    "kind": "text"
+  },
+  "t_0efd296223ce": {
+    "source": "Tunnel checkpoint — Left wall along the route.",
+    "kind": "text"
+  },
+  "h_226adcc3784e": {
+    "source": "Tunnel checkpoint",
+    "kind": "html"
+  },
+  "h_5a4110fd539e": {
+    "source": "Left wall along the route.",
+    "kind": "html"
+  },
+  "h_286e32742064": {
+    "source": "Video frame · 10:10 ↗",
+    "kind": "html"
+  },
+  "t_3c84c43ebe0c": {
+    "source": "Morgue checkpoint",
+    "kind": "text"
+  },
+  "t_979cfe3eda28": {
+    "source": "Enlarge: Morgue checkpoint",
+    "kind": "text"
+  },
+  "t_0428723b61ed": {
+    "source": "Morgue checkpoint — Beside the blood pool.",
+    "kind": "text"
+  },
+  "h_3c84c43ebe0c": {
+    "source": "Morgue checkpoint",
+    "kind": "html"
+  },
+  "h_a9c53ca71e98": {
+    "source": "Beside the blood pool.",
+    "kind": "html"
+  },
+  "h_05b0e63f09f6": {
+    "source": "Video frame · 10:21 ↗",
+    "kind": "html"
+  },
+  "t_39c545bfd648": {
+    "source": "Phylactery transfer area",
+    "kind": "text"
+  },
+  "t_d39ece05f178": {
+    "source": "Enlarge: Phylactery transfer area",
+    "kind": "text"
+  },
+  "t_53a5611ddef9": {
+    "source": "Phylactery transfer area — The zombie needs line of sight to the high rune.",
+    "kind": "text"
+  },
+  "h_39c545bfd648": {
+    "source": "Phylactery transfer area",
+    "kind": "html"
+  },
+  "h_4dc9e467472b": {
+    "source": "The zombie needs line of sight to the high rune.",
+    "kind": "html"
+  },
+  "h_0f8d7706b54f": {
+    "source": "Video frame · 10:46 ↗",
+    "kind": "html"
+  },
+  "t_3d49ad6ee8f1": {
+    "source": "High rune receives lightning",
+    "kind": "text"
+  },
+  "t_5e1e37006f29": {
+    "source": "Enlarge: High rune receives lightning",
+    "kind": "text"
+  },
+  "h_3d49ad6ee8f1": {
+    "source": "High rune receives lightning",
+    "kind": "html"
+  },
+  "h_d70dc43efdaf": {
+    "source": "Video frame · 10:51 ↗",
+    "kind": "html"
+  },
+  "t_113a74e22085": {
+    "source": "Wall-puzzle activation rune",
+    "kind": "text"
+  },
+  "t_b44a0e7483e7": {
+    "source": "Enlarge: Wall-puzzle activation rune",
+    "kind": "text"
+  },
+  "h_113a74e22085": {
+    "source": "Wall-puzzle activation rune",
+    "kind": "html"
+  },
+  "h_7d51ba20684b": {
+    "source": "Video frame · 11:09 ↗",
+    "kind": "html"
+  },
+  "h_73bbb357d64e": {
+    "source": "Hammer wall · numbered shot order",
+    "kind": "html"
+  },
+  "h_9fc91b0b032e": {
+    "source": "Face the wall directly. Number rows from <strong>top to bottom</strong> and columns from <strong>left to right</strong>. Each pair below is <strong>(row, column)</strong>. Match Wall 1 to the original screenshot before choosing a variant.",
+    "kind": "html"
+  },
+  "h_4288ade73ff9": {
+    "source": "Pattern",
+    "kind": "html"
+  },
+  "h_6a6d750e18ae": {
+    "source": "Shoot these cells in order",
+    "kind": "html"
+  },
+  "h_e1962d8d1f70": {
+    "source": "Wall 1 · variant 1",
+    "kind": "html"
+  },
+  "h_8df9045898f4": {
+    "source": "Wall 1 · variant 2",
+    "kind": "html"
+  },
+  "h_fa5eb11b1981": {
+    "source": "Wall 2",
+    "kind": "html"
+  },
+  "h_cf8dfadb740e": {
+    "source": "Wall 3",
+    "kind": "html"
+  },
+  "t_96e7754fd9ee": {
+    "source": "Wall 1: both starting variants",
+    "kind": "text"
+  },
+  "t_3edfeac6e414": {
+    "source": "Enlarge: Wall 1: both starting variants",
+    "kind": "text"
+  },
+  "t_83da0112df8d": {
+    "source": "Wall 1: both starting variants — Numbers printed on the blocks show the shot order.",
+    "kind": "text"
+  },
+  "h_96e7754fd9ee": {
+    "source": "Wall 1: both starting variants",
+    "kind": "html"
+  },
+  "h_82b34e5da4be": {
+    "source": "Numbers printed on the blocks show the shot order.",
+    "kind": "html"
+  },
+  "h_d181c8055959": {
+    "source": "Video frame · 11:49 ↗",
+    "kind": "html"
+  },
+  "t_8fc76e870918": {
+    "source": "Walls 2 and 3",
+    "kind": "text"
+  },
+  "t_859b38c29eb0": {
+    "source": "Enlarge: Walls 2 and 3",
+    "kind": "text"
+  },
+  "t_ccf59c309511": {
+    "source": "Walls 2 and 3 — These two solutions are fixed in the video.",
+    "kind": "text"
+  },
+  "h_8fc76e870918": {
+    "source": "Walls 2 and 3",
+    "kind": "html"
+  },
+  "h_cc351cc29177": {
+    "source": "These two solutions are fixed in the video.",
+    "kind": "html"
+  },
+  "h_bc90b9c91968": {
+    "source": "Video frame · 12:01 ↗",
+    "kind": "html"
+  },
+  "h_22433794ce47": {
+    "source": "If the shortcut worked, you still need to fill the third pool and obtain the shield later. The shortcut only changes how you recover the hammer’s lightning.",
+    "kind": "html"
+  },
+  "h_a77e7e112d97": {
+    "source": "<span>Before moving on</span>Three hammer wall patterns solved. Base shield may already be available if you used the Wüstling route.",
+    "kind": "html"
+  },
+  "h_09efc7f88520": {
+    "source": "Overlook → Stormraven trial → Blood pools",
+    "kind": "html"
+  },
+  "h_143dfc0b8ce3": {
+    "source": "Pass the hammer trial &amp; begin the shield upgrade",
+    "kind": "html"
+  },
+  "t_d5498a51c044": {
+    "source": "Pass the hammer trial & begin the shield upgrade",
+    "kind": "text"
+  },
+  "h_d97f41403a2e": {
+    "source": "Open on YouTube · 12:12 ↗",
+    "kind": "html"
+  },
+  "h_a21c93031090": {
+    "source": "At Overlook, line up with the <strong>armor station</strong> and the <strong>center line of the volcano</strong>, as shown below. Hold the hammer out and walk straight forward. <strong>Do not steer left or right</strong> on the invisible path; continue until the trial transports you.",
+    "kind": "html"
+  },
+  "h_79f05e6ad332": {
+    "source": "In the trial, <strong>hold the grenade/equipment button to throw the hammer</strong>. This breaks the zombies’ shields. Finish the enemies and deposit the upgraded hammer in the Ice Caves.",
+    "kind": "html"
+  },
+  "h_0f86e2517ea0": {
+    "source": "If still unfinished, put the <strong>Bloodraven stone</strong> into the Overlook pool and get <strong>five kills</strong>. Kill the shield-bearing Wüstling that emerges at Blood Altar and take its shield.",
+    "kind": "html"
+  },
+  "h_7df0b387b5f8": {
+    "source": "Interact with the <strong>raven statue at the Overlook pool</strong>. Then inspect the three blood pools: the target has <strong>red sparks / sizzling energy</strong>. A still pool is not the current target.",
+    "kind": "html"
+  },
+  "h_e97315e23b96": {
+    "source": "Listen for a raven, check the location atlas below, and shoot it with the <strong>9mm SAP</strong>, following the creator’s method. This spawns a charged Corpse Eater. Keep it close and bring it to the active pool.",
+    "kind": "html"
+  },
+  "t_2d3e0053ac91": {
+    "source": "Invisible-path alignment",
+    "kind": "text"
+  },
+  "t_58f42eb7887e": {
+    "source": "Enlarge: Invisible-path alignment",
+    "kind": "text"
+  },
+  "t_5ca6f2050e8c": {
+    "source": "Invisible-path alignment — Armor station → volcano center; walk straight.",
+    "kind": "text"
+  },
+  "h_2d3e0053ac91": {
+    "source": "Invisible-path alignment",
+    "kind": "html"
+  },
+  "h_1e77009df0db": {
+    "source": "Armor station → volcano center; walk straight.",
+    "kind": "html"
+  },
+  "h_b34ec071a5b2": {
+    "source": "Video frame · 12:16 ↗",
+    "kind": "html"
+  },
+  "t_e12cfff26eaf": {
+    "source": "Hammer trial",
+    "kind": "text"
+  },
+  "t_ae63aa9ce324": {
+    "source": "Enlarge: Hammer trial",
+    "kind": "text"
+  },
+  "t_75ad2bfc1e2b": {
+    "source": "Hammer trial — Throw the hammer to break shields.",
+    "kind": "text"
+  },
+  "h_e12cfff26eaf": {
+    "source": "Hammer trial",
+    "kind": "html"
+  },
+  "h_c78b470728a4": {
+    "source": "Throw the hammer to break shields.",
+    "kind": "html"
+  },
+  "h_e9a5af0389d3": {
+    "source": "Video frame · 12:30 ↗",
+    "kind": "html"
+  },
+  "t_6e4e4d871216": {
+    "source": "Raven statue at the third pool",
+    "kind": "text"
+  },
+  "t_2e67f21d7004": {
+    "source": "Enlarge: Raven statue at the third pool",
+    "kind": "text"
+  },
+  "h_6e4e4d871216": {
+    "source": "Raven statue at the third pool",
+    "kind": "html"
+  },
+  "h_3a485377335b": {
+    "source": "Video frame · 12:50 ↗",
+    "kind": "html"
+  },
+  "t_3bcc9f7a11db": {
+    "source": "Find the energized blood pool",
+    "kind": "text"
+  },
+  "t_69669dbe0e69": {
+    "source": "Enlarge: Find the energized blood pool",
+    "kind": "text"
+  },
+  "t_58f07ba0d6b1": {
+    "source": "Find the energized blood pool — Look for moving red sparks; still blood is not enough.",
+    "kind": "text"
+  },
+  "h_3bcc9f7a11db": {
+    "source": "Find the energized blood pool",
+    "kind": "html"
+  },
+  "h_9c19798197e3": {
+    "source": "Look for moving red sparks; still blood is not enough.",
+    "kind": "html"
+  },
+  "h_eede9d819109": {
+    "source": "Video frame · 13:07 ↗",
+    "kind": "html"
+  },
+  "h_56a2bade37ae": {
+    "source": "<span>Before moving on</span>Upgraded hammer deposited; shield acquired; raven statue activated; current energized pool identified.",
+    "kind": "html"
+  },
+  "h_4d0493c85f22": {
+    "source": "Six areas · Follow the calls; shoot with the 9mm SAP",
+    "kind": "html"
+  },
+  "h_4628d0ad1978": {
+    "source": "Raven location atlas",
+    "kind": "html"
+  },
+  "t_4628d0ad1978": {
+    "source": "Raven location atlas",
+    "kind": "text"
+  },
+  "h_e3656f6a3fcd": {
+    "source": "Open on YouTube · 13:25 ↗",
+    "kind": "html"
+  },
+  "h_0148e2bfa3ad": {
+    "source": "Use this atlas during the shield-pool cycles. The creator says “30 spawns”; his area-by-area list contains <strong>29 viewpoints</strong> (5 + 3 + 5 + 3 + 7 + 6). They are preserved here without inventing a missing location. Some frames show the perch or aiming direction after the bird has been shot.",
+    "kind": "html"
+  },
+  "h_abc5c6ab13bc": {
+    "source": "Crash Site<span>5 viewpoints · 13:25</span>",
+    "kind": "html"
+  },
+  "t_a28f76f93609": {
+    "source": "Crash Site · Plane tail",
+    "kind": "text"
+  },
+  "t_ca8dc0519ab2": {
+    "source": "Enlarge: Crash Site · Plane tail",
+    "kind": "text"
+  },
+  "h_a28f76f93609": {
+    "source": "Crash Site · Plane tail",
+    "kind": "html"
+  },
+  "h_441df23b6a07": {
+    "source": "Video frame · 13:27 ↗",
+    "kind": "html"
+  },
+  "t_cec3f7b5279c": {
+    "source": "Crash Site · Top of the transport",
+    "kind": "text"
+  },
+  "t_366ee2872b8c": {
+    "source": "Enlarge: Crash Site · Top of the transport",
+    "kind": "text"
+  },
+  "h_cec3f7b5279c": {
+    "source": "Crash Site · Top of the transport",
+    "kind": "html"
+  },
+  "h_0f479d484c14": {
+    "source": "Video frame · 13:29 ↗",
+    "kind": "html"
+  },
+  "t_c8b786154c09": {
+    "source": "Crash Site · Central rock pillar",
+    "kind": "text"
+  },
+  "t_3b1fead7d939": {
+    "source": "Enlarge: Crash Site · Central rock pillar",
+    "kind": "text"
+  },
+  "h_c8b786154c09": {
+    "source": "Crash Site · Central rock pillar",
+    "kind": "html"
+  },
+  "h_b2673db94b0a": {
+    "source": "Video frame · 13:30 ↗",
+    "kind": "html"
+  },
+  "t_77238519bbe7": {
+    "source": "Crash Site · Metal beams of the wreck",
+    "kind": "text"
+  },
+  "t_011101f4fd6b": {
+    "source": "Enlarge: Crash Site · Metal beams of the wreck",
+    "kind": "text"
+  },
+  "h_77238519bbe7": {
+    "source": "Crash Site · Metal beams of the wreck",
+    "kind": "html"
+  },
+  "h_d67bcda3b954": {
+    "source": "Video frame · 13:32 ↗",
+    "kind": "html"
+  },
+  "t_b6a584a7cd49": {
+    "source": "Crash Site · Rocks over the Thule entrance",
+    "kind": "text"
+  },
+  "t_656c87d47cda": {
+    "source": "Enlarge: Crash Site · Rocks over the Thule entrance",
+    "kind": "text"
+  },
+  "h_b6a584a7cd49": {
+    "source": "Crash Site · Rocks over the Thule entrance",
+    "kind": "html"
+  },
+  "h_0a66bd511d79": {
+    "source": "Video frame · 13:35 ↗",
+    "kind": "html"
+  },
+  "h_1997f2eef9fd": {
+    "source": "Ice Caves<span>3 viewpoints · 13:37</span>",
+    "kind": "html"
+  },
+  "t_a8e1e8745517": {
+    "source": "Ice Caves · Rocks on the right after the ramp",
+    "kind": "text"
+  },
+  "t_fc3cd3fa1699": {
+    "source": "Enlarge: Ice Caves · Rocks on the right after the ramp",
+    "kind": "text"
+  },
+  "h_a8e1e8745517": {
+    "source": "Ice Caves · Rocks on the right after the ramp",
+    "kind": "html"
+  },
+  "h_9506cbd267ef": {
+    "source": "Video frame · 13:38 ↗",
+    "kind": "html"
+  },
+  "t_c559e8d2a082": {
+    "source": "Ice Caves · Wonder-weapon pedestal ledge",
+    "kind": "text"
+  },
+  "t_f1f52e7b45ba": {
+    "source": "Enlarge: Ice Caves · Wonder-weapon pedestal ledge",
+    "kind": "text"
+  },
+  "h_c559e8d2a082": {
+    "source": "Ice Caves · Wonder-weapon pedestal ledge",
+    "kind": "html"
+  },
+  "h_42b5875e3701": {
+    "source": "Video frame · 13:40 ↗",
+    "kind": "html"
+  },
+  "t_f6b7eb270e42": {
+    "source": "Ice Caves · Left side of the angled columns",
+    "kind": "text"
+  },
+  "t_809c04129778": {
+    "source": "Enlarge: Ice Caves · Left side of the angled columns",
+    "kind": "text"
+  },
+  "h_f6b7eb270e42": {
+    "source": "Ice Caves · Left side of the angled columns",
+    "kind": "html"
+  },
+  "h_0f816978fc2c": {
+    "source": "Video frame · 13:44 ↗",
+    "kind": "html"
+  },
+  "h_7f81f5299e09": {
+    "source": "Thulian Archives<span>5 viewpoints · 13:48</span>",
+    "kind": "html"
+  },
+  "t_81c006787ce2": {
+    "source": "Thulian Archives · High above Speed Cola",
+    "kind": "text"
+  },
+  "t_574c19b4985d": {
+    "source": "Enlarge: Thulian Archives · High above Speed Cola",
+    "kind": "text"
+  },
+  "h_81c006787ce2": {
+    "source": "Thulian Archives · High above Speed Cola",
+    "kind": "html"
+  },
+  "h_aa38a510ecbf": {
+    "source": "Video frame · 13:52 ↗",
+    "kind": "html"
+  },
+  "t_e4a1ce86f66f": {
+    "source": "Thulian Archives · Corner to the right, same height",
+    "kind": "text"
+  },
+  "t_3847161d54cc": {
+    "source": "Enlarge: Thulian Archives · Corner to the right, same height",
+    "kind": "text"
+  },
+  "h_e4a1ce86f66f": {
+    "source": "Thulian Archives · Corner to the right, same height",
+    "kind": "html"
+  },
+  "h_32e3f16fda4d": {
+    "source": "Video frame · 13:55 ↗",
+    "kind": "html"
+  },
+  "t_6814afde60f2": {
+    "source": "Thulian Archives · Upper flail-teleport ledge",
+    "kind": "text"
+  },
+  "t_23a871192d87": {
+    "source": "Enlarge: Thulian Archives · Upper flail-teleport ledge",
+    "kind": "text"
+  },
+  "h_6814afde60f2": {
+    "source": "Thulian Archives · Upper flail-teleport ledge",
+    "kind": "html"
+  },
+  "h_d1521e09e708": {
+    "source": "Video frame · 13:57 ↗",
+    "kind": "html"
+  },
+  "t_5d518a306d0e": {
+    "source": "Thulian Archives · Small hole high to the right",
+    "kind": "text"
+  },
+  "t_75cebbe2382b": {
+    "source": "Enlarge: Thulian Archives · Small hole high to the right",
+    "kind": "text"
+  },
+  "h_5d518a306d0e": {
+    "source": "Thulian Archives · Small hole high to the right",
+    "kind": "html"
+  },
+  "h_93b4075b248d": {
+    "source": "Video frame · 14:01 ↗",
+    "kind": "html"
+  },
+  "t_b4bd36ffa95a": {
+    "source": "Thulian Archives · Ground in the hall toward Overlook",
+    "kind": "text"
+  },
+  "t_749770eba5c7": {
+    "source": "Enlarge: Thulian Archives · Ground in the hall toward Overlook",
+    "kind": "text"
+  },
+  "h_b4bd36ffa95a": {
+    "source": "Thulian Archives · Ground in the hall toward Overlook",
+    "kind": "html"
+  },
+  "h_b8faca1f3811": {
+    "source": "Video frame · 14:05 ↗",
+    "kind": "html"
+  },
+  "h_09dd610607a5": {
+    "source": "Overlook<span>3 viewpoints · 14:07</span>",
+    "kind": "html"
+  },
+  "t_56087f5b8c15": {
+    "source": "Overlook · Stone pillars past the blood pool",
+    "kind": "text"
+  },
+  "t_d671a596dd13": {
+    "source": "Enlarge: Overlook · Stone pillars past the blood pool",
+    "kind": "text"
+  },
+  "h_56087f5b8c15": {
+    "source": "Overlook · Stone pillars past the blood pool",
+    "kind": "html"
+  },
+  "h_8859848257de": {
+    "source": "Video frame · 14:08 ↗",
+    "kind": "html"
+  },
+  "t_782c394c5c58": {
+    "source": "Overlook · Tall central pillar",
+    "kind": "text"
+  },
+  "t_da6a4e4ce489": {
+    "source": "Enlarge: Overlook · Tall central pillar",
+    "kind": "text"
+  },
+  "h_782c394c5c58": {
+    "source": "Overlook · Tall central pillar",
+    "kind": "html"
+  },
+  "h_2dd39f4be446": {
+    "source": "Video frame · 14:11 ↗",
+    "kind": "html"
+  },
+  "t_9b49995612d3": {
+    "source": "Overlook · Rocks above Stamin-Up",
+    "kind": "text"
+  },
+  "t_d43a11d00d69": {
+    "source": "Enlarge: Overlook · Rocks above Stamin-Up",
+    "kind": "text"
+  },
+  "h_9b49995612d3": {
+    "source": "Overlook · Rocks above Stamin-Up",
+    "kind": "html"
+  },
+  "h_5d39954cf74e": {
+    "source": "Video frame · 14:14 ↗",
+    "kind": "html"
+  },
+  "h_b5f7b2fac745": {
+    "source": "Phylactery<span>7 viewpoints · 14:16</span>",
+    "kind": "html"
+  },
+  "t_a86e17ac7d98": {
+    "source": "Phylactery · High window left of Electric Cherry",
+    "kind": "text"
+  },
+  "t_d1af5305e879": {
+    "source": "Enlarge: Phylactery · High window left of Electric Cherry",
+    "kind": "text"
+  },
+  "h_a86e17ac7d98": {
+    "source": "Phylactery · High window left of Electric Cherry",
+    "kind": "html"
+  },
+  "h_944847dfbc1c": {
+    "source": "Video frame · 14:17 ↗",
+    "kind": "html"
+  },
+  "t_c45efd7fef38": {
+    "source": "Phylactery · Ledge left of Electric Cherry",
+    "kind": "text"
+  },
+  "t_1c809aadebab": {
+    "source": "Enlarge: Phylactery · Ledge left of Electric Cherry",
+    "kind": "text"
+  },
+  "h_c45efd7fef38": {
+    "source": "Phylactery · Ledge left of Electric Cherry",
+    "kind": "html"
+  },
+  "h_fb080f63fc17": {
+    "source": "Video frame · 14:20 ↗",
+    "kind": "html"
+  },
+  "t_43267d319e20": {
+    "source": "Phylactery · Rocks opposite Electric Cherry",
+    "kind": "text"
+  },
+  "t_bcfc2447e4a4": {
+    "source": "Enlarge: Phylactery · Rocks opposite Electric Cherry",
+    "kind": "text"
+  },
+  "h_43267d319e20": {
+    "source": "Phylactery · Rocks opposite Electric Cherry",
+    "kind": "html"
+  },
+  "h_37814e9b4b77": {
+    "source": "Video frame · 14:23 ↗",
+    "kind": "html"
+  },
+  "t_5bdcbec0b621": {
+    "source": "Phylactery · Far side of the blood tub",
+    "kind": "text"
+  },
+  "t_c08a2e9ec9b1": {
+    "source": "Enlarge: Phylactery · Far side of the blood tub",
+    "kind": "text"
+  },
+  "h_5bdcbec0b621": {
+    "source": "Phylactery · Far side of the blood tub",
+    "kind": "html"
+  },
+  "h_09066296dc13": {
+    "source": "Video frame · 14:27 ↗",
+    "kind": "html"
+  },
+  "t_2857a706b74c": {
+    "source": "Phylactery · Far upper ledge, right view",
+    "kind": "text"
+  },
+  "t_ef9932afb654": {
+    "source": "Enlarge: Phylactery · Far upper ledge, right view",
+    "kind": "text"
+  },
+  "h_2857a706b74c": {
+    "source": "Phylactery · Far upper ledge, right view",
+    "kind": "html"
+  },
+  "h_9df087fb219b": {
+    "source": "Video frame · 14:30 ↗",
+    "kind": "html"
+  },
+  "t_bd36f6feb720": {
+    "source": "Phylactery · Same upper ledge, center",
+    "kind": "text"
+  },
+  "t_66d75550de9f": {
+    "source": "Enlarge: Phylactery · Same upper ledge, center",
+    "kind": "text"
+  },
+  "h_bd36f6feb720": {
+    "source": "Phylactery · Same upper ledge, center",
+    "kind": "html"
+  },
+  "h_2425159ddae1": {
+    "source": "Video frame · 14:33 ↗",
+    "kind": "html"
+  },
+  "t_fa469130ba52": {
+    "source": "Phylactery · Same upper ledge, far left / behind",
+    "kind": "text"
+  },
+  "t_82bc33120d77": {
+    "source": "Enlarge: Phylactery · Same upper ledge, far left / behind",
+    "kind": "text"
+  },
+  "h_fa469130ba52": {
+    "source": "Phylactery · Same upper ledge, far left / behind",
+    "kind": "html"
+  },
+  "h_7da4731f4a91": {
+    "source": "Video frame · 14:36 ↗",
+    "kind": "html"
+  },
+  "h_f69b96eebb17": {
+    "source": "Blood Altar<span>6 viewpoints · 14:38</span>",
+    "kind": "html"
+  },
+  "t_bfd454dee79c": {
+    "source": "Blood Altar · Statue above Double Tap",
+    "kind": "text"
+  },
+  "t_e21c73c1696c": {
+    "source": "Enlarge: Blood Altar · Statue above Double Tap",
+    "kind": "text"
+  },
+  "h_bfd454dee79c": {
+    "source": "Blood Altar · Statue above Double Tap",
+    "kind": "html"
+  },
+  "h_33a0e6819ae2": {
+    "source": "Video frame · 14:42 ↗",
+    "kind": "html"
+  },
+  "t_05de56718283": {
+    "source": "Blood Altar · Middle statue overhead",
+    "kind": "text"
+  },
+  "t_0106a5b3c043": {
+    "source": "Enlarge: Blood Altar · Middle statue overhead",
+    "kind": "text"
+  },
+  "h_05de56718283": {
+    "source": "Blood Altar · Middle statue overhead",
+    "kind": "html"
+  },
+  "h_47463d6bfeb6": {
+    "source": "Video frame · 14:44 ↗",
+    "kind": "html"
+  },
+  "t_2f05d894db40": {
+    "source": "Blood Altar · Rocks beside the curved stairs",
+    "kind": "text"
+  },
+  "t_08e8cd9e82ff": {
+    "source": "Enlarge: Blood Altar · Rocks beside the curved stairs",
+    "kind": "text"
+  },
+  "h_2f05d894db40": {
+    "source": "Blood Altar · Rocks beside the curved stairs",
+    "kind": "html"
+  },
+  "h_61a3422f9c18": {
+    "source": "Video frame · 14:47 ↗",
+    "kind": "html"
+  },
+  "t_4695fdf93354": {
+    "source": "Blood Altar · Scaffolding: upper level",
+    "kind": "text"
+  },
+  "t_7a86487e79aa": {
+    "source": "Enlarge: Blood Altar · Scaffolding: upper level",
+    "kind": "text"
+  },
+  "h_4695fdf93354": {
+    "source": "Blood Altar · Scaffolding: upper level",
+    "kind": "html"
+  },
+  "h_401ba5fa94a7": {
+    "source": "Video frame · 14:51 ↗",
+    "kind": "html"
+  },
+  "t_cb42037113ad": {
+    "source": "Blood Altar · Scaffolding: middle level",
+    "kind": "text"
+  },
+  "t_cdf2558ff449": {
+    "source": "Enlarge: Blood Altar · Scaffolding: middle level",
+    "kind": "text"
+  },
+  "h_cb42037113ad": {
+    "source": "Blood Altar · Scaffolding: middle level",
+    "kind": "html"
+  },
+  "h_84d1f35b1158": {
+    "source": "Video frame · 14:54 ↗",
+    "kind": "html"
+  },
+  "t_a494f1e60a78": {
+    "source": "Blood Altar · Rocks right of the Mystery Box",
+    "kind": "text"
+  },
+  "t_292b8be01e34": {
+    "source": "Enlarge: Blood Altar · Rocks right of the Mystery Box",
+    "kind": "text"
+  },
+  "h_a494f1e60a78": {
+    "source": "Blood Altar · Rocks right of the Mystery Box",
+    "kind": "html"
+  },
+  "h_6db049b5b3fd": {
+    "source": "Video frame · 14:58 ↗",
+    "kind": "html"
+  },
+  "h_45a8d9d06fea": {
+    "source": "<span>Before moving on</span>Locate a calling raven for each charged-enemy cycle. You do not need to shoot every listed perch.",
+    "kind": "html"
+  },
+  "h_8aa07666d5e8": {
+    "source": "Three charged Corpse Eaters → Radio symbols → Bloodraven trial",
+    "kind": "html"
+  },
+  "h_bd49f6c77b3c": {
+    "source": "Record the pool order &amp; complete the shield",
+    "kind": "html"
+  },
+  "t_aedd5da10e1f": {
+    "source": "Record the pool order & complete the shield",
+    "kind": "text"
+  },
+  "h_d6a1cbf3fb94": {
+    "source": "Open on YouTube · 15:02 ↗",
+    "kind": "html"
+  },
+  "h_f088ab5274e3": {
+    "source": "Keep the charged Corpse Eater close enough that it does not despawn. Lead it to the <strong>currently sizzling pool</strong>, stand in the pool, and <strong>melee it with the shield equipped</strong>. The creator’s example takes two hits. Move away from its death explosion to avoid losing armor.",
+    "kind": "html"
+  },
+  "h_3299aecf02ed": {
+    "source": "A symbol appears in the pool. Record <strong>which pool was first</strong>; its symbol can be revisited. Find the next energized pool, shoot another raven, and repeat. Do this <strong>three times</strong>, recording the pool order.",
+    "kind": "html"
+  },
+  "h_8e1bd898dc51": {
+    "source": "At Crash Site, lead a <strong>bomber zombie</strong> to the metal panel near Quick Revive. Stand on the opposite side so its explosion breaks the metal. Pick up <strong>both the radio and the separate speaker</strong>.",
+    "kind": "html"
+  },
+  "h_34a2d3fc6e98": {
+    "source": "Install the radio and speaker on their two rocks at the <strong>Blood Altar</strong>. Interacting with the radio cycles the symbol in the large pool.",
+    "kind": "html"
+  },
+  "h_0908d05e048f": {
+    "source": "Revisit your <strong>first charged-enemy pool</strong> and inspect its symbol. Select that exact symbol with the radio, then <strong>kill one zombie in the large Blood Altar pool</strong> to submit it. Repeat for your second and third pools, in that order.",
+    "kind": "html"
+  },
+  "h_1b85ea221598": {
+    "source": "After a correct sequence, the large pool flashes through multiple symbols. <strong>Only after this confirmation</strong>, let yourself be downed while standing in it to enter the shield trial. The creator says this scripted transition does not consume Quick Revive.",
+    "kind": "html"
+  },
+  "h_ab16ef0d6599": {
+    "source": "Get shield kills in the trial. When the area attack comes, stand on the plate and <strong>hold ADS / aim to block</strong>. Do this twice. Deposit the upgraded shield in the <strong>round floor slot</strong> at the Ice Caves weapon ledge.",
+    "kind": "html"
+  },
+  "h_3317a10f6122": {
+    "source": "The radio solution depends on your pool order and your symbols. Similar-looking symbols are easy to confuse. Compare the actual line shapes; the source screenshots are examples, not a universal three-symbol password.",
+    "kind": "html"
+  },
+  "h_529cabb65050": {
+    "source": "Record during your run",
+    "kind": "html"
+  },
+  "h_8dc698c45a33": {
+    "source": "What to keep",
+    "kind": "html"
+  },
+  "h_e38750e7bdd7": {
+    "source": "First charged-enemy kill",
+    "kind": "html"
+  },
+  "h_0afe206fb511": {
+    "source": "Pool location + its symbol",
+    "kind": "html"
+  },
+  "h_1a1555118359": {
+    "source": "Second charged-enemy kill",
+    "kind": "html"
+  },
+  "h_92fd8e48b84f": {
+    "source": "Third charged-enemy kill",
+    "kind": "html"
+  },
+  "t_5c68b6d19f19": {
+    "source": "Bring the charged enemy into the target pool",
+    "kind": "text"
+  },
+  "t_a4125e12556a": {
+    "source": "Enlarge: Bring the charged enemy into the target pool",
+    "kind": "text"
+  },
+  "h_5c68b6d19f19": {
+    "source": "Bring the charged enemy into the target pool",
+    "kind": "html"
+  },
+  "h_5c244e870da4": {
+    "source": "Video frame · 15:12 ↗",
+    "kind": "html"
+  },
+  "t_ed14e7b79fde": {
+    "source": "Symbol left after a pool kill",
+    "kind": "text"
+  },
+  "t_4a21d728bdb6": {
+    "source": "Enlarge: Symbol left after a pool kill",
+    "kind": "text"
+  },
+  "t_19d65ad48d98": {
+    "source": "Symbol left after a pool kill — Record the order in your run.",
+    "kind": "text"
+  },
+  "h_ed14e7b79fde": {
+    "source": "Symbol left after a pool kill",
+    "kind": "html"
+  },
+  "h_276a24672df1": {
+    "source": "Record the order in your run.",
+    "kind": "html"
+  },
+  "h_3b9e3bbb2907": {
+    "source": "Video frame · 15:27 ↗",
+    "kind": "html"
+  },
+  "t_29d157c9c2a3": {
+    "source": "Bomber target at Crash Site",
+    "kind": "text"
+  },
+  "t_06e4e6e49876": {
+    "source": "Enlarge: Bomber target at Crash Site",
+    "kind": "text"
+  },
+  "t_69f158cc2987": {
+    "source": "Bomber target at Crash Site — Break this metal panel to free the radio equipment.",
+    "kind": "text"
+  },
+  "h_29d157c9c2a3": {
+    "source": "Bomber target at Crash Site",
+    "kind": "html"
+  },
+  "h_82474aee9363": {
+    "source": "Break this metal panel to free the radio equipment.",
+    "kind": "html"
+  },
+  "h_a45eb5dc5170": {
+    "source": "Video frame · 15:55 ↗",
+    "kind": "html"
+  },
+  "t_2fe73c1ee46b": {
+    "source": "Radio pickup",
+    "kind": "text"
+  },
+  "t_08e26ab9ed10": {
+    "source": "Enlarge: Radio pickup",
+    "kind": "text"
+  },
+  "t_ca97e8e52702": {
+    "source": "Radio pickup — Collect the radio and the separate speaker.",
+    "kind": "text"
+  },
+  "h_2fe73c1ee46b": {
+    "source": "Radio pickup",
+    "kind": "html"
+  },
+  "h_3e00db95bd90": {
+    "source": "Collect the radio and the separate speaker.",
+    "kind": "html"
+  },
+  "h_fd79266198f3": {
+    "source": "Video frame · 16:08 ↗",
+    "kind": "html"
+  },
+  "t_a316ed3ff6ee": {
+    "source": "Speaker pickup",
+    "kind": "text"
+  },
+  "t_7c7ba0e8f836": {
+    "source": "Enlarge: Speaker pickup",
+    "kind": "text"
+  },
+  "t_59817075745a": {
+    "source": "Speaker pickup — A second item beside the broken metal.",
+    "kind": "text"
+  },
+  "h_a316ed3ff6ee": {
+    "source": "Speaker pickup",
+    "kind": "html"
+  },
+  "h_c1662a532e23": {
+    "source": "A second item beside the broken metal.",
+    "kind": "html"
+  },
+  "h_18c22256fb0d": {
+    "source": "Video frame · 16:09 ↗",
+    "kind": "html"
+  },
+  "t_bbd7889b653c": {
+    "source": "Speaker placement at Blood Altar",
+    "kind": "text"
+  },
+  "t_f0b7f555fb0e": {
+    "source": "Enlarge: Speaker placement at Blood Altar",
+    "kind": "text"
+  },
+  "h_bbd7889b653c": {
+    "source": "Speaker placement at Blood Altar",
+    "kind": "html"
+  },
+  "h_1943bb8a5242": {
+    "source": "Video frame · 16:14 ↗",
+    "kind": "html"
+  },
+  "t_bdfdb9a82629": {
+    "source": "Radio placement and control",
+    "kind": "text"
+  },
+  "t_87577143069b": {
+    "source": "Enlarge: Radio placement and control",
+    "kind": "text"
+  },
+  "h_bdfdb9a82629": {
+    "source": "Radio placement and control",
+    "kind": "html"
+  },
+  "h_42c5609f2644": {
+    "source": "Video frame · 16:17 ↗",
+    "kind": "html"
+  },
+  "t_ca20ffa62b50": {
+    "source": "Cycle and compare the large-pool symbol",
+    "kind": "text"
+  },
+  "t_701e22f38914": {
+    "source": "Enlarge: Cycle and compare the large-pool symbol",
+    "kind": "text"
+  },
+  "h_ca20ffa62b50": {
+    "source": "Cycle and compare the large-pool symbol",
+    "kind": "html"
+  },
+  "h_8a80c6acae8e": {
+    "source": "Video frame · 16:21 ↗",
+    "kind": "html"
+  },
+  "t_2513c42c26c8": {
+    "source": "Submit each selected symbol with a kill",
+    "kind": "text"
+  },
+  "t_00563ccf3f70": {
+    "source": "Enlarge: Submit each selected symbol with a kill",
+    "kind": "text"
+  },
+  "h_2513c42c26c8": {
+    "source": "Submit each selected symbol with a kill",
+    "kind": "html"
+  },
+  "h_1892e0577973": {
+    "source": "Video frame · 16:38 ↗",
+    "kind": "html"
+  },
+  "t_58cce2ffc6ef": {
+    "source": "Shield trial: block on the plate",
+    "kind": "text"
+  },
+  "t_d9d0d4ef0f69": {
+    "source": "Enlarge: Shield trial: block on the plate",
+    "kind": "text"
+  },
+  "h_58cce2ffc6ef": {
+    "source": "Shield trial: block on the plate",
+    "kind": "html"
+  },
+  "h_353e405c8154": {
+    "source": "Video frame · 17:06 ↗",
+    "kind": "html"
+  },
+  "h_011da5cec000": {
+    "source": "<span>Before moving on</span>Bloodraven trial complete; upgraded shield placed in the round Ice Caves slot.",
+    "kind": "html"
+  },
+  "h_b8bbe2d126e9": {
+    "source": "Phylactery forge → Two round changes → Deathraven trial",
+    "kind": "html"
+  },
+  "h_6efe4ae62c8c": {
+    "source": "Finish the scythe &amp; prepare for the boss",
+    "kind": "html"
+  },
+  "t_a2287d897373": {
+    "source": "Finish the scythe & prepare for the boss",
+    "kind": "text"
+  },
+  "h_3b602270e971": {
+    "source": "Open on YouTube · 17:17 ↗",
+    "kind": "html"
+  },
+  "h_2064eed649ca": {
+    "source": "Return to the scythe left at its <strong>Phylactery upgrade spot</strong>. Kill zombies nearby until it glows. Then let <strong>two rounds pass</strong>.",
+    "kind": "html"
+  },
+  "h_ed47cc3c8bde": {
+    "source": "During that wait, prepare: <strong>fully overcharged red Frontline meter</strong>, <strong>full armor</strong>, and a <strong>Pack-a-Punched 9mm SAP</strong>. The creator suggests the melee perk, Stamin-Up, Quick Revive and Double Tap. Jack-in-the-Boxes are optional.",
+    "kind": "html"
+  },
+  "h_a5a14b66715d": {
+    "source": "After two rounds, pick up the scythe. It is temporarily unusable. Take a <strong>Pack-a-Punch transport</strong> to enter its trial.",
+    "kind": "html"
+  },
+  "h_bacdb326ed71": {
+    "source": "Kill the enemies with the scythe. The creator switches to a firearm for remaining Wüstlings when easier. Complete the trial and place the upgraded scythe in the <strong>last Ice Caves weapon slot</strong>.",
+    "kind": "html"
+  },
+  "h_2fd2f33c2efe": {
+    "source": "Check that all four weapons have been deposited: <strong>flail, hammer, shield and scythe</strong>. All four fires around the volcano ignite and dialogue plays.",
+    "kind": "html"
+  },
+  "t_ddc5e04e43e3": {
+    "source": "Scythe forge area",
+    "kind": "text"
+  },
+  "t_32f2b4702bac": {
+    "source": "Enlarge: Scythe forge area",
+    "kind": "text"
+  },
+  "h_ddc5e04e43e3": {
+    "source": "Scythe forge area",
+    "kind": "html"
+  },
+  "h_2825f4645b98": {
+    "source": "Video frame · 17:19 ↗",
+    "kind": "html"
+  },
+  "t_e60a84439f4f": {
+    "source": "Boss preparation",
+    "kind": "text"
+  },
+  "t_f5d81791676c": {
+    "source": "Enlarge: Boss preparation",
+    "kind": "text"
+  },
+  "t_30e6f3d262d2": {
+    "source": "Boss preparation — Overcharge Frontline and refill armor before entry.",
+    "kind": "text"
+  },
+  "h_e60a84439f4f": {
+    "source": "Boss preparation",
+    "kind": "html"
+  },
+  "h_0c82a753a72d": {
+    "source": "Overcharge Frontline and refill armor before entry.",
+    "kind": "html"
+  },
+  "h_fbb2a2aa5675": {
+    "source": "Video frame · 17:30 ↗",
+    "kind": "html"
+  },
+  "t_d0699f47410e": {
+    "source": "Scythe trial completed",
+    "kind": "text"
+  },
+  "t_f2453908399e": {
+    "source": "Enlarge: Scythe trial completed",
+    "kind": "text"
+  },
+  "h_d0699f47410e": {
+    "source": "Scythe trial completed",
+    "kind": "html"
+  },
+  "h_ef89f20519e7": {
+    "source": "Video frame · 18:03 ↗",
+    "kind": "html"
+  },
+  "h_c2a0dca8980f": {
+    "source": "<span>Before moving on</span>Four weapons deposited; four fires lit; boss transport opened.",
+    "kind": "html"
+  },
+  "h_6d550e419ffa": {
+    "source": "Final check → Scythe + Frontline → Kingfall",
+    "kind": "html"
+  },
+  "h_e11020fc1c6a": {
+    "source": "Enter the God-King fight",
+    "kind": "html"
+  },
+  "t_e11020fc1c6a": {
+    "source": "Enter the God-King fight",
+    "kind": "text"
+  },
+  "h_abf7f712d6a3": {
+    "source": "Open on YouTube · 18:10 ↗",
+    "kind": "html"
+  },
+  "h_37e429c59163": {
+    "source": "<strong>Finish your preparation before entering the new transport.</strong> This section follows the video’s fast solo scythe / Frontline method; its success depends on reaching the fight with that setup.",
+    "kind": "html"
+  },
+  "h_e5c0f5e5c9fd": {
+    "source": "After the four fires light and the dialogue plays, <strong>pick the upgraded scythe back up</strong>. Confirm full armor and an overcharged red Frontline meter.",
+    "kind": "html"
+  },
+  "h_065edeb52037": {
+    "source": "Enter the <strong>newly opened boss transport</strong> shown below. A cutscene begins the encounter.",
+    "kind": "html"
+  },
+  "h_500359c19360": {
+    "source": "Run to the God-King, <strong>activate Frontline</strong> and repeatedly melee him with the upgraded scythe. Follow him when he moves.",
+    "kind": "html"
+  },
+  "h_117b7607724f": {
+    "source": "If he is over a plate and cannot be hit, quickly kill nearby zombies, then resume attacking when he returns to his chair.",
+    "kind": "html"
+  },
+  "h_093fc70b4cdb": {
+    "source": "Continue through the next cutscene. In the creator’s run, Frontline remains active afterward; keep attacking with the scythe until the final defeat and <strong>Kingfall</strong> achievement.",
+    "kind": "html"
+  },
+  "t_71ed2fd75e74": {
+    "source": "New boss transport at the Ice Caves",
+    "kind": "text"
+  },
+  "t_c5627a0d097e": {
+    "source": "Enlarge: New boss transport at the Ice Caves",
+    "kind": "text"
+  },
+  "h_71ed2fd75e74": {
+    "source": "New boss transport at the Ice Caves",
+    "kind": "html"
+  },
+  "h_2d7312f625ec": {
+    "source": "Video frame · 18:14 ↗",
+    "kind": "html"
+  },
+  "t_cb510e9541ed": {
+    "source": "God-King: Frontline + upgraded scythe",
+    "kind": "text"
+  },
+  "t_d5c0aeb56137": {
+    "source": "Enlarge: God-King: Frontline + upgraded scythe",
+    "kind": "text"
+  },
+  "h_cb510e9541ed": {
+    "source": "God-King: Frontline + upgraded scythe",
+    "kind": "html"
+  },
+  "h_75cf4822ae60": {
+    "source": "Video frame · 18:20 ↗",
+    "kind": "html"
+  },
+  "h_734cda567558": {
+    "source": "<span>Before moving on</span>God-King defeated; Kingfall unlocked.",
+    "kind": "html"
+  },
+  "h_8190d2630eae": {
+    "source": "Source index",
+    "kind": "html"
+  },
+  "h_9dc5d6f54d3b": {
+    "source": "Every chapter, one click away",
+    "kind": "html"
+  },
+  "h_2a04941888e7": {
+    "source": "Intro · 0:00 ↗",
+    "kind": "html"
+  },
+  "h_53e45b83b7b4": {
+    "source": "Loadouts · 0:06 ↗",
+    "kind": "html"
+  },
+  "h_e93a0817e8ef": {
+    "source": "Spawn (Wires/Battery/Plate) · 0:21 ↗",
+    "kind": "html"
+  },
+  "h_99ecf9783a13": {
+    "source": "1st blood pool · 0:43 ↗",
+    "kind": "html"
+  },
+  "h_a22c3f187ae4": {
+    "source": "1st Stone · 0:56 ↗",
+    "kind": "html"
+  },
+  "h_e1f23681e6ef": {
+    "source": "2nd blood pool · 1:08 ↗",
+    "kind": "html"
+  },
+  "h_010ad04d8e30": {
+    "source": "2nd stone · 1:17 ↗",
+    "kind": "html"
+  },
+  "h_7e6afad462fd": {
+    "source": "Bloodraven stone · 1:24 ↗",
+    "kind": "html"
+  },
+  "h_36f13bcdbed0": {
+    "source": "Scythe lockdown · 1:40 ↗",
+    "kind": "html"
+  },
+  "h_358cdac8d979": {
+    "source": "Battery Cauldron · 2:00 ↗",
+    "kind": "html"
+  },
+  "h_959d1712f8fc": {
+    "source": "3rd Stone · 2:15 ↗",
+    "kind": "html"
+  },
+  "h_a88058257755": {
+    "source": "Blood Altar (4th Stone/Book/Gear) · 2:20 ↗",
+    "kind": "html"
+  },
+  "h_b3d50c865444": {
+    "source": "4 Stones Puzzle · 2:42 ↗",
+    "kind": "html"
+  },
+  "h_600c2c02d6ba": {
+    "source": "Pillars Puzzle · 3:21 ↗",
+    "kind": "html"
+  },
+  "h_30f7906f4c6b": {
+    "source": "Hammer · 4:20 ↗",
+    "kind": "html"
+  },
+  "h_076dd23bdfa4": {
+    "source": "Book Spawns · 4:58 ↗",
+    "kind": "html"
+  },
+  "h_df76e5e53f07": {
+    "source": "Gear Spawns · 5:22 ↗",
+    "kind": "html"
+  },
+  "h_f8b4f44543d9": {
+    "source": "Gearworks · 5:53 ↗",
+    "kind": "html"
+  },
+  "h_9a3fc2721ab4": {
+    "source": "Cipher Puzzle(Flail) · 6:10 ↗",
+    "kind": "html"
+  },
+  "h_6c62042c62d6": {
+    "source": "PaP · 6:55 ↗",
+    "kind": "html"
+  },
+  "h_f63e829a32e8": {
+    "source": "Scythe Spine · 7:12 ↗",
+    "kind": "html"
+  },
+  "h_2bfcf7849906": {
+    "source": "Flail Upgrade · 7:33 ↗",
+    "kind": "html"
+  },
+  "h_660f5af399c6": {
+    "source": "Constellation Spawns · 8:11 ↗",
+    "kind": "html"
+  },
+  "h_49fcc95ffd7a": {
+    "source": "PaP/Flail Upgrade · 8:36 ↗",
+    "kind": "html"
+  },
+  "h_12343071d5b6": {
+    "source": "Flail Trial · 9:15 ↗",
+    "kind": "html"
+  },
+  "h_4e3b798bcc27": {
+    "source": "Hammer Run · 9:51 ↗",
+    "kind": "html"
+  },
+  "h_f08c6258ee4b": {
+    "source": "Hammer Trick · 10:58 ↗",
+    "kind": "html"
+  },
+  "h_9a306ac6abda": {
+    "source": "If Trick not working/3rd Blood Pool · 11:11 ↗",
+    "kind": "html"
+  },
+  "h_b1e717847eaa": {
+    "source": "Hammer Puzzle · 11:48 ↗",
+    "kind": "html"
+  },
+  "h_25a62524a29b": {
+    "source": "Hammer Trial · 12:12 ↗",
+    "kind": "html"
+  },
+  "h_d4d5bee37970": {
+    "source": "Shield · 12:39 ↗",
+    "kind": "html"
+  },
+  "h_3fa239a01f8d": {
+    "source": "Raven Statue · 12:47 ↗",
+    "kind": "html"
+  },
+  "h_86f37ac8b590": {
+    "source": "Blood Pool Upgrade · 12:59 ↗",
+    "kind": "html"
+  },
+  "h_e30fde2f81e3": {
+    "source": "Raven Spawns(Spawn room) · 13:25 ↗",
+    "kind": "html"
+  },
+  "h_e03275c09b63": {
+    "source": "Raven Spawns(Ice Cave) · 13:37 ↗",
+    "kind": "html"
+  },
+  "h_6655e989fb7f": {
+    "source": "Raven Spawns(Archives) · 13:48 ↗",
+    "kind": "html"
+  },
+  "h_25885f1a1f65": {
+    "source": "Raven Spawns(Overlook) · 14:07 ↗",
+    "kind": "html"
+  },
+  "h_328a41ae341f": {
+    "source": "Raven Spawns(Phylactery) · 14:16 ↗",
+    "kind": "html"
+  },
+  "h_b71e812f1de7": {
+    "source": "Raven Spawns(Blood Altar) · 14:38 ↗",
+    "kind": "html"
+  },
+  "h_7c863a9251be": {
+    "source": "Corpse Eater Shield · 15:02 ↗",
+    "kind": "html"
+  },
+  "h_e8de0be73563": {
+    "source": "Bomber Zombie · 15:53 ↗",
+    "kind": "html"
+  },
+  "h_c3cb1f107af7": {
+    "source": "Radio · 16:06 ↗",
+    "kind": "html"
+  },
+  "h_f68766db7157": {
+    "source": "Blood Symbols · 16:24 ↗",
+    "kind": "html"
+  },
+  "h_eb1ef5cc0603": {
+    "source": "Shield Trial · 16:50 ↗",
+    "kind": "html"
+  },
+  "h_8a9b139179c5": {
+    "source": "Scythe Upgrade · 17:17 ↗",
+    "kind": "html"
+  },
+  "h_af478657686d": {
+    "source": "Boss Fight Setup · 17:27 ↗",
+    "kind": "html"
+  },
+  "h_98aca9ca3bb9": {
+    "source": "Scythe Trial · 17:46 ↗",
+    "kind": "html"
+  },
+  "h_e44041b446fa": {
+    "source": "Boss Fight · 18:10 ↗",
+    "kind": "html"
+  },
+  "h_283a6275b31a": {
+    "source": "Summary and frame selections prepared from the supplied video’s transcript, chapter list and footage. Narration spelling has been corrected where the game labels are clear. The order follows the creator’s route; example rune codes, constellation shapes and pool symbols belong to that recorded run. Gameplay and screenshots belong to their respective owners. Original guide: <a href=\"https://www.youtube.com/watch?v=45dG6srGVMA\">SchleyerZ — *SOLO* Frozen Dawn Easter Egg Guide (2025), Kingfall Achievement</a>.",
+    "kind": "html"
+  },
+  "h_71bf90935fc2": {
+    "source": "Reference",
+    "kind": "html"
+  },
+  "t_889936ebb6aa": {
+    "source": "Close reference",
+    "kind": "text"
+  },
+  "h_ad8c41bed497": {
+    "source": "Close ×",
+    "kind": "html"
+  },
+  "h_ff19c514a4f2": {
+    "source": "Frozen Dawn · Solo reference · 102 video frames · 48 source chapters",
+    "kind": "html"
+  },
+  "t_581906c7bbc9": {
+    "source": "Open this moment on YouTube ↗",
+    "kind": "text"
+  },
+  "t_f6af852b7f49": {
+    "source": "SchleyerZ walkthrough: {title}",
+    "kind": "text"
+  },
+  "t_847f252fef7c": {
+    "source": "If YouTube blocks playback in this browser or a saved local file, use the timestamped link below. Video needs internet.",
+    "kind": "text"
+  },
+  "t_b3560a092fe9": {
+    "source": "Offline edition · images included",
+    "kind": "text"
+  }
+}

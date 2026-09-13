@@ -12,8 +12,8 @@ for (const t of frames) {
 }
 if (html.includes('src="assets/')) throw Error("Offline image reference remains")
 html = html.replace(
-  '<a class="download" href="frozen-dawn-walkthrough.html" download>Save offline HTML ↓</a>',
-  '<span class="offline-badge">Offline edition · images included</span>',
+  /<a class="download"[^>]*>[\s\S]*?<\/a>/,
+  '<span class="offline-badge" data-offline-badge>Offline edition · images included</span>',
 )
 const target = path.join(root, "frozen-dawn-walkthrough.html")
 await fs.writeFile(target, html)

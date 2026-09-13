@@ -10,7 +10,7 @@ function showReference(button) {
   const videoLink = document.createElement("a")
   videoLink.target = "_blank"
   videoLink.rel = "noreferrer"
-  videoLink.textContent = "Open this moment on YouTube ↗"
+  videoLink.textContent = window.guideI18n.text("openVideo")
   if (button.hasAttribute("data-image")) {
     title.textContent = button.dataset.caption
     const img = new Image()
@@ -23,7 +23,7 @@ function showReference(button) {
     title.textContent = button.dataset.title
     const frame = document.createElement("iframe")
     frame.className = "video-frame"
-    frame.title = `SchleyerZ walkthrough: ${button.dataset.title}`
+    frame.title = window.guideI18n.text("videoTitle").replace("{title}", button.dataset.title)
     frame.src = `https://www.youtube-nocookie.com/embed/45dG6srGVMA?start=${button.dataset.start}&end=${button.dataset.end}&autoplay=1&rel=0`
     frame.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen"
     frame.allowFullscreen = true
@@ -31,8 +31,7 @@ function showReference(button) {
     content.append(frame)
     const help = document.createElement("p")
     help.className = "video-help"
-    help.textContent =
-      "If YouTube blocks playback in this browser or a saved local file, use the timestamped link below. Video needs internet."
+    help.textContent = window.guideI18n.text("videoHelp")
     content.append(help)
     videoLink.href = `https://www.youtube.com/watch?v=45dG6srGVMA&t=${button.dataset.start}s`
   }

@@ -59,3 +59,13 @@
 - The updated `npm run guide:build` and `npm run check` passed with all source paths under `frozen-dawn/`.
 - The homepage and both guide editions are byte-identical to the preceding commit; all 102 screenshots and internal anchor targets resolve.
 - Active instruction paths were checked, and the research transcript remains preserved after removing the duplicate folders.
+
+## 2026-09-13 — Shared multilingual Frozen Dawn guide
+
+- Ted requested Simplified Chinese, Japanese, Korean, Russian, French, and Spanish with official game terminology where available.
+- The same artifact now contains English plus these six languages; query links select a language, and the single offline HTML includes every translation and screenshot.
+- Official PC map, achievement, and Raven names use Steam game text; descriptive location/equipment labels retain English references where official wording was not verified.
+- Translation catalogs and term provenance live under `frozen-dawn/locales/`; see [editing notes](frozen-dawn/README.md#languages).
+- The HTML parser dependency `parse5` joins Prettier, superseding the earlier statement that Prettier was the only development dependency.
+- All six catalogs cover 770 entries; 11 checks passed, and browser checks preserved 12 stages, numeric puzzle tables, translated image dialogs, and all 102 offline images at 1920 × 1080.
+- The Japanese video dialog and timestamp were verified; actual YouTube playback remains dependent on the external player.

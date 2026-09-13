@@ -1,0 +1,441 @@
+{
+  "scope": "Official PC map, achievement, Raven and Ubersprengen names use Steam's game-supplied localization. Blitz names and their functions use the linked Activision article. Other translations are descriptive, with English references.",
+  "sources": [
+    "https://steamcommunity.com/stats/476620/achievements/",
+    "https://www.callofduty.com/de/blog/archives/the-new-kid-vs-doktor-straub-or-how-i-learned-to-ride-the-waves-and-not-make-my-teammates-hate-me"
+  ],
+  "entries": [
+    {
+      "source": "Frozen Dawn",
+      "translations": {
+        "zh-CN": "冰封黎明",
+        "ja": "凍える夜明け",
+        "ko": "얼어붙은 새벽",
+        "ru": "Морозное утро",
+        "fr": "L'aube glaciale",
+        "es": "El albor helado"
+      },
+      "verification": "Official PC name"
+    },
+    {
+      "source": "Kingfall",
+      "translations": {
+        "zh-CN": "弑君",
+        "ja": "王の失墜",
+        "ko": "왕의 몰락",
+        "ru": "Свержение короля",
+        "fr": "Abdication",
+        "es": "Caída del rey"
+      },
+      "verification": "Official PC name"
+    },
+    {
+      "source": "Thule",
+      "translations": {
+        "zh-CN": "极北",
+        "ja": "ツーレ",
+        "ko": "툴레",
+        "ru": "Туле",
+        "fr": "Thulé",
+        "es": "Tule"
+      },
+      "verification": "Official PC name"
+    },
+    {
+      "source": "Deathraven",
+      "translations": {
+        "zh-CN": "死亡渡鸦",
+        "ja": "デスレイブン",
+        "ko": "데스레이븐",
+        "ru": "Смертельный ворон",
+        "fr": "Corbeau de la mort",
+        "es": "cuervo de muerte"
+      },
+      "verification": "Official PC name"
+    },
+    {
+      "source": "Moonraven",
+      "translations": {
+        "zh-CN": "月光渡鸦",
+        "ja": "ムーンレイブン",
+        "ko": "문레이븐",
+        "ru": "Лунный ворон",
+        "fr": "Corbeau lunaire",
+        "es": "cuervo de luna"
+      },
+      "verification": "Official PC name"
+    },
+    {
+      "source": "Bloodraven",
+      "translations": {
+        "zh-CN": "鲜血渡鸦",
+        "ja": "ブラッドレイブン",
+        "ko": "블러드레이븐",
+        "ru": "Кровавый ворон",
+        "fr": "Corbeau de sang",
+        "es": "cuervo de sangre"
+      },
+      "verification": "Official PC name"
+    },
+    {
+      "source": "Stormraven",
+      "translations": {
+        "zh-CN": "风暴渡鸦",
+        "ja": "ストームレイブン",
+        "ko": "스톰레이븐",
+        "ru": "Грозовой ворон",
+        "fr": "Corbeau des tempêtes",
+        "es": "cuervo de tormenta"
+      },
+      "verification": "Official PC name"
+    },
+    {
+      "source": "Wüstling",
+      "translations": {
+        "zh-CN": "蛮兽",
+        "ja": "ウスリング",
+        "ko": "뷔스틀링",
+        "ru": "Вюстлинг",
+        "fr": "Wüstling",
+        "es": "Wüstling"
+      },
+      "verification": "Official PC name"
+    },
+    {
+      "source": "Pack-a-Punch",
+      "translations": {
+        "zh-CN": "远古超限强化装置（Pack-a-Punch）",
+        "ja": "古代のウーバーシュプリン（Pack-a-Punch）",
+        "ko": "고대의 우버스프렝겐(Pack-a-Punch)",
+        "ru": "древний «Юбершпренген» (Pack-a-Punch)",
+        "fr": "antique Ubersprengen (Pack-a-Punch)",
+        "es": "Ubersprengen antigua (Pack-a-Punch)"
+      },
+      "verification": "Official PC name"
+    },
+    {
+      "source": "Quick Revive",
+      "translations": {
+        "zh-CN": "快速复活（Lebenblitz / Quick Revive）",
+        "ja": "蘇生強化（Lebenblitz / Quick Revive）",
+        "ko": "소생 강화(Lebenblitz / Quick Revive)",
+        "ru": "быстрое оживление (Lebenblitz / Quick Revive)",
+        "fr": "réanimation rapide (Lebenblitz / Quick Revive)",
+        "es": "reanimación rápida (Lebenblitz / Quick Revive)"
+      },
+      "verification": "German Blitz name and function"
+    },
+    {
+      "source": "Stamin-Up",
+      "translations": {
+        "zh-CN": "耐力强化（Laufenblitz / Stamin-Up）",
+        "ja": "スタミナ強化（Laufenblitz / Stamin-Up）",
+        "ko": "체력·질주 강화(Laufenblitz / Stamin-Up)",
+        "ru": "выносливость (Laufenblitz / Stamin-Up)",
+        "fr": "endurance (Laufenblitz / Stamin-Up)",
+        "es": "resistencia (Laufenblitz / Stamin-Up)"
+      },
+      "verification": "German Blitz name and function"
+    },
+    {
+      "source": "Double Tap",
+      "translations": {
+        "zh-CN": "火力强化（Kugelblitz / Double Tap）",
+        "ja": "射撃強化（Kugelblitz / Double Tap）",
+        "ko": "화력 강화(Kugelblitz / Double Tap)",
+        "ru": "усиление стрельбы (Kugelblitz / Double Tap)",
+        "fr": "puissance de feu (Kugelblitz / Double Tap)",
+        "es": "potencia de fuego (Kugelblitz / Double Tap)"
+      },
+      "verification": "German Blitz name and function"
+    },
+    {
+      "source": "Crash Site",
+      "translations": {
+        "zh-CN": "坠机点",
+        "ja": "墜落地点",
+        "ko": "추락 지점",
+        "ru": "место крушения",
+        "fr": "site du crash",
+        "es": "zona del accidente"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Ice Caves",
+      "translations": {
+        "zh-CN": "冰洞",
+        "ja": "氷の洞窟",
+        "ko": "얼음 동굴",
+        "ru": "ледяные пещеры",
+        "fr": "grottes de glace",
+        "es": "cuevas de hielo"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Morgue",
+      "translations": {
+        "zh-CN": "停尸房",
+        "ja": "死体安置所",
+        "ko": "시체 안치소",
+        "ru": "морг",
+        "fr": "morgue",
+        "es": "morgue"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Phylactery",
+      "translations": {
+        "zh-CN": "灵匣室",
+        "ja": "聖遺物の間",
+        "ko": "성물실",
+        "ru": "филактерий",
+        "fr": "phylactère",
+        "es": "filacteria"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Overlook",
+      "translations": {
+        "zh-CN": "瞭望台",
+        "ja": "展望台",
+        "ko": "전망대",
+        "ru": "смотровая площадка",
+        "fr": "belvédère",
+        "es": "mirador"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Thulian Archives",
+      "translations": {
+        "zh-CN": "极北档案馆",
+        "ja": "ツーレの記録庫",
+        "ko": "툴리안 기록보관소",
+        "ru": "архивы Туле",
+        "fr": "archives de Thulé",
+        "es": "archivos de Tule"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Archives",
+      "translations": {
+        "zh-CN": "档案馆",
+        "ja": "記録庫",
+        "ko": "기록보관소",
+        "ru": "архивы",
+        "fr": "archives",
+        "es": "archivos"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Blood Altar",
+      "translations": {
+        "zh-CN": "鲜血祭坛",
+        "ja": "血の祭壇",
+        "ko": "피의 제단",
+        "ru": "кровавый алтарь",
+        "fr": "autel de sang",
+        "es": "altar de sangre"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Passage",
+      "translations": {
+        "zh-CN": "通道",
+        "ja": "通路",
+        "ko": "통로",
+        "ru": "проход",
+        "fr": "passage",
+        "es": "pasadizo"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Cipher Room",
+      "translations": {
+        "zh-CN": "密码室",
+        "ja": "暗号の間",
+        "ko": "암호실",
+        "ru": "комната шифра",
+        "fr": "salle du chiffre",
+        "es": "sala del cifrado"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Gearworks",
+      "translations": {
+        "zh-CN": "齿轮间",
+        "ja": "歯車室",
+        "ko": "기어실",
+        "ru": "зубчатый механизм",
+        "fr": "mécanisme d'engrenages",
+        "es": "mecanismo de engranajes"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Orrery",
+      "translations": {
+        "zh-CN": "太阳系仪",
+        "ja": "太陽系儀",
+        "ko": "태양계 모형",
+        "ru": "планетарий",
+        "fr": "planétaire",
+        "es": "planetario"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Lost in Blood",
+      "translations": {
+        "zh-CN": "迷失血域",
+        "ja": "血に迷う領域",
+        "ko": "피의 공간",
+        "ru": "затерянный в крови",
+        "fr": "perdu dans le sang",
+        "es": "perdido en la sangre"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Corpse Eater",
+      "translations": {
+        "zh-CN": "食尸者",
+        "ja": "死体喰らい",
+        "ko": "시체 포식자",
+        "ru": "пожиратель трупов",
+        "fr": "dévoreur de cadavres",
+        "es": "devorador de cadáveres"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "God-King",
+      "translations": {
+        "zh-CN": "神王",
+        "ja": "神王",
+        "ko": "신왕",
+        "ru": "бог-король",
+        "fr": "roi-dieu",
+        "es": "rey dios"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Frontline",
+      "translations": {
+        "zh-CN": "前线技能",
+        "ja": "最前線アビリティ",
+        "ko": "최전선 능력",
+        "ru": "способность «Передовая»",
+        "fr": "capacité de première ligne",
+        "es": "habilidad de primera línea"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Speed Cola",
+      "translations": {
+        "zh-CN": "快速装填",
+        "ja": "リロード速度強化",
+        "ko": "재장전 속도 강화",
+        "ru": "быстрая перезарядка",
+        "fr": "rechargement rapide",
+        "es": "recarga rápida"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Electric Cherry",
+      "translations": {
+        "zh-CN": "换弹电击",
+        "ja": "リロード時の電撃",
+        "ko": "재장전 전기 충격",
+        "ru": "электроразряд при перезарядке",
+        "fr": "décharge au rechargement",
+        "es": "descarga al recargar"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Mystery Box",
+      "translations": {
+        "zh-CN": "神秘箱",
+        "ja": "ミステリーボックス",
+        "ko": "미스터리 박스",
+        "ru": "таинственный ящик",
+        "fr": "boîte mystère",
+        "es": "caja misteriosa"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Grease Gun",
+      "translations": {
+        "zh-CN": "黄油枪",
+        "ja": "グリースガン",
+        "ko": "그리스 건",
+        "ru": "пистолет-пулемёт",
+        "fr": "pistolet-mitrailleur",
+        "es": "subfusil"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Determination",
+      "translations": {
+        "zh-CN": "决心",
+        "ja": "不屈",
+        "ko": "결의",
+        "ru": "решимость",
+        "fr": "détermination",
+        "es": "determinación"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Hand to Hand",
+      "translations": {
+        "zh-CN": "近身格斗",
+        "ja": "近接格闘",
+        "ko": "근접 격투",
+        "ru": "рукопашный бой",
+        "fr": "combat rapproché",
+        "es": "combate cuerpo a cuerpo"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Vicious",
+      "translations": {
+        "zh-CN": "凶猛",
+        "ja": "獰猛",
+        "ko": "흉포",
+        "ru": "жестокость",
+        "fr": "férocité",
+        "es": "ferocidad"
+      },
+      "verification": "Descriptive translation"
+    },
+    {
+      "source": "Jack-in-the-Boxes",
+      "translations": {
+        "zh-CN": "盒中小丑诱饵",
+        "ja": "びっくり箱の囮",
+        "ko": "깜짝 상자 미끼",
+        "ru": "приманки «Чёртик из табакерки»",
+        "fr": "leurres diables en boîte",
+        "es": "señuelos de caja sorpresa"
+      },
+      "verification": "Descriptive translation"
+    }
+  ]
+}
