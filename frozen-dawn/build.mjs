@@ -153,7 +153,7 @@ stage(
     "Find <strong>two books</strong> among the four possible spots below. Insert them into the pedestal in the <strong>upper Archives</strong> to open the Cipher Room.",
     "Find <strong>three gears</strong>. Check the Cipher Room after opening it. The narration says “six” but then lists the <strong>seven candidates</strong> shown below.",
     "Install the three gears in the <strong>Gearworks</strong>. Kill zombies nearby, either downstairs by the gears or upstairs in the main Archives, until the Orrery activates.",
-    "Read the <strong>colored orb positions on the cipher wall</strong>. Match each orb’s position on the Orrery using the orientation chart below.",
+    'Read the <strong>colored orb positions on the cipher wall</strong>. Match each orb’s position on the Orrery using the <a href="#orrery-chart">orientation chart</a> below, and read its <strong>viewpoint warning</strong> first.',
     "Interact with the matching <strong>colored control orb at the lower right</strong> as the moving orb approaches its target. There are <strong>eight positions</strong>: four cardinal directions and four diagonals. A wrong solution resets after a short delay.",
     "When all orbs match, take the <strong>Broken Flail</strong>.",
   ]) +
@@ -175,6 +175,9 @@ stage(
       [351, "Passage", "Small nook past the Pack-a-Punch transport."],
     ]) +
     `<h3 id="orrery-chart">Cipher → Orrery orientation</h3><p><strong>Do not copy this screenshot’s colored code.</strong> Copy the positions from your own cipher wall. The chart supplies the landmarks needed to translate its flat view to the physical machine.</p>` +
+    note(
+      "<strong>Viewpoint warning: the cipher wall shows the Orrery from below.</strong> To picture the machine from above, hold the <strong>big arm / Speed Cola at the top</strong> and the <strong>small arm at the bottom</strong>, then <strong>mirror left and right</strong> (east and west). Top and bottom (north and south) stay where they are; a 180-degree “upside down” turn is wrong. Position examples only, not colored solutions: a wall target at <strong>9 o’clock</strong> becomes <strong>3 o’clock</strong> in that top-down view, and <strong>7:30</strong> becomes <strong>4:30</strong>. The chart below already places the room landmarks on the wall as you see it: <strong>follow them directly and do not mirror them a second time</strong>.",
+    ) +
     gallery(
       [
         [
