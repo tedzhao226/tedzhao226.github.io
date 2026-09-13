@@ -13,9 +13,9 @@ Run `npm run guide:build` from the repository root to regenerate the web and off
 
 ## Languages
 
-The same web page and offline HTML contain English, Simplified Chinese, Japanese, Korean, Russian, French, and Spanish.
+The same web page and offline HTML contain English, Simplified Chinese, Traditional Chinese, Japanese, Korean, Russian, French, and Spanish.
 Choose a language at the top, or use a shareable URL such as [Simplified Chinese](https://tedzhao226.github.io/frozen-dawn/?lang=zh-CN).
-The other language codes are `ja`, `ko`, `ru`, `fr`, and `es`.
+The other language codes are `zh-TW`, `ja`, `ko`, `ru`, `fr`, and `es`.
 Switching language retains the selected stage; it does not fetch a remote translation service.
 The original screenshots and video remain in English.
 
@@ -25,9 +25,9 @@ The catalog-only output is an English preview; publish only the normal build con
 Checks reject missing or stale entries, changed markup or links, changed literal numbers, extra numeric quantities, and broken placeholders.
 Written-out quantities and translation meaning still need editorial review.
 
-Official PC map, achievement, and Raven names were checked against the [game-supplied Steam achievement text](https://steamcommunity.com/stats/476620/achievements/).
+Official PC map, achievement, and Raven names were checked against the [game-supplied Steam achievement text](https://steamcommunity.com/stats/476620/achievements/) and its [Traditional Chinese view](https://steamcommunity.com/stats/476620/achievements/?l=tchinese).
 Blitz names and functions were checked against [Activision’s Zombies guide](https://www.callofduty.com/de/blog/archives/the-new-kid-vs-doktor-straub-or-how-i-learned-to-ride-the-waves-and-not-make-my-teammates-hate-me).
-The term sources and descriptive equivalents are recorded in `locales/terminology.json`.
+The term sources and descriptive equivalents are recorded in `locales/terminology.json`. Traditional Chinese wording follows the Steam `tchinese` view where present; descriptive fan translations retain the English reference when no official wording was verified.
 Unverified location and equipment labels use descriptive translations with English references; these are fan translations, not an official localized guide.
 
 ## Reference limits
