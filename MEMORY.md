@@ -28,3 +28,19 @@
 - `npm run check` passed; stage and image order remained unchanged, internal anchors resolved, and the instruction-file paths were checked.
 - Ego Lite verified screenshot enlargement at 1920 pixels and loaded all 102 embedded offline images at their full 1920 × 1080 resolution.
 - The homepage canonical link, automatic redirects, and fallback link all target Ted’s requested Notion root URL.
+
+## 2026-09-13 — Rename checkout and remove the old blog system
+
+- Ted requested matching local/GitHub naming and removal of the old blog system.
+- The durable checkout is now `/Users/ted/workspace/tedzhao226.github.io`, matching the existing GitHub repo; this supersedes the earlier 2026-09-13 checkout path.
+- The remote retains `tedzhao226.github.io`, which GitHub requires for the existing user-site URL.
+- Quartz, old posts and attachments, blog specifications, publishing tools, generated output, and TypeScript tooling were removed; earlier retained-Quartz notes describe history only.
+- Removed files remain recoverable from Git history or macOS Trash; original Frozen Dawn research stays under local Git-ignored `private/`.
+- The guide, editable sources, research archive, and homepage were hash-checked across the rename and removal.
+- Prettier is the only remaining development dependency; active instructions now describe the static Pages workflow.
+
+## 2026-09-13 — Static Pages cleanup verification
+
+- `npm ci` installed one package; `npm run guide:build` and `npm run check` passed after the old blog system was removed.
+- The root redirect and both guide HTML editions remained byte-identical to the preceding commit.
+- The local preview was restarted from the renamed checkout and returned the expected guide and Notion redirect.

@@ -1,7 +1,7 @@
 # Ted Zhao’s GitHub Pages
 
 Repository: [tedzhao226.github.io](https://github.com/tedzhao226/tedzhao226.github.io).
-The local checkout is at `/Users/ted/workspace/blog`.
+The local checkout is at `/Users/ted/workspace/tedzhao226.github.io`.
 
 - [Homepage](https://tedzhao226.github.io/) redirects directly to [Ted’s Notion site](https://tedzhao.notion.site/).
 - [Frozen Dawn guide](https://tedzhao226.github.io/frozen-dawn/) provides a chronological Easter egg walkthrough with puzzle references and expandable screenshots.
@@ -33,6 +33,3 @@ Keep homepage routing in the root `index.html` so project pages retain their own
 [AGENTS.md](AGENTS.md) contains agent instructions; [MEMORY.md](MEMORY.md) records decisions and verification history.
 The original transcript, raw captures, contact sheets, and pre-move build remain locally under the Git-ignored `private/` directory.
 The tracked source files, chapter metadata, and screenshots are sufficient to rebuild the guide on another computer.
-
-The existing Quartz sources remain in `content/` and `quartz/`.
-Quartz is not part of the current Pages deployment; use `npm run quartz -- build --serve` only when working on those sources.

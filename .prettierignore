@@ -1,7 +1,2 @@
-public
-node_modules
-.quartz-cache
-.pi-subagents
-.hermes
-
+node_modules/
 private/
