@@ -5,11 +5,16 @@ The root `index.html` redirects to `https://tedzhao.notion.site/`; `frozen-dawn/
 Read `MEMORY.md` when changing routing, guide references, or deployment, for prior decisions and known limits.
 Keep rules here and append history to `MEMORY.md` using `## YYYY-MM-DD — title` entries of at most ten lines.
 
+## Artifact Layout
+
+Keep each artifact’s editable sources, assets, and generated pages together in one top-level folder.
+Use that folder’s name as its public URL path.
+
 ## Frozen Dawn Artifact
 
-Edit guide sources under `artifacts/frozen-dawn/` and regenerate the HTML with `npm run guide:build`.
+Edit guide sources under `frozen-dawn/` and regenerate the HTML with `npm run guide:build`.
 Treat `frozen-dawn/assets/` as the canonical screenshot inputs; filenames record video seconds.
-When changing gameplay instructions or screenshots, consult [the guide’s reference notes](artifacts/frozen-dawn/README.md) and verify the relevant video segment.
+When changing gameplay instructions or screenshots, consult [the guide’s reference notes](frozen-dawn/README.md) and verify the relevant video segment.
 Preserve source attribution, chronological stages, and the distinction between example patterns and the player’s own puzzle values.
 Keep raw research material under Git-ignored `private/`.
 

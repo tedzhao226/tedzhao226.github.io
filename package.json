@@ -9,9 +9,9 @@
     "url": "https://github.com/tedzhao226/tedzhao226.github.io.git"
   },
   "scripts": {
-    "check": "node --check artifacts/frozen-dawn/build.mjs && node --check artifacts/frozen-dawn/package.mjs && node --check artifacts/frozen-dawn/reader.js && prettier . --check",
+    "check": "node --check frozen-dawn/build.mjs && node --check frozen-dawn/package.mjs && node --check frozen-dawn/reader.js && prettier . --check",
     "format": "prettier . --write",
-    "guide:build": "node artifacts/frozen-dawn/build.mjs && node artifacts/frozen-dawn/package.mjs && prettier --write frozen-dawn/*.html artifacts/frozen-dawn/selected-frames.json",
+    "guide:build": "node frozen-dawn/build.mjs && node frozen-dawn/package.mjs && prettier --write frozen-dawn/*.html frozen-dawn/selected-frames.json",
     "guide:serve": "python3 -m http.server 8765 --bind 127.0.0.1"
   },
   "engines": {

@@ -18,8 +18,8 @@ npm run guide:serve
 ```
 
 Open [the local guide](http://127.0.0.1:8765/frozen-dawn/).
-Edit the walkthrough in `artifacts/frozen-dawn/`; see its [README](artifacts/frozen-dawn/README.md) for sources and editing notes.
-The build writes the two HTML editions to `frozen-dawn/` and uses the tracked screenshots in `frozen-dawn/assets/`.
+Edit the walkthrough in `frozen-dawn/`; see its [README](frozen-dawn/README.md) for sources and editing notes.
+This single artifact folder holds its editable source, screenshots, and both generated HTML editions.
 
 ## Publish
 
@@ -31,5 +31,5 @@ Keep homepage routing in the root `index.html` so project pages retain their own
 ## Project context
 
 [AGENTS.md](AGENTS.md) contains agent instructions; [MEMORY.md](MEMORY.md) records decisions and verification history.
-The original transcript, raw captures, contact sheets, and pre-move build remain locally under the Git-ignored `private/` directory.
+The original transcript, raw captures and contact sheets remain locally under the Git-ignored `private/` directory.
 The tracked source files, chapter metadata, and screenshots are sufficient to rebuild the guide on another computer.

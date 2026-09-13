@@ -44,3 +44,18 @@
 - `npm ci` installed one package; `npm run guide:build` and `npm run check` passed after the old blog system was removed.
 - The root redirect and both guide HTML editions remained byte-identical to the preceding commit.
 - The local preview was restarted from the renamed checkout and returned the expected guide and Notion redirect.
+
+## 2026-09-13 — One folder per artifact
+
+- Ted found the two Frozen Dawn folders confusing and requested a single artifact.
+- All editable files moved from `artifacts/frozen-dawn/` into `frozen-dawn/`, beside its screenshots and published pages; the empty `artifacts/` directory was removed.
+- The build and validation commands now use that single folder; the guide URL remains `/frozen-dawn/`.
+- Online and offline HTML are two editions of the same guide, built from the same source.
+- The redundant local `private/frozen-dawn-original-build/` copy was moved to Trash; the original research remains under `private/frozen-dawn-source/`.
+- These paths supersede the earlier 2026-09-13 source-layout and archived-build notes; `AGENTS.md` now requires one top-level folder per artifact.
+
+## 2026-09-13 — Single-folder artifact verification
+
+- The updated `npm run guide:build` and `npm run check` passed with all source paths under `frozen-dawn/`.
+- The homepage and both guide editions are byte-identical to the preceding commit; all 102 screenshots and internal anchor targets resolve.
+- Active instruction paths were checked, and the research transcript remains preserved after removing the duplicate folders.
