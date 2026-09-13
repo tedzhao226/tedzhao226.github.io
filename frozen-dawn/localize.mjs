@@ -12,6 +12,7 @@ export const languages = [
   { code: "ru", label: "Русский", steam: "russian" },
   { code: "fr", label: "Français", steam: "french" },
   { code: "es", label: "Español", steam: "spanish" },
+  { code: "zh-TW", label: "繁體中文", steam: "tchinese" },
 ]
 const units = new Set([
   "title",

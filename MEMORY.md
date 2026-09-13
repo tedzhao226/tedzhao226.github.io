@@ -92,3 +92,17 @@
 - [Pages run 34740878331](https://github.com/tedzhao226/tedzhao226.github.io/actions/runs/34740878331) completed successfully.
 - The public guide returned the corrected pool setup, all seven language choices, and the new plate caption; the homepage still redirects to `https://tedzhao.notion.site/`.
 - This resolves the earlier 2026-09-13 language-publication-pending entry.
+
+## 2026-09-13 — Orrery viewpoint warning
+
+- Ted reported that the cipher-to-Orrery step did not explain the viewpoint change; MARS-8 and MARS-16 track the fix.
+- The preserved transcript at [6:12–6:29](https://www.youtube.com/watch?v=45dG6srGVMA&t=372s) says the top is the big arm, the bottom is the small arm, and the rest is flipped; TrueAchievements and mmmrkennedy describe north/south unchanged and east/west swapped.
+- The cipher step now links to `#orrery-chart`, and a warning note before the chart explains the underside view, the left/right mirror, the 9→3 and 7:30→4:30 position examples, and that the chart’s landmarks must not be mirrored again.
+- The landmark table, the own-game code reminder, and the screenshots are unchanged; all seven languages cover 783 entries.
+- The video segment was checked through the preserved transcript and frames under `private/frozen-dawn-source/`, not by playback.
+
+## 2026-09-13 — Traditional Chinese edition prepared
+
+- Added the `zh-TW` / 繁體中文 locale to the shared online and offline guide.
+- Traditional Chinese uses the Steam `tchinese` terminology source where verified; descriptive labels retain English references.
+- The locale includes the orrery viewpoint warning and covers all 783 catalog entries.

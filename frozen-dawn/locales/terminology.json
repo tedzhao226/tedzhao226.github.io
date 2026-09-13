@@ -2,6 +2,7 @@
   "scope": "Official PC map, achievement, Raven and Ubersprengen names use Steam's game-supplied localization. Blitz names and their functions use the linked Activision article. Other translations are descriptive, with English references.",
   "sources": [
     "https://steamcommunity.com/stats/476620/achievements/",
+    "https://steamcommunity.com/stats/476620/achievements/?l=tchinese",
     "https://www.callofduty.com/de/blog/archives/the-new-kid-vs-doktor-straub-or-how-i-learned-to-ride-the-waves-and-not-make-my-teammates-hate-me"
   ],
   "entries": [
@@ -13,7 +14,8 @@
         "ko": "얼어붙은 새벽",
         "ru": "Морозное утро",
         "fr": "L'aube glaciale",
-        "es": "El albor helado"
+        "es": "El albor helado",
+        "zh-TW": "冰封黎明"
       },
       "verification": "Official PC name"
     },
@@ -25,7 +27,8 @@
         "ko": "왕의 몰락",
         "ru": "Свержение короля",
         "fr": "Abdication",
-        "es": "Caída del rey"
+        "es": "Caída del rey",
+        "zh-TW": "弒君"
       },
       "verification": "Official PC name"
     },
@@ -37,7 +40,8 @@
         "ko": "툴레",
         "ru": "Туле",
         "fr": "Thulé",
-        "es": "Tule"
+        "es": "Tule",
+        "zh-TW": "極北"
       },
       "verification": "Official PC name"
     },
@@ -49,7 +53,8 @@
         "ko": "데스레이븐",
         "ru": "Смертельный ворон",
         "fr": "Corbeau de la mort",
-        "es": "cuervo de muerte"
+        "es": "cuervo de muerte",
+        "zh-TW": "死亡渡鴉"
       },
       "verification": "Official PC name"
     },
@@ -61,7 +66,8 @@
         "ko": "문레이븐",
         "ru": "Лунный ворон",
         "fr": "Corbeau lunaire",
-        "es": "cuervo de luna"
+        "es": "cuervo de luna",
+        "zh-TW": "月光渡鴉"
       },
       "verification": "Official PC name"
     },
@@ -73,7 +79,8 @@
         "ko": "블러드레이븐",
         "ru": "Кровавый ворон",
         "fr": "Corbeau de sang",
-        "es": "cuervo de sangre"
+        "es": "cuervo de sangre",
+        "zh-TW": "鮮血渡鴉"
       },
       "verification": "Official PC name"
     },
@@ -85,7 +92,8 @@
         "ko": "스톰레이븐",
         "ru": "Грозовой ворон",
         "fr": "Corbeau des tempêtes",
-        "es": "cuervo de tormenta"
+        "es": "cuervo de tormenta",
+        "zh-TW": "風暴渡鴉"
       },
       "verification": "Official PC name"
     },
@@ -97,7 +105,8 @@
         "ko": "뷔스틀링",
         "ru": "Вюстлинг",
         "fr": "Wüstling",
-        "es": "Wüstling"
+        "es": "Wüstling",
+        "zh-TW": "蠻獸"
       },
       "verification": "Official PC name"
     },
@@ -109,7 +118,8 @@
         "ko": "고대의 우버스프렝겐(Pack-a-Punch)",
         "ru": "древний «Юбершпренген» (Pack-a-Punch)",
         "fr": "antique Ubersprengen (Pack-a-Punch)",
-        "es": "Ubersprengen antigua (Pack-a-Punch)"
+        "es": "Ubersprengen antigua (Pack-a-Punch)",
+        "zh-TW": "遠古超限強化裝置（Pack-a-Punch）"
       },
       "verification": "Official PC name"
     },
@@ -121,7 +131,8 @@
         "ko": "소생 강화(Lebenblitz / Quick Revive)",
         "ru": "быстрое оживление (Lebenblitz / Quick Revive)",
         "fr": "réanimation rapide (Lebenblitz / Quick Revive)",
-        "es": "reanimación rápida (Lebenblitz / Quick Revive)"
+        "es": "reanimación rápida (Lebenblitz / Quick Revive)",
+        "zh-TW": "快速復活（Lebenblitz / Quick Revive）"
       },
       "verification": "German Blitz name and function"
     },
@@ -133,7 +144,8 @@
         "ko": "체력·질주 강화(Laufenblitz / Stamin-Up)",
         "ru": "выносливость (Laufenblitz / Stamin-Up)",
         "fr": "endurance (Laufenblitz / Stamin-Up)",
-        "es": "resistencia (Laufenblitz / Stamin-Up)"
+        "es": "resistencia (Laufenblitz / Stamin-Up)",
+        "zh-TW": "耐力強化（Laufenblitz / Stamin-Up）"
       },
       "verification": "German Blitz name and function"
     },
@@ -145,7 +157,8 @@
         "ko": "화력 강화(Kugelblitz / Double Tap)",
         "ru": "усиление стрельбы (Kugelblitz / Double Tap)",
         "fr": "puissance de feu (Kugelblitz / Double Tap)",
-        "es": "potencia de fuego (Kugelblitz / Double Tap)"
+        "es": "potencia de fuego (Kugelblitz / Double Tap)",
+        "zh-TW": "火力強化（Kugelblitz / Double Tap）"
       },
       "verification": "German Blitz name and function"
     },
@@ -157,7 +170,8 @@
         "ko": "추락 지점",
         "ru": "место крушения",
         "fr": "site du crash",
-        "es": "zona del accidente"
+        "es": "zona del accidente",
+        "zh-TW": "墜機點"
       },
       "verification": "Descriptive translation"
     },
@@ -169,7 +183,8 @@
         "ko": "얼음 동굴",
         "ru": "ледяные пещеры",
         "fr": "grottes de glace",
-        "es": "cuevas de hielo"
+        "es": "cuevas de hielo",
+        "zh-TW": "冰洞"
       },
       "verification": "Descriptive translation"
     },
@@ -181,7 +196,8 @@
         "ko": "시체 안치소",
         "ru": "морг",
         "fr": "morgue",
-        "es": "morgue"
+        "es": "morgue",
+        "zh-TW": "停屍房"
       },
       "verification": "Descriptive translation"
     },
@@ -193,7 +209,8 @@
         "ko": "성물실",
         "ru": "филактерий",
         "fr": "phylactère",
-        "es": "filacteria"
+        "es": "filacteria",
+        "zh-TW": "靈匣室"
       },
       "verification": "Descriptive translation"
     },
@@ -205,7 +222,8 @@
         "ko": "전망대",
         "ru": "смотровая площадка",
         "fr": "belvédère",
-        "es": "mirador"
+        "es": "mirador",
+        "zh-TW": "瞭望臺"
       },
       "verification": "Descriptive translation"
     },
@@ -217,7 +235,8 @@
         "ko": "툴리안 기록보관소",
         "ru": "архивы Туле",
         "fr": "archives de Thulé",
-        "es": "archivos de Tule"
+        "es": "archivos de Tule",
+        "zh-TW": "極北檔案館"
       },
       "verification": "Descriptive translation"
     },
@@ -229,7 +248,8 @@
         "ko": "기록보관소",
         "ru": "архивы",
         "fr": "archives",
-        "es": "archivos"
+        "es": "archivos",
+        "zh-TW": "檔案館"
       },
       "verification": "Descriptive translation"
     },
@@ -241,7 +261,8 @@
         "ko": "피의 제단",
         "ru": "кровавый алтарь",
         "fr": "autel de sang",
-        "es": "altar de sangre"
+        "es": "altar de sangre",
+        "zh-TW": "鮮血祭壇"
       },
       "verification": "Descriptive translation"
     },
@@ -253,7 +274,8 @@
         "ko": "통로",
         "ru": "проход",
         "fr": "passage",
-        "es": "pasadizo"
+        "es": "pasadizo",
+        "zh-TW": "通道"
       },
       "verification": "Descriptive translation"
     },
@@ -265,7 +287,8 @@
         "ko": "암호실",
         "ru": "комната шифра",
         "fr": "salle du chiffre",
-        "es": "sala del cifrado"
+        "es": "sala del cifrado",
+        "zh-TW": "密碼室"
       },
       "verification": "Descriptive translation"
     },
@@ -277,7 +300,8 @@
         "ko": "기어실",
         "ru": "зубчатый механизм",
         "fr": "mécanisme d'engrenages",
-        "es": "mecanismo de engranajes"
+        "es": "mecanismo de engranajes",
+        "zh-TW": "齒輪間"
       },
       "verification": "Descriptive translation"
     },
@@ -289,7 +313,8 @@
         "ko": "태양계 모형",
         "ru": "планетарий",
         "fr": "planétaire",
-        "es": "planetario"
+        "es": "planetario",
+        "zh-TW": "太陽系儀"
       },
       "verification": "Descriptive translation"
     },
@@ -301,7 +326,8 @@
         "ko": "피의 공간",
         "ru": "затерянный в крови",
         "fr": "perdu dans le sang",
-        "es": "perdido en la sangre"
+        "es": "perdido en la sangre",
+        "zh-TW": "迷失血域"
       },
       "verification": "Descriptive translation"
     },
@@ -313,7 +339,8 @@
         "ko": "시체 포식자",
         "ru": "пожиратель трупов",
         "fr": "dévoreur de cadavres",
-        "es": "devorador de cadáveres"
+        "es": "devorador de cadáveres",
+        "zh-TW": "食屍者"
       },
       "verification": "Descriptive translation"
     },
@@ -325,7 +352,8 @@
         "ko": "신왕",
         "ru": "бог-король",
         "fr": "roi-dieu",
-        "es": "rey dios"
+        "es": "rey dios",
+        "zh-TW": "神王"
       },
       "verification": "Descriptive translation"
     },
@@ -337,7 +365,8 @@
         "ko": "최전선 능력",
         "ru": "способность «Передовая»",
         "fr": "capacité de première ligne",
-        "es": "habilidad de primera línea"
+        "es": "habilidad de primera línea",
+        "zh-TW": "前線技能"
       },
       "verification": "Descriptive translation"
     },
@@ -349,7 +378,8 @@
         "ko": "재장전 속도 강화",
         "ru": "быстрая перезарядка",
         "fr": "rechargement rapide",
-        "es": "recarga rápida"
+        "es": "recarga rápida",
+        "zh-TW": "快速裝填"
       },
       "verification": "Descriptive translation"
     },
@@ -361,7 +391,8 @@
         "ko": "재장전 전기 충격",
         "ru": "электроразряд при перезарядке",
         "fr": "décharge au rechargement",
-        "es": "descarga al recargar"
+        "es": "descarga al recargar",
+        "zh-TW": "換彈電擊"
       },
       "verification": "Descriptive translation"
     },
@@ -373,7 +404,8 @@
         "ko": "미스터리 박스",
         "ru": "таинственный ящик",
         "fr": "boîte mystère",
-        "es": "caja misteriosa"
+        "es": "caja misteriosa",
+        "zh-TW": "神秘箱"
       },
       "verification": "Descriptive translation"
     },
@@ -385,7 +417,8 @@
         "ko": "그리스 건",
         "ru": "пистолет-пулемёт",
         "fr": "pistolet-mitrailleur",
-        "es": "subfusil"
+        "es": "subfusil",
+        "zh-TW": "黃油槍"
       },
       "verification": "Descriptive translation"
     },
@@ -397,7 +430,8 @@
         "ko": "결의",
         "ru": "решимость",
         "fr": "détermination",
-        "es": "determinación"
+        "es": "determinación",
+        "zh-TW": "決心"
       },
       "verification": "Descriptive translation"
     },
@@ -409,7 +443,8 @@
         "ko": "근접 격투",
         "ru": "рукопашный бой",
         "fr": "combat rapproché",
-        "es": "combate cuerpo a cuerpo"
+        "es": "combate cuerpo a cuerpo",
+        "zh-TW": "近身格鬥"
       },
       "verification": "Descriptive translation"
     },
@@ -421,7 +456,8 @@
         "ko": "흉포",
         "ru": "жестокость",
         "fr": "férocité",
-        "es": "ferocidad"
+        "es": "ferocidad",
+        "zh-TW": "兇猛"
       },
       "verification": "Descriptive translation"
     },
@@ -433,7 +469,8 @@
         "ko": "깜짝 상자 미끼",
         "ru": "приманки «Чёртик из табакерки»",
         "fr": "leurres diables en boîte",
-        "es": "señuelos de caja sorpresa"
+        "es": "señuelos de caja sorpresa",
+        "zh-TW": "盒中小丑誘餌"
       },
       "verification": "Descriptive translation"
     }
