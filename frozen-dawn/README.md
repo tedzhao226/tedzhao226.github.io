@@ -1,7 +1,7 @@
 # Frozen Dawn guide
 
 A playthrough reference for Call of Duty: WWII Zombies, based on [SchleyerZ’s solo Kingfall walkthrough](https://www.youtube.com/watch?v=45dG6srGVMA), published 7 June 2025 (18:49).
-It follows the video’s route across 12 stages, with 48 chapter links and 102 selected 1920 × 1080 screenshots.
+It follows the video’s route across 12 stages, with 48 chapter links and 103 selected 1920 × 1080 screenshots.
 
 ## Editing
 

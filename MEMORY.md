@@ -75,3 +75,13 @@
 - The multilingual guide is built and verified locally, with a clean committed checkout.
 - Publishing failed: SSH to GitHub timed out, HTTPS could not resolve `github.com`, the GitHub API timed out in both CLI and browser, and an independent public DNS check also timed out.
 - The public guide still showed the earlier English-only page when checked; retry the already-authorized push and verify Pages once GitHub connectivity returns.
+
+## 2026-09-13 — Round plate and raven setup clarified
+
+- Ted flagged that the opening stage did not make the round plate pickup and raven interaction clear enough.
+- Source footage shows the Morgue pool already plated at [1:09](https://www.youtube.com/watch?v=45dG6srGVMA&t=69s), the separate Bloodraven stone at [1:27](https://www.youtube.com/watch?v=45dG6srGVMA&t=87s), and the Overlook raven at [12:50](https://www.youtube.com/watch?v=45dG6srGVMA&t=770s).
+- Stage 1 now names the round plate explicitly and includes a later-use checklist: repair the Overlook pool before kills, then activate the raven for the shield-upgrade hunt.
+- Pool names accompany the route order to prevent confusing the Morgue pool with the Overlook pool; raven activation and filling a pool have separate purposes.
+- English and all six translations now cover 782 entries; the new pickup close-up brings the guide to 103 distinct screenshots.
+- The build and all 11 checks passed; browser checks covered every language, the mobile layout, linked stages, and full-size image dialogs.
+- The offline edition loaded all 103 distinct images at 1920 × 1080 without external image requests.

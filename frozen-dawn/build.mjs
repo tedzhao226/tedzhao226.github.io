@@ -48,7 +48,7 @@ stage(
       "Stand in the first blood pool on the left and make <strong>five kills</strong>. In this route, four are available now; finish it with the first zombie of round 2.",
       "During the round change, move the battery to the <strong>Morgue door on the right</strong>. Pick up <strong>stone 1</strong> by the Overlook ledge.",
       "Earn <strong>1,250 points</strong>, open the Morgue, and get <strong>five kills in its blood pool</strong>. Take <strong>stone 2</strong> to the right of its armor station.",
-      "Move the battery toward the Phylactery door. Collect the <strong>Bloodraven stone</strong> on the left. This is a separate item from the four puzzle stones; save it for the third pool.",
+      "Move the battery toward the Phylactery door. At the bottom of the Morgue stairs, pick up the <strong>round plate with the raven emblem (Bloodraven stone)</strong> among the skeletons and body jars. Keep it for the Overlook blood pool; it is separate from the four puzzle stones.",
       "On round 3, earn points and <strong>leave one zombie alive</strong>. Enter the Phylactery and move the battery toward the Overlook door. Buy Quick Revive when you can afford it before the lockdown.",
     ]) +
     gallery([
@@ -60,7 +60,28 @@ stage(
       [71, "Second blood pool: Morgue"],
       [79, "Stone 2: beside Morgue armor"],
       [89, "Bloodraven stone", "Keep it for the Overlook blood pool."],
-    ]),
+    ]) +
+    '<div id="pool-setup"><h3>Keep for later: round plate &amp; raven</h3>' +
+    note(
+      "The video fills the pools in this order: <strong>Ice Caves → Morgue → Overlook</strong>. The round plate repairs the Overlook pool; the Morgue pool already has its plate.",
+    ) +
+    list([
+      '<strong>Place the plate before getting kills:</strong> interact with the center of the Overlook pool to install the Bloodraven stone, then stand in the pool and get five kills. Follow the <a href="#hammer-grid">hammer step</a> for when to do this in the video’s route.',
+      '<strong>Activate the raven for the shield upgrade:</strong> interact with the raven perched among the rocks beside the Overlook pool until it flies away. This starts the raven hunt used to spawn charged Corpse Eaters; continue at the <a href="#hammer-trial">shield-upgrade setup</a>.',
+    ]) +
+    gallery([
+      [
+        87,
+        "Round plate: Bloodraven stone",
+        "At the bottom of the Morgue stairs, among skeletons and body jars.",
+      ],
+      [
+        770,
+        "Raven statue at the third pool",
+        "Overlook: interact with the raven among the rocks beside the pool.",
+      ],
+    ]) +
+    "</div>",
   "Two pools filled; wires, Bloodraven stone and two puzzle stones collected. Battery moved toward Overlook.",
 )
 
@@ -317,8 +338,8 @@ stage(
   list([
     "At Overlook, line up with the <strong>armor station</strong> and the <strong>center line of the volcano</strong>, as shown below. Hold the hammer out and walk straight forward. <strong>Do not steer left or right</strong> on the invisible path; continue until the trial transports you.",
     "In the trial, <strong>hold the grenade/equipment button to throw the hammer</strong>. This breaks the zombies’ shields. Finish the enemies and deposit the upgraded hammer in the Ice Caves.",
-    "If still unfinished, put the <strong>Bloodraven stone</strong> into the Overlook pool and get <strong>five kills</strong>. Kill the shield-bearing Wüstling that emerges at Blood Altar and take its shield.",
-    "Interact with the <strong>raven statue at the Overlook pool</strong>. Then inspect the three blood pools: the target has <strong>red sparks / sizzling energy</strong>. A still pool is not the current target.",
+    "If still unfinished, interact with the center of the Overlook pool to place the <strong>round plate (Bloodraven stone)</strong>, then stand in it and get <strong>five kills</strong>. Kill the shield-bearing Wüstling that emerges at Blood Altar and take its shield.",
+    "Interact with the <strong>raven statue among the rocks beside the Overlook pool</strong> until it flies away. This starts the raven hunt for charged Corpse Eaters. Then inspect the three blood pools: the target has <strong>red sparks / sizzling energy</strong>. A still pool is not the current target.",
     "Listen for a raven, check the location atlas below, and shoot it with the <strong>9mm SAP</strong>, following the creator’s method. This spawns a charged Corpse Eater. Keep it close and bring it to the active pool.",
   ]) +
     gallery([

@@ -227,8 +227,8 @@
     "source": "Earn <strong>1,250 points</strong>, open the Morgue, and get <strong>five kills in its blood pool</strong>. Take <strong>stone 2</strong> to the right of its armor station.",
     "kind": "html"
   },
-  "h_f3c7fbb7b75f": {
-    "source": "Move the battery toward the Phylactery door. Collect the <strong>Bloodraven stone</strong> on the left. This is a separate item from the four puzzle stones; save it for the third pool.",
+  "h_1b8b544ea3ad": {
+    "source": "Move the battery toward the Phylactery door. At the bottom of the Morgue stairs, pick up the <strong>round plate with the raven emblem (Bloodraven stone)</strong> among the skeletons and body jars. Keep it for the Overlook blood pool; it is separate from the four puzzle stones.",
     "kind": "html"
   },
   "h_1b26c3205c95": {
@@ -389,6 +389,70 @@
   },
   "h_a119e9a5e428": {
     "source": "Video frame · 1:29 ↗",
+    "kind": "html"
+  },
+  "h_b953df0f995f": {
+    "source": "Keep for later: round plate &amp; raven",
+    "kind": "html"
+  },
+  "h_87a881f85134": {
+    "source": "The video fills the pools in this order: <strong>Ice Caves → Morgue → Overlook</strong>. The round plate repairs the Overlook pool; the Morgue pool already has its plate.",
+    "kind": "html"
+  },
+  "h_bb445fc4fb6b": {
+    "source": "<strong>Place the plate before getting kills:</strong> interact with the center of the Overlook pool to install the Bloodraven stone, then stand in the pool and get five kills. Follow the <a href=\"#hammer-grid\">hammer step</a> for when to do this in the video’s route.",
+    "kind": "html"
+  },
+  "h_7b950d1314a6": {
+    "source": "<strong>Activate the raven for the shield upgrade:</strong> interact with the raven perched among the rocks beside the Overlook pool until it flies away. This starts the raven hunt used to spawn charged Corpse Eaters; continue at the <a href=\"#hammer-trial\">shield-upgrade setup</a>.",
+    "kind": "html"
+  },
+  "t_f7d30d5772e5": {
+    "source": "Round plate: Bloodraven stone",
+    "kind": "text"
+  },
+  "t_6f06c7cb8bad": {
+    "source": "Enlarge: Round plate: Bloodraven stone",
+    "kind": "text"
+  },
+  "t_3bf4c1409eb8": {
+    "source": "Round plate: Bloodraven stone — At the bottom of the Morgue stairs, among skeletons and body jars.",
+    "kind": "text"
+  },
+  "h_f7d30d5772e5": {
+    "source": "Round plate: Bloodraven stone",
+    "kind": "html"
+  },
+  "h_53a33efd1f81": {
+    "source": "At the bottom of the Morgue stairs, among skeletons and body jars.",
+    "kind": "html"
+  },
+  "h_c3232f04e605": {
+    "source": "Video frame · 1:27 ↗",
+    "kind": "html"
+  },
+  "t_6e4e4d871216": {
+    "source": "Raven statue at the third pool",
+    "kind": "text"
+  },
+  "t_2e67f21d7004": {
+    "source": "Enlarge: Raven statue at the third pool",
+    "kind": "text"
+  },
+  "t_06efff23bb3d": {
+    "source": "Raven statue at the third pool — Overlook: interact with the raven among the rocks beside the pool.",
+    "kind": "text"
+  },
+  "h_6e4e4d871216": {
+    "source": "Raven statue at the third pool",
+    "kind": "html"
+  },
+  "h_7d74bb29fb65": {
+    "source": "Overlook: interact with the raven among the rocks beside the pool.",
+    "kind": "html"
+  },
+  "h_3a485377335b": {
+    "source": "Video frame · 12:50 ↗",
     "kind": "html"
   },
   "h_82f6e400fce7": {
@@ -1787,12 +1851,12 @@
     "source": "In the trial, <strong>hold the grenade/equipment button to throw the hammer</strong>. This breaks the zombies’ shields. Finish the enemies and deposit the upgraded hammer in the Ice Caves.",
     "kind": "html"
   },
-  "h_0f86e2517ea0": {
-    "source": "If still unfinished, put the <strong>Bloodraven stone</strong> into the Overlook pool and get <strong>five kills</strong>. Kill the shield-bearing Wüstling that emerges at Blood Altar and take its shield.",
+  "h_e1e3abcb2d6c": {
+    "source": "If still unfinished, interact with the center of the Overlook pool to place the <strong>round plate (Bloodraven stone)</strong>, then stand in it and get <strong>five kills</strong>. Kill the shield-bearing Wüstling that emerges at Blood Altar and take its shield.",
     "kind": "html"
   },
-  "h_7df0b387b5f8": {
-    "source": "Interact with the <strong>raven statue at the Overlook pool</strong>. Then inspect the three blood pools: the target has <strong>red sparks / sizzling energy</strong>. A still pool is not the current target.",
+  "h_bb15ec0f1314": {
+    "source": "Interact with the <strong>raven statue among the rocks beside the Overlook pool</strong> until it flies away. This starts the raven hunt for charged Corpse Eaters. Then inspect the three blood pools: the target has <strong>red sparks / sizzling energy</strong>. A still pool is not the current target.",
     "kind": "html"
   },
   "h_e97315e23b96": {
@@ -1845,22 +1909,6 @@
   },
   "h_e9a5af0389d3": {
     "source": "Video frame · 12:30 ↗",
-    "kind": "html"
-  },
-  "t_6e4e4d871216": {
-    "source": "Raven statue at the third pool",
-    "kind": "text"
-  },
-  "t_2e67f21d7004": {
-    "source": "Enlarge: Raven statue at the third pool",
-    "kind": "text"
-  },
-  "h_6e4e4d871216": {
-    "source": "Raven statue at the third pool",
-    "kind": "html"
-  },
-  "h_3a485377335b": {
-    "source": "Video frame · 12:50 ↗",
     "kind": "html"
   },
   "t_3bcc9f7a11db": {
@@ -3059,8 +3107,8 @@
     "source": "Close ×",
     "kind": "html"
   },
-  "h_ff19c514a4f2": {
-    "source": "Frozen Dawn · Solo reference · 102 video frames · 48 source chapters",
+  "h_92fdb72f640f": {
+    "source": "Frozen Dawn · Solo reference · 103 video frames · 48 source chapters",
     "kind": "html"
   },
   "t_581906c7bbc9": {
