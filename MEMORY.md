@@ -85,3 +85,10 @@
 - English and all six translations now cover 782 entries; the new pickup close-up brings the guide to 103 distinct screenshots.
 - The build and all 11 checks passed; browser checks covered every language, the mobile layout, linked stages, and full-size image dialogs.
 - The offline edition loaded all 103 distinct images at 1920 × 1080 without external image requests.
+
+## 2026-09-13 — Multilingual guide and pool correction published
+
+- GitHub connectivity returned; the language editions and pool correction were pushed through commit `96d3dbe`.
+- [Pages run 34740878331](https://github.com/tedzhao226/tedzhao226.github.io/actions/runs/34740878331) completed successfully.
+- The public guide returned the corrected pool setup, all seven language choices, and the new plate caption; the homepage still redirects to `https://tedzhao.notion.site/`.
+- This resolves the earlier 2026-09-13 language-publication-pending entry.
