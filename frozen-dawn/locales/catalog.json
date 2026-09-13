@@ -811,8 +811,8 @@
     "source": "Install the three gears in the <strong>Gearworks</strong>. Kill zombies nearby, either downstairs by the gears or upstairs in the main Archives, until the Orrery activates.",
     "kind": "html"
   },
-  "h_3e88b949d4ca": {
-    "source": "Read the <strong>colored orb positions on the cipher wall</strong>. Match each orb’s position on the Orrery using the orientation chart below.",
+  "h_63db121d2063": {
+    "source": "Read the <strong>colored orb positions on the cipher wall</strong>. Match each orb’s position on the Orrery using the <a href=\"#orrery-chart\">orientation chart</a> below, and read its <strong>viewpoint warning</strong> first.",
     "kind": "html"
   },
   "h_e0a3646efb25": {
@@ -1065,6 +1065,10 @@
   },
   "h_2d46cbb3f4ea": {
     "source": "<strong>Do not copy this screenshot’s colored code.</strong> Copy the positions from your own cipher wall. The chart supplies the landmarks needed to translate its flat view to the physical machine.",
+    "kind": "html"
+  },
+  "h_49c0458e0bc9": {
+    "source": "<strong>Viewpoint warning: the cipher wall shows the Orrery from below.</strong> To picture the machine from above, hold the <strong>big arm / Speed Cola at the top</strong> and the <strong>small arm at the bottom</strong>, then <strong>mirror left and right</strong> (east and west). Top and bottom (north and south) stay where they are; a 180-degree “upside down” turn is wrong. Position examples only, not colored solutions: a wall target at <strong>9 o’clock</strong> becomes <strong>3 o’clock</strong> in that top-down view, and <strong>7:30</strong> becomes <strong>4:30</strong>. The chart below already places the room landmarks on the wall as you see it: <strong>follow them directly and do not mirror them a second time</strong>.",
     "kind": "html"
   },
   "t_13a33d582d95": {
