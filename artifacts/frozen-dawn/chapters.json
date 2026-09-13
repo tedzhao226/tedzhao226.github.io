@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Intro",
+    "t": 0
+  },
+  {
+    "title": "Loadouts",
+    "t": 6
+  },
+  {
+    "title": "Spawn (Wires/Battery/Plate)",
+    "t": 21
+  },
+  {
+    "title": "1st blood pool",
+    "t": 43
+  },
+  {
+    "title": "1st Stone",
+    "t": 56
+  },
+  {
+    "title": "2nd blood pool",
+    "t": 68
+  },
+  {
+    "title": "2nd stone",
+    "t": 77
+  },
+  {
+    "title": "Bloodraven stone",
+    "t": 84
+  },
+  {
+    "title": "Scythe lockdown",
+    "t": 100
+  },
+  {
+    "title": "Battery Cauldron",
+    "t": 120
+  },
+  {
+    "title": "3rd Stone",
+    "t": 135
+  },
+  {
+    "title": "Blood Altar (4th Stone/Book/Gear)",
+    "t": 140
+  },
+  {
+    "title": "4 Stones Puzzle",
+    "t": 162
+  },
+  {
+    "title": "Pillars Puzzle",
+    "t": 201
+  },
+  {
+    "title": "Hammer",
+    "t": 260
+  },
+  {
+    "title": "Book Spawns",
+    "t": 298
+  },
+  {
+    "title": "Gear Spawns",
+    "t": 322
+  },
+  {
+    "title": "Gearworks",
+    "t": 353
+  },
+  {
+    "title": "Cipher Puzzle(Flail)",
+    "t": 370
+  },
+  {
+    "title": "PaP",
+    "t": 415
+  },
+  {
+    "title": "Scythe Spine",
+    "t": 432
+  },
+  {
+    "title": "Flail Upgrade",
+    "t": 453
+  },
+  {
+    "title": "Constellation Spawns",
+    "t": 491
+  },
+  {
+    "title": "PaP/Flail Upgrade",
+    "t": 516
+  },
+  {
+    "title": "Flail Trial",
+    "t": 555
+  },
+  {
+    "title": "Hammer Run",
+    "t": 591
+  },
+  {
+    "title": "Hammer Trick",
+    "t": 658
+  },
+  {
+    "title": "If Trick not working/3rd Blood Pool",
+    "t": 671
+  },
+  {
+    "title": "Hammer Puzzle",
+    "t": 708
+  },
+  {
+    "title": "Hammer Trial",
+    "t": 732
+  },
+  {
+    "title": "Shield",
+    "t": 759
+  },
+  {
+    "title": "Raven Statue",
+    "t": 767
+  },
+  {
+    "title": "Blood Pool Upgrade",
+    "t": 779
+  },
+  {
+    "title": "Raven Spawns(Spawn room)",
+    "t": 805
+  },
+  {
+    "title": "Raven Spawns(Ice Cave)",
+    "t": 817
+  },
+  {
+    "title": "Raven Spawns(Archives)",
+    "t": 828
+  },
+  {
+    "title": "Raven Spawns(Overlook)",
+    "t": 847
+  },
+  {
+    "title": "Raven Spawns(Phylactery)",
+    "t": 856
+  },
+  {
+    "title": "Raven Spawns(Blood Altar)",
+    "t": 878
+  },
+  {
+    "title": "Corpse Eater Shield",
+    "t": 902
+  },
+  {
+    "title": "Bomber Zombie",
+    "t": 953
+  },
+  {
+    "title": "Radio",
+    "t": 966
+  },
+  {
+    "title": "Blood Symbols",
+    "t": 984
+  },
+  {
+    "title": "Shield Trial",
+    "t": 1010
+  },
+  {
+    "title": "Scythe Upgrade",
+    "t": 1037
+  },
+  {
+    "title": "Boss Fight Setup",
+    "t": 1047
+  },
+  {
+    "title": "Scythe Trial",
+    "t": 1066
+  },
+  {
+    "title": "Boss Fight",
+    "t": 1090
+  }
+]
