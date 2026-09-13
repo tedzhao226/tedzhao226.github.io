@@ -69,3 +69,9 @@
 - The HTML parser dependency `parse5` joins Prettier, superseding the earlier statement that Prettier was the only development dependency.
 - All six catalogs cover 770 entries; 11 checks passed, and browser checks preserved 12 stages, numeric puzzle tables, translated image dialogs, and all 102 offline images at 1920 × 1080.
 - The Japanese video dialog and timestamp were verified; actual YouTube playback remains dependent on the external player.
+
+## 2026-09-13 — Language publication pending
+
+- The multilingual guide is built and verified locally, with a clean committed checkout.
+- Publishing failed: SSH to GitHub timed out, HTTPS could not resolve `github.com`, the GitHub API timed out in both CLI and browser, and an independent public DNS check also timed out.
+- The public guide still showed the earlier English-only page when checked; retry the already-authorized push and verify Pages once GitHub connectivity returns.
