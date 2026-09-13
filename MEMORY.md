@@ -100,8 +100,19 @@
 - The cipher step now links to `#orrery-chart`, and a warning note before the chart explains the underside view, the left/right mirror, the 9→3 and 7:30→4:30 position examples, and that the chart’s landmarks must not be mirrored again.
 - The landmark table, the own-game code reminder, and the screenshots are unchanged; all seven languages cover 783 entries.
 - The video segment was checked through the preserved transcript and frames under `private/frozen-dawn-source/`, not by playback.
+
 ## 2026-09-13 — Traditional Chinese edition prepared
 
 - Added the `zh-TW` / 繁體中文 locale to the shared online and offline guide.
 - Traditional Chinese uses the Steam `tchinese` terminology source where verified; descriptive labels retain English references.
 - The locale includes the orrery viewpoint warning and covers all 783 catalog entries.
+
+## 2026-09-13 — Orrery and Traditional Chinese release verified
+
+- PRs [#1](https://github.com/tedzhao226/tedzhao226.github.io/pull/1) and [#2](https://github.com/tedzhao226/tedzhao226.github.io/pull/2) published the reviewed orrery warning and Traditional Chinese edition in `1918786d7fe8169876b30356f3926b57a162f899`.
+- The guide files match the accepted locale head `f8af6eb`; the final merge changed only a Markdown blank line, restored with this entry.
+- [Pages run 34753919979](https://github.com/tedzhao226/tedzhao226.github.io/actions/runs/34753919979) succeeded; Pages still serves `main` at the root, and the homepage redirects to `https://tedzhao.notion.site/`.
+- Build and all 12 locked tests passed; the clean publication tree also passed the full formatting check after the blank-line repair.
+- Live checks passed all eight languages, stage links and language switching, the own-game and viewpoint warnings, enlarged images, and desktop/mobile layout.
+- The browser downloaded the 25,350,769-byte offline HTML; it matches the rebuilt file, includes all eight 783-entry catalogs, and decodes all 103 distinct 1920 × 1080 images with networking disabled.
+- The live guide matches the rebuilt HTML byte for byte. Source-video playback was not repeated; the preserved transcript/frame evidence and external-player limitation still apply.
